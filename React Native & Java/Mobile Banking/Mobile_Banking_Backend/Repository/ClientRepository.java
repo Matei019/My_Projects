@@ -1,0 +1,13 @@
+package com.example.Mobile_Banking_Backend.Repository;
+
+import com.example.Mobile_Banking_Backend.Model.Client;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import java.util.Optional;
+
+public interface ClientRepository extends JpaRepository<Client, Long> {
+    Optional<Client> findClientByEmail(String email);
+    Optional<Client> findClientByCNP(String CNP);
+    Optional<Client> findClientByPhone(String phone);
+    Optional<Client> findClientByEmailAndPassword(String email, String password);
+}

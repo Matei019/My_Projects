@@ -1,0 +1,8 @@
+﻿  main.cpp
+D:\CSharp\PG\ProiectPG\ProiectPG\main.cpp(223,11): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\CSharp\PG\ProiectPG\ProiectPG\main.cpp(224,11): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\CSharp\PG\ProiectPG\ProiectPG\main.cpp(227,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\CSharp\PG\ProiectPG\ProiectPG\main.cpp(228,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\CSharp\PG\ProiectPG\ProiectPG\main.cpp(230,10): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\CSharp\PG\ProiectPG\ProiectPG\main.cpp(231,10): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  ProiectPG.vcxproj -> D:\CSharp\PG\ProiectPG\x64\Debug\ProiectPG.exe
