@@ -41,6 +41,6 @@
    - Univeristy: The backend part was made in Java, using Springboot and for the database I used MySQL.
    - Personal: The frontend part was made using React Native, something totally new, because I wanted to learn how to connect a backend program with its frontend part and also wanted to learn how to develop a mobile application.
 
-7. VHDL -> Proiect_VGA_im_processing:
+7. VHDL/Proiect_VGA_im_processing:
    - University project
    - In this project the program reads an image in binary format as an input, applies the Gaussian Filter on it(reduces the noise from the image) and then displays both images(the original one and the modified one) on a VGA connected monitor.
