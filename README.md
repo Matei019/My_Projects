@@ -34,6 +34,10 @@
      - Personaj project
      - This project is an application that shows a random image on the screen, that is chosen from a folder of pictures, after pressing a button. You can also add images to that folder throught the application by pressing another button and selecting the image you want to add.
      - In it I learned how to read images from a folder and wirite them back where I want to. Here I also learned how to create a Frame and how to show images on it(besides how to show buttons and text).
+   - CSV_File_Editor:
+     - Personal project
+     - This project is an application that reads the data of a broken CSV file(the format inside in not correct), puts everything in a table and then saves it in the save broken format(for the sake of the site to not say anything). I made it for my mother, because she had to use those CSV files and could not understand them. I tried to convert it to a normal CSV file, but it would not work when made a ".jar" executable because of the dependency.
+     - In it I learned how to operate with tables in Java, how to read and write a file and how the tables in Java work.
 6. React Native & Java/Mobile Banking:
 
    - University and Personal project
