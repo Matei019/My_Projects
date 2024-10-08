@@ -1,0 +1,27 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:13:54 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Wed Jul 31 10:10:15 2024
+# Process ID: 30339
+# Current directory: /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/ad5592r_coraz7s.runs/system_xbar_0_synth_1
+# Command line: vivado -log system_xbar_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source system_xbar_0.tcl
+# Log file: /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/ad5592r_coraz7s.runs/system_xbar_0_synth_1/system_xbar_0.vds
+# Journal file: /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/ad5592r_coraz7s.runs/system_xbar_0_synth_1/vivado.jou
+# Running On: DESKTOP-QC14QP2, OS: Linux, CPU Frequency: 2592.007 MHz, CPU Physical cores: 6, Host memory: 8215 MB
+#-----------------------------------------------------------
+source system_xbar_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1259.547 ; gain = 5.961 ; free physical = 1522 ; free virtual = 5325
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/analog/workspace/practica/hdl/library'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/xilinx/Vivado/2023.2/data/ip'.
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: system_xbar_0
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry 0de1262471174d5c to dir: /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/ad5592r_coraz7s.runs/system_xbar_0_synth_1
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/analog/workspace/practica/hdl/ipcache/0/d/0de1262471174d5c/system_xbar_0_stub.vhdl to /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/ad5592r_coraz7s.runs/system_xbar_0_synth_1/system_xbar_0_stub.vhdl.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/analog/workspace/practica/hdl/ipcache/0/d/0de1262471174d5c/system_xbar_0.dcp to /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/ad5592r_coraz7s.runs/system_xbar_0_synth_1/system_xbar_0.dcp.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/analog/workspace/practica/hdl/ipcache/0/d/0de1262471174d5c/system_xbar_0_stub.v to /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/ad5592r_coraz7s.runs/system_xbar_0_synth_1/system_xbar_0_stub.v.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/analog/workspace/practica/hdl/ipcache/0/d/0de1262471174d5c/system_xbar_0_sim_netlist.vhdl to /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/ad5592r_coraz7s.runs/system_xbar_0_synth_1/system_xbar_0_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/analog/workspace/practica/hdl/ipcache/0/d/0de1262471174d5c/system_xbar_0_sim_netlist.v to /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/ad5592r_coraz7s.runs/system_xbar_0_synth_1/system_xbar_0_sim_netlist.v.
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP system_xbar_0, cache-ID = 0de1262471174d5c.
+INFO: [Common 17-206] Exiting Vivado at Wed Jul 31 10:10:31 2024...

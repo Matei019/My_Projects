@@ -1,0 +1,2030 @@
+TRACE::2024-07-31.17:08:55::SCWPlatform::Trying to open the hw design at /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:08:55::SCWPlatform::DSA given /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:08:55::SCWPlatform::DSA absoulate path /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:08:55::SCWPlatform::DSA directory /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw
+TRACE::2024-07-31.17:08:55::SCWPlatform:: Platform Path /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:08:55::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-07-31.17:08:55::SCWPlatform::Do not have an existing db opened. 
+TRACE::2024-07-31.17:08:59::SCWPlatform::Opened new HwDB with name system_top_0
+TRACE::2024-07-31.17:08:59::SCWWriter::formatted JSON is {
+	"platformName":	"hw0",
+	"sprVersion":	"2.0",
+	"mode":	"cmd",
+	"dsaType":	"Fixed",
+	"platformDesc":	"hw0",
+	"platHandOff":	"system_top.xsa",
+	"platIntHandOff":	"<platformDir>/hw/system_top.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	""
+}
+TRACE::2024-07-31.17:08:59::SCWWriter::formatted JSON is {
+	"platformName":	"hw0",
+	"sprVersion":	"2.0",
+	"mode":	"cmd",
+	"dsaType":	"Fixed",
+	"platformDesc":	"hw0",
+	"platHandOff":	"system_top.xsa",
+	"platIntHandOff":	"<platformDir>/hw/system_top.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"hw0",
+	"systems":	[{
+			"systemName":	"hw0",
+			"systemDesc":	"hw0",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"hw0"
+		}]
+}
+TRACE::2024-07-31.17:08:59::SCWPlatform::Boot application domains not present, creating them
+TRACE::2024-07-31.17:08:59::SCWDomain::checking for install qemu data   : 
+TRACE::2024-07-31.17:08:59::SCWDomain:: Using the QEMU Data from install at  : /xilinx/Vitis/2023.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/
+TRACE::2024-07-31.17:08:59::SCWDomain:: Using the QEMU args  from install at  : /xilinx/Vitis/2023.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt
+TRACE::2024-07-31.17:08:59::SCWPlatform::Trying to open the hw design at /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:08:59::SCWPlatform::DSA given /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:08:59::SCWPlatform::DSA absoulate path /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:08:59::SCWPlatform::DSA directory /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw
+TRACE::2024-07-31.17:08:59::SCWPlatform:: Platform Path /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:08:59::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-07-31.17:08:59::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2024-07-31.17:08:59::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2024-07-31.17:08:59::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-07-31.17:08:59::SCWPlatform::Trying to open the hw design at /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:08:59::SCWPlatform::DSA given /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:08:59::SCWPlatform::DSA absoulate path /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:08:59::SCWPlatform::DSA directory /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw
+TRACE::2024-07-31.17:08:59::SCWPlatform:: Platform Path /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:08:59::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-07-31.17:08:59::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2024-07-31.17:08:59::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2024-07-31.17:08:59::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-07-31.17:08:59::SCWPlatform::Trying to open the hw design at /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:08:59::SCWPlatform::DSA given /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:08:59::SCWPlatform::DSA absoulate path /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:08:59::SCWPlatform::DSA directory /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw
+TRACE::2024-07-31.17:08:59::SCWPlatform:: Platform Path /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:08:59::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-07-31.17:08:59::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2024-07-31.17:08:59::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2024-07-31.17:08:59::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-07-31.17:08:59::SCWPlatform::Boot application domain added for zynq_fsbl
+TRACE::2024-07-31.17:08:59::SCWPlatform::Generating the sources  .
+TRACE::2024-07-31.17:08:59::SCWBDomain::Generating boot domain sources.
+TRACE::2024-07-31.17:08:59::SCWBDomain:: Generating the zynq_fsbl Application.
+TRACE::2024-07-31.17:08:59::SCWPlatform::Trying to open the hw design at /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:08:59::SCWPlatform::DSA given /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:08:59::SCWPlatform::DSA absoulate path /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:08:59::SCWPlatform::DSA directory /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw
+TRACE::2024-07-31.17:08:59::SCWPlatform:: Platform Path /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:08:59::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-07-31.17:08:59::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2024-07-31.17:08:59::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2024-07-31.17:08:59::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-07-31.17:08:59::SCWMssOS::Checking the sw design at  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-07-31.17:08:59::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2024-07-31.17:08:59::SCWMssOS::No sw design opened at  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-07-31.17:08:59::SCWMssOS::mss does not exists at /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-07-31.17:08:59::SCWMssOS::Creating sw design at  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-07-31.17:08:59::SCWMssOS::Adding the swdes entry, created swdb /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-07-31.17:08:59::SCWMssOS::updating the scw layer changes to swdes at   /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-07-31.17:08:59::SCWMssOS::Writing mss at /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-07-31.17:08:59::SCWMssOS::Completed writing the mss file at /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/zynq_fsbl/zynq_fsbl_bsp
+TRACE::2024-07-31.17:08:59::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2024-07-31.17:08:59::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2024-07-31.17:08:59::SCWBDomain::Completed writing the mss file at /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/zynq_fsbl/zynq_fsbl_bsp
+TRACE::2024-07-31.17:09:05::SCWPlatform::Generating sources Done.
+TRACE::2024-07-31.17:09:05::SCWPlatform::Trying to open the hw design at /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA given /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA absoulate path /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA directory /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw
+TRACE::2024-07-31.17:09:05::SCWPlatform:: Platform Path /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-07-31.17:09:05::SCWMssOS::Checking the sw design at  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-07-31.17:09:05::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2024-07-31.17:09:05::SCWMssOS::No sw design opened at  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-07-31.17:09:05::SCWMssOS::mss exists loading the mss file  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-07-31.17:09:05::SCWMssOS::Opened the sw design from mss  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-07-31.17:09:05::SCWMssOS::Adding the swdes entry /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name system
+TRACE::2024-07-31.17:09:05::SCWMssOS::updating the scw layer about changes
+TRACE::2024-07-31.17:09:05::SCWMssOS::Opened the sw design.  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-07-31.17:09:05::SCWMssOS::Saving the mss changes /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-07-31.17:09:05::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-07-31.17:09:05::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-07-31.17:09:05::SCWMssOS::Commit changes completed.
+TRACE::2024-07-31.17:09:05::SCWPlatform::Trying to open the hw design at /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA given /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA absoulate path /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA directory /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw
+TRACE::2024-07-31.17:09:05::SCWPlatform:: Platform Path /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-07-31.17:09:05::SCWMssOS::Checking the sw design at  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-07-31.17:09:05::SCWMssOS::DEBUG:  swdes dump  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-07-31.17:09:05::SCWMssOS::Sw design exists and opened at  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-07-31.17:09:05::SCWPlatform::Trying to open the hw design at /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA given /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA absoulate path /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA directory /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw
+TRACE::2024-07-31.17:09:05::SCWPlatform:: Platform Path /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-07-31.17:09:05::SCWMssOS::Checking the sw design at  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-07-31.17:09:05::SCWMssOS::DEBUG:  swdes dump  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-07-31.17:09:05::SCWMssOS::Sw design exists and opened at  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-07-31.17:09:05::SCWPlatform::Trying to open the hw design at /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA given /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA absoulate path /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA directory /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw
+TRACE::2024-07-31.17:09:05::SCWPlatform:: Platform Path /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-07-31.17:09:05::SCWMssOS::Checking the sw design at  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-07-31.17:09:05::SCWMssOS::DEBUG:  swdes dump  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-07-31.17:09:05::SCWMssOS::Sw design exists and opened at  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-07-31.17:09:05::SCWWriter::formatted JSON is {
+	"platformName":	"hw0",
+	"sprVersion":	"2.0",
+	"mode":	"cmd",
+	"dsaType":	"Fixed",
+	"platformDesc":	"hw0",
+	"platHandOff":	"system_top.xsa",
+	"platIntHandOff":	"<platformDir>/hw/system_top.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"hw0",
+	"systems":	[{
+			"systemName":	"hw0",
+			"systemDesc":	"hw0",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"hw0",
+			"sysActiveDom":	"zynq_fsbl",
+			"sysDefaultDom":	"",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"9.0",
+					"mssFile":	"",
+					"md5Digest":	"88c3d5a10052b8ca12cf7343b4b8e9fb",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:5.1", "xilrsa:1.7"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2024-07-31.17:09:05::SCWPlatform::Trying to open the hw design at /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA given /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA absoulate path /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA directory /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw
+TRACE::2024-07-31.17:09:05::SCWPlatform:: Platform Path /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-07-31.17:09:05::SCWPlatform::Trying to open the hw design at /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA given /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA absoulate path /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA directory /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw
+TRACE::2024-07-31.17:09:05::SCWPlatform:: Platform Path /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-07-31.17:09:05::SCWDomain::checking for install qemu data   : 
+TRACE::2024-07-31.17:09:05::SCWDomain:: Using the QEMU Data from install at  : /xilinx/Vitis/2023.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/
+TRACE::2024-07-31.17:09:05::SCWDomain:: Using the QEMU args  from install at  : /xilinx/Vitis/2023.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt
+TRACE::2024-07-31.17:09:05::SCWPlatform::Trying to open the hw design at /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA given /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA absoulate path /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA directory /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw
+TRACE::2024-07-31.17:09:05::SCWPlatform:: Platform Path /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-07-31.17:09:05::SCWPlatform::Trying to open the hw design at /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA given /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA absoulate path /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA directory /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw
+TRACE::2024-07-31.17:09:05::SCWPlatform:: Platform Path /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-07-31.17:09:05::SCWDomain::Qemu Directory name is changed from "" to "qemu"
+TRACE::2024-07-31.17:09:05::SCWPlatform::Trying to open the hw design at /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA given /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA absoulate path /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA directory /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw
+TRACE::2024-07-31.17:09:05::SCWPlatform:: Platform Path /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-07-31.17:09:05::SCWMssOS::Checking the sw design at  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-07-31.17:09:05::SCWMssOS::DEBUG:  swdes dump  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-07-31.17:09:05::SCWMssOS::No sw design opened at  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-07-31.17:09:05::SCWMssOS::mss does not exists at /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-07-31.17:09:05::SCWMssOS::Creating sw design at  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-07-31.17:09:05::SCWMssOS::Adding the swdes entry, created swdb /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss with des name /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-07-31.17:09:05::SCWMssOS::updating the scw layer changes to swdes at   /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-07-31.17:09:05::SCWMssOS::Writing mss at /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-07-31.17:09:05::SCWMssOS::Completed writing the mss file at /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/ps7_cortexa9_0/standalone_domain/bsp
+TRACE::2024-07-31.17:09:05::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2024-07-31.17:09:05::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2024-07-31.17:09:05::SCWMssOS::Completed writing the mss file at /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/ps7_cortexa9_0/standalone_domain/bsp
+TRACE::2024-07-31.17:09:05::SCWMssOS::Forcing BSP Sources regeneration.
+TRACE::2024-07-31.17:09:05::SCWMssOS::Saving the mss changes /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-07-31.17:09:05::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-07-31.17:09:05::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-07-31.17:09:05::SCWMssOS::Commit changes completed.
+TRACE::2024-07-31.17:09:05::SCWMssOS::Saving the mss changes /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-07-31.17:09:05::SCWMssOS::Adding the swdes entry, mss present, able to open swdb /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss with des name system_0
+TRACE::2024-07-31.17:09:05::SCWMssOS::Writing the mss file completed /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-07-31.17:09:05::SCWMssOS::Commit changes completed.
+TRACE::2024-07-31.17:09:05::SCWPlatform::Trying to open the hw design at /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA given /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA absoulate path /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA directory /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw
+TRACE::2024-07-31.17:09:05::SCWPlatform:: Platform Path /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-07-31.17:09:05::SCWMssOS::Checking the sw design at  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-07-31.17:09:05::SCWMssOS::DEBUG:  swdes dump  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-07-31.17:09:05::SCWMssOS::Sw design exists and opened at  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-07-31.17:09:05::SCWPlatform::Trying to open the hw design at /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA given /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA absoulate path /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA directory /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw
+TRACE::2024-07-31.17:09:05::SCWPlatform:: Platform Path /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-07-31.17:09:05::SCWMssOS::Checking the sw design at  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-07-31.17:09:05::SCWMssOS::DEBUG:  swdes dump  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-07-31.17:09:05::SCWMssOS::Sw design exists and opened at  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-07-31.17:09:05::SCWPlatform::Trying to open the hw design at /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA given /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA absoulate path /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA directory /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw
+TRACE::2024-07-31.17:09:05::SCWPlatform:: Platform Path /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-07-31.17:09:05::SCWMssOS::Checking the sw design at  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-07-31.17:09:05::SCWMssOS::DEBUG:  swdes dump  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-07-31.17:09:05::SCWMssOS::Sw design exists and opened at  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-07-31.17:09:05::SCWPlatform::Trying to open the hw design at /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA given /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA absoulate path /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA directory /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw
+TRACE::2024-07-31.17:09:05::SCWPlatform:: Platform Path /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-07-31.17:09:05::SCWMssOS::Checking the sw design at  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-07-31.17:09:05::SCWMssOS::DEBUG:  swdes dump  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-07-31.17:09:05::SCWMssOS::Sw design exists and opened at  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-07-31.17:09:05::SCWPlatform::Trying to open the hw design at /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA given /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA absoulate path /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA directory /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw
+TRACE::2024-07-31.17:09:05::SCWPlatform:: Platform Path /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-07-31.17:09:05::SCWMssOS::Checking the sw design at  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-07-31.17:09:05::SCWMssOS::DEBUG:  swdes dump  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-07-31.17:09:05::SCWMssOS::Sw design exists and opened at  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-07-31.17:09:05::SCWPlatform::Trying to open the hw design at /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA given /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA absoulate path /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA directory /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw
+TRACE::2024-07-31.17:09:05::SCWPlatform:: Platform Path /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-07-31.17:09:05::SCWMssOS::Checking the sw design at  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-07-31.17:09:05::SCWMssOS::DEBUG:  swdes dump  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-07-31.17:09:05::SCWMssOS::Sw design exists and opened at  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-07-31.17:09:05::SCWWriter::formatted JSON is {
+	"platformName":	"hw0",
+	"sprVersion":	"2.0",
+	"mode":	"cmd",
+	"dsaType":	"Fixed",
+	"platformDesc":	"hw0",
+	"platHandOff":	"system_top.xsa",
+	"platIntHandOff":	"<platformDir>/hw/system_top.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"hw0",
+	"systems":	[{
+			"systemName":	"hw0",
+			"systemDesc":	"hw0",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"hw0",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"9.0",
+					"mssFile":	"",
+					"md5Digest":	"88c3d5a10052b8ca12cf7343b4b8e9fb",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:5.1", "xilrsa:1.7"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"<platformDir>/resources/hw0/standalone_domain/qemu_args.txt",
+					"qemuData":	"<platformDir>/resources/hw0/standalone_domain/qemu",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"9.0",
+					"mssFile":	"",
+					"md5Digest":	"1eec6bab4de75ae0a6a35e8a7c3f4181",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2024-07-31.17:09:05::SCWPlatform::Started generating the artifacts platform hw0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Sanity checking of platform is completed
+LOG::2024-07-31.17:09:05::SCWPlatform::Started generating the artifacts for system configuration hw0
+LOG::2024-07-31.17:09:05::SCWSystem::Checking the domain zynq_fsbl
+LOG::2024-07-31.17:09:05::SCWSystem::Doing application build for :  zynq_fsbl
+TRACE::2024-07-31.17:09:05::SCWBDomain::Not a forced makefile updation, No changes are present. 
+TRACE::2024-07-31.17:09:05::SCWDomain::Skipping the build for domain :  zynq_fsbl
+LOG::2024-07-31.17:09:05::SCWSystem::Checking the domain standalone_domain
+LOG::2024-07-31.17:09:05::SCWSystem::Not a boot domain 
+LOG::2024-07-31.17:09:05::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2024-07-31.17:09:05::SCWDomain::Generating domain artifcats
+TRACE::2024-07-31.17:09:05::SCWMssOS::Generating standalone artifcats
+TRACE::2024-07-31.17:09:05::SCWMssOS::Copying the qemu file from  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/resources/hw0/standalone_domain/qemu_args.txt To /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/export/hw0/sw/hw0/qemu/
+TRACE::2024-07-31.17:09:05::SCWMssOS::Copying the qemu file from  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/resources/hw0/standalone_domain/qemu_args.txt To /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/export/hw0/sw/hw0/standalone_domain/qemu/
+TRACE::2024-07-31.17:09:05::SCWMssOS:: Copying the user libraries. 
+TRACE::2024-07-31.17:09:05::SCWPlatform::Trying to open the hw design at /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA given /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA absoulate path /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA directory /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw
+TRACE::2024-07-31.17:09:05::SCWPlatform:: Platform Path /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-07-31.17:09:05::SCWMssOS::Checking the sw design at  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-07-31.17:09:05::SCWMssOS::DEBUG:  swdes dump  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-07-31.17:09:05::SCWMssOS::Sw design exists and opened at  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-07-31.17:09:05::SCWMssOS::Completed writing the mss file at /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/ps7_cortexa9_0/standalone_domain/bsp
+TRACE::2024-07-31.17:09:05::SCWMssOS::Mss edits present, copying mssfile into export location /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-07-31.17:09:05::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2024-07-31.17:09:05::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2024-07-31.17:09:05::SCWDomain::Skipping the build for domain :  standalone_domain
+TRACE::2024-07-31.17:09:05::SCWMssOS::skipping the bsp build ... 
+TRACE::2024-07-31.17:09:05::SCWMssOS::Copying to export directory.
+TRACE::2024-07-31.17:09:05::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2024-07-31.17:09:05::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+TRACE::2024-07-31.17:09:05::SCWMssOS:: Completed Standalone Artifacts creation 
+LOG::2024-07-31.17:09:05::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2024-07-31.17:09:05::SCWSystem::Completed Processing the sysconfig hw0
+LOG::2024-07-31.17:09:05::SCWPlatform::Completed generating the artifacts for system configuration hw0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Started preparing the platform 
+TRACE::2024-07-31.17:09:05::SCWSystem::Writing the bif file for system config hw0
+TRACE::2024-07-31.17:09:05::SCWSystem::dir created 
+TRACE::2024-07-31.17:09:05::SCWSystem::Writing the bif 
+TRACE::2024-07-31.17:09:05::SCWPlatform::Started writing the spfm file 
+TRACE::2024-07-31.17:09:05::SCWPlatform::Started writing the xpfm file 
+TRACE::2024-07-31.17:09:05::SCWPlatform::Completed generating the platform
+TRACE::2024-07-31.17:09:05::SCWMssOS::Saving the mss changes /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-07-31.17:09:05::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-07-31.17:09:05::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-07-31.17:09:05::SCWMssOS::Commit changes completed.
+TRACE::2024-07-31.17:09:05::SCWMssOS::Saving the mss changes /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-07-31.17:09:05::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-07-31.17:09:05::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-07-31.17:09:05::SCWMssOS::Commit changes completed.
+TRACE::2024-07-31.17:09:05::SCWPlatform::Trying to open the hw design at /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA given /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA absoulate path /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA directory /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw
+TRACE::2024-07-31.17:09:05::SCWPlatform:: Platform Path /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-07-31.17:09:05::SCWMssOS::Checking the sw design at  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-07-31.17:09:05::SCWMssOS::DEBUG:  swdes dump  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-07-31.17:09:05::SCWMssOS::Sw design exists and opened at  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-07-31.17:09:05::SCWPlatform::Trying to open the hw design at /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA given /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA absoulate path /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA directory /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw
+TRACE::2024-07-31.17:09:05::SCWPlatform:: Platform Path /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-07-31.17:09:05::SCWMssOS::Checking the sw design at  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-07-31.17:09:05::SCWMssOS::DEBUG:  swdes dump  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-07-31.17:09:05::SCWMssOS::Sw design exists and opened at  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-07-31.17:09:05::SCWPlatform::Trying to open the hw design at /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA given /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA absoulate path /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA directory /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw
+TRACE::2024-07-31.17:09:05::SCWPlatform:: Platform Path /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-07-31.17:09:05::SCWMssOS::Checking the sw design at  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-07-31.17:09:05::SCWMssOS::DEBUG:  swdes dump  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-07-31.17:09:05::SCWMssOS::Sw design exists and opened at  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-07-31.17:09:05::SCWPlatform::Trying to open the hw design at /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA given /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA absoulate path /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA directory /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw
+TRACE::2024-07-31.17:09:05::SCWPlatform:: Platform Path /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-07-31.17:09:05::SCWMssOS::Checking the sw design at  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-07-31.17:09:05::SCWMssOS::DEBUG:  swdes dump  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-07-31.17:09:05::SCWMssOS::Sw design exists and opened at  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-07-31.17:09:05::SCWPlatform::Trying to open the hw design at /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA given /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA absoulate path /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA directory /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw
+TRACE::2024-07-31.17:09:05::SCWPlatform:: Platform Path /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-07-31.17:09:05::SCWMssOS::Checking the sw design at  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-07-31.17:09:05::SCWMssOS::DEBUG:  swdes dump  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-07-31.17:09:05::SCWMssOS::Sw design exists and opened at  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-07-31.17:09:05::SCWPlatform::Trying to open the hw design at /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA given /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA absoulate path /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA directory /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw
+TRACE::2024-07-31.17:09:05::SCWPlatform:: Platform Path /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-07-31.17:09:05::SCWMssOS::Checking the sw design at  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-07-31.17:09:05::SCWMssOS::DEBUG:  swdes dump  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-07-31.17:09:05::SCWMssOS::Sw design exists and opened at  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-07-31.17:09:05::SCWWriter::formatted JSON is {
+	"platformName":	"hw0",
+	"sprVersion":	"2.0",
+	"mode":	"cmd",
+	"dsaType":	"Fixed",
+	"platformDesc":	"hw0",
+	"platHandOff":	"system_top.xsa",
+	"platIntHandOff":	"<platformDir>/hw/system_top.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"hw0",
+	"systems":	[{
+			"systemName":	"hw0",
+			"systemDesc":	"hw0",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"hw0",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"9.0",
+					"mssFile":	"",
+					"md5Digest":	"88c3d5a10052b8ca12cf7343b4b8e9fb",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:5.1", "xilrsa:1.7"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"<platformDir>/resources/hw0/standalone_domain/qemu_args.txt",
+					"qemuData":	"<platformDir>/resources/hw0/standalone_domain/qemu",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"9.0",
+					"mssFile":	"",
+					"md5Digest":	"1eec6bab4de75ae0a6a35e8a7c3f4181",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2024-07-31.17:09:05::SCWPlatform::updated the xpfm file.
+TRACE::2024-07-31.17:09:05::SCWPlatform::Trying to open the hw design at /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA given /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA absoulate path /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA directory /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw
+TRACE::2024-07-31.17:09:05::SCWPlatform:: Platform Path /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-07-31.17:09:05::SCWMssOS::Checking the sw design at  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-07-31.17:09:05::SCWMssOS::DEBUG:  swdes dump  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-07-31.17:09:05::SCWMssOS::Sw design exists and opened at  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-07-31.17:09:05::SCWMssOS::Saving the mss changes /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-07-31.17:09:05::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-07-31.17:09:05::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-07-31.17:09:05::SCWMssOS::Commit changes completed.
+TRACE::2024-07-31.17:09:05::SCWMssOS::Saving the mss changes /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-07-31.17:09:05::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-07-31.17:09:05::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-07-31.17:09:05::SCWMssOS::Commit changes completed.
+TRACE::2024-07-31.17:09:05::SCWPlatform::Trying to open the hw design at /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA given /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA absoulate path /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA directory /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw
+TRACE::2024-07-31.17:09:05::SCWPlatform:: Platform Path /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-07-31.17:09:05::SCWMssOS::Checking the sw design at  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-07-31.17:09:05::SCWMssOS::DEBUG:  swdes dump  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-07-31.17:09:05::SCWMssOS::Sw design exists and opened at  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-07-31.17:09:05::SCWPlatform::Trying to open the hw design at /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA given /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA absoulate path /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA directory /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw
+TRACE::2024-07-31.17:09:05::SCWPlatform:: Platform Path /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-07-31.17:09:05::SCWMssOS::Checking the sw design at  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-07-31.17:09:05::SCWMssOS::DEBUG:  swdes dump  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-07-31.17:09:05::SCWMssOS::Sw design exists and opened at  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-07-31.17:09:05::SCWPlatform::Trying to open the hw design at /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA given /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA absoulate path /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA directory /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw
+TRACE::2024-07-31.17:09:05::SCWPlatform:: Platform Path /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-07-31.17:09:05::SCWMssOS::Checking the sw design at  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-07-31.17:09:05::SCWMssOS::DEBUG:  swdes dump  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-07-31.17:09:05::SCWMssOS::Sw design exists and opened at  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-07-31.17:09:05::SCWPlatform::Trying to open the hw design at /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA given /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA absoulate path /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA directory /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw
+TRACE::2024-07-31.17:09:05::SCWPlatform:: Platform Path /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-07-31.17:09:05::SCWMssOS::Checking the sw design at  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-07-31.17:09:05::SCWMssOS::DEBUG:  swdes dump  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-07-31.17:09:05::SCWMssOS::Sw design exists and opened at  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-07-31.17:09:05::SCWPlatform::Trying to open the hw design at /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA given /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA absoulate path /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA directory /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw
+TRACE::2024-07-31.17:09:05::SCWPlatform:: Platform Path /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-07-31.17:09:05::SCWMssOS::Checking the sw design at  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-07-31.17:09:05::SCWMssOS::DEBUG:  swdes dump  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-07-31.17:09:05::SCWMssOS::Sw design exists and opened at  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-07-31.17:09:05::SCWPlatform::Trying to open the hw design at /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA given /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA absoulate path /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA directory /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw
+TRACE::2024-07-31.17:09:05::SCWPlatform:: Platform Path /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-07-31.17:09:05::SCWMssOS::Checking the sw design at  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-07-31.17:09:05::SCWMssOS::DEBUG:  swdes dump  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-07-31.17:09:05::SCWMssOS::Sw design exists and opened at  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-07-31.17:09:05::SCWWriter::formatted JSON is {
+	"platformName":	"hw0",
+	"sprVersion":	"2.0",
+	"mode":	"cmd",
+	"dsaType":	"Fixed",
+	"platformDesc":	"hw0",
+	"platHandOff":	"system_top.xsa",
+	"platIntHandOff":	"<platformDir>/hw/system_top.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"hw0",
+	"systems":	[{
+			"systemName":	"hw0",
+			"systemDesc":	"hw0",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"hw0",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"9.0",
+					"mssFile":	"",
+					"md5Digest":	"88c3d5a10052b8ca12cf7343b4b8e9fb",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:5.1", "xilrsa:1.7"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"<platformDir>/resources/hw0/standalone_domain/qemu_args.txt",
+					"qemuData":	"<platformDir>/resources/hw0/standalone_domain/qemu",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"9.0",
+					"mssFile":	"",
+					"md5Digest":	"1eec6bab4de75ae0a6a35e8a7c3f4181",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2024-07-31.17:09:05::SCWPlatform::Trying to open the hw design at /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA given /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA absoulate path /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA directory /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw
+TRACE::2024-07-31.17:09:05::SCWPlatform:: Platform Path /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-07-31.17:09:05::SCWMssOS::Checking the sw design at  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-07-31.17:09:05::SCWMssOS::DEBUG:  swdes dump  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-07-31.17:09:05::SCWMssOS::Sw design exists and opened at  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-07-31.17:09:05::SCWPlatform::Trying to open the hw design at /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA given /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA absoulate path /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA directory /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw
+TRACE::2024-07-31.17:09:05::SCWPlatform:: Platform Path /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-07-31.17:09:05::SCWMssOS::Checking the sw design at  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-07-31.17:09:05::SCWMssOS::DEBUG:  swdes dump  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-07-31.17:09:05::SCWMssOS::Sw design exists and opened at  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-07-31.17:09:05::SCWPlatform::Trying to open the hw design at /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA given /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA absoulate path /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA directory /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw
+TRACE::2024-07-31.17:09:05::SCWPlatform:: Platform Path /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-07-31.17:09:05::SCWMssOS::Checking the sw design at  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-07-31.17:09:05::SCWMssOS::DEBUG:  swdes dump  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-07-31.17:09:05::SCWMssOS::Sw design exists and opened at  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-07-31.17:09:05::SCWMssOS::Saving the mss changes /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-07-31.17:09:05::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-07-31.17:09:05::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-07-31.17:09:05::SCWMssOS::Commit changes completed.
+TRACE::2024-07-31.17:09:05::SCWMssOS::Saving the mss changes /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-07-31.17:09:05::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-07-31.17:09:05::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-07-31.17:09:05::SCWMssOS::Commit changes completed.
+TRACE::2024-07-31.17:09:05::SCWPlatform::Trying to open the hw design at /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA given /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA absoulate path /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA directory /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw
+TRACE::2024-07-31.17:09:05::SCWPlatform:: Platform Path /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-07-31.17:09:05::SCWMssOS::Checking the sw design at  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-07-31.17:09:05::SCWMssOS::DEBUG:  swdes dump  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-07-31.17:09:05::SCWMssOS::Sw design exists and opened at  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-07-31.17:09:05::SCWPlatform::Trying to open the hw design at /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA given /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA absoulate path /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA directory /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw
+TRACE::2024-07-31.17:09:05::SCWPlatform:: Platform Path /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-07-31.17:09:05::SCWMssOS::Checking the sw design at  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-07-31.17:09:05::SCWMssOS::DEBUG:  swdes dump  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-07-31.17:09:05::SCWMssOS::Sw design exists and opened at  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-07-31.17:09:05::SCWPlatform::Trying to open the hw design at /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA given /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA absoulate path /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA directory /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw
+TRACE::2024-07-31.17:09:05::SCWPlatform:: Platform Path /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-07-31.17:09:05::SCWMssOS::Checking the sw design at  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-07-31.17:09:05::SCWMssOS::DEBUG:  swdes dump  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-07-31.17:09:05::SCWMssOS::Sw design exists and opened at  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-07-31.17:09:05::SCWPlatform::Trying to open the hw design at /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA given /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA absoulate path /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA directory /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw
+TRACE::2024-07-31.17:09:05::SCWPlatform:: Platform Path /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-07-31.17:09:05::SCWMssOS::Checking the sw design at  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-07-31.17:09:05::SCWMssOS::DEBUG:  swdes dump  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-07-31.17:09:05::SCWMssOS::Sw design exists and opened at  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-07-31.17:09:05::SCWPlatform::Trying to open the hw design at /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA given /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA absoulate path /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA directory /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw
+TRACE::2024-07-31.17:09:05::SCWPlatform:: Platform Path /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-07-31.17:09:05::SCWMssOS::Checking the sw design at  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-07-31.17:09:05::SCWMssOS::DEBUG:  swdes dump  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-07-31.17:09:05::SCWMssOS::Sw design exists and opened at  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-07-31.17:09:05::SCWPlatform::Trying to open the hw design at /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA given /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA absoulate path /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA directory /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw
+TRACE::2024-07-31.17:09:05::SCWPlatform:: Platform Path /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-07-31.17:09:05::SCWMssOS::Checking the sw design at  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-07-31.17:09:05::SCWMssOS::DEBUG:  swdes dump  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-07-31.17:09:05::SCWMssOS::Sw design exists and opened at  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-07-31.17:09:05::SCWWriter::formatted JSON is {
+	"platformName":	"hw0",
+	"sprVersion":	"2.0",
+	"mode":	"cmd",
+	"dsaType":	"Fixed",
+	"platformDesc":	"hw0",
+	"platHandOff":	"system_top.xsa",
+	"platIntHandOff":	"<platformDir>/hw/system_top.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"hw0",
+	"systems":	[{
+			"systemName":	"hw0",
+			"systemDesc":	"hw0",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"hw0",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"9.0",
+					"mssFile":	"",
+					"md5Digest":	"88c3d5a10052b8ca12cf7343b4b8e9fb",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:5.1", "xilrsa:1.7"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on ps7_cortexa9_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"<platformDir>/resources/hw0/standalone_domain/qemu_args.txt",
+					"qemuData":	"<platformDir>/resources/hw0/standalone_domain/qemu",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"9.0",
+					"mssFile":	"",
+					"md5Digest":	"1eec6bab4de75ae0a6a35e8a7c3f4181",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2024-07-31.17:09:05::SCWPlatform::Started generating the artifacts platform hw0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Sanity checking of platform is completed
+LOG::2024-07-31.17:09:05::SCWPlatform::Started generating the artifacts for system configuration hw0
+LOG::2024-07-31.17:09:05::SCWSystem::Checking the domain zynq_fsbl
+LOG::2024-07-31.17:09:05::SCWSystem::Doing application build for :  zynq_fsbl
+TRACE::2024-07-31.17:09:05::SCWBDomain::Not a forced makefile updation, No changes are present. 
+TRACE::2024-07-31.17:09:05::SCWDomain::Building the domain as part of full build :  zynq_fsbl
+TRACE::2024-07-31.17:09:05::SCWPlatform::Trying to open the hw design at /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA given /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA absoulate path /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform::DSA directory /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw
+TRACE::2024-07-31.17:09:05::SCWPlatform:: Platform Path /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:05::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2024-07-31.17:09:05::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-07-31.17:09:05::SCWMssOS::Checking the sw design at  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-07-31.17:09:05::SCWMssOS::DEBUG:  swdes dump  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-07-31.17:09:05::SCWMssOS::Sw design exists and opened at  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-07-31.17:09:05::SCWBDomain::Completed writing the mss file at /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/zynq_fsbl/zynq_fsbl_bsp
+TRACE::2024-07-31.17:09:05::SCWBDomain::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2024-07-31.17:09:05::SCWBDomain::Not a forced makefile updation, No changes are present. 
+TRACE::2024-07-31.17:09:05::SCWBDomain::System Command Ran  cd  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/zynq_fsbl ; bash -c " make -C zynq_fsbl_bsp ; make  " 
+TRACE::2024-07-31.17:09:05::SCWBDomain::make: Entering directory '/home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/zynq_fsbl/zynq_
+TRACE::2024-07-31.17:09:05::SCWBDomain::fsbl_bsp'
+
+TRACE::2024-07-31.17:09:05::SCWBDomain::make --no-print-directory seq_libs
+
+TRACE::2024-07-31.17:09:05::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_9/src
+
+TRACE::2024-07-31.17:09:05::SCWBDomain::make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_9/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-
+TRACE::2024-07-31.17:09:05::SCWBDomain::none-eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-a
+TRACE::2024-07-31.17:09:05::SCWBDomain::bi=hard -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-07-31.17:09:05::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_12/src
+
+TRACE::2024-07-31.17:09:05::SCWBDomain::make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_12/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-no
+TRACE::2024-07-31.17:09:05::SCWBDomain::ne-eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi
+TRACE::2024-07-31.17:09:05::SCWBDomain::=hard -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-07-31.17:09:05::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_2/src
+
+TRACE::2024-07-31.17:09:05::SCWBDomain::make -C ps7_cortexa9_0/libsrc/ddrps_v1_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+TRACE::2024-07-31.17:09:05::SCWBDomain::as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
+TRACE::2024-07-31.17:09:05::SCWBDomain::ostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-07-31.17:09:05::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_8/src
+
+TRACE::2024-07-31.17:09:05::SCWBDomain::make -C ps7_cortexa9_0/libsrc/devcfg_v3_8/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2024-07-31.17:09:05::SCWBDomain::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2024-07-31.17:09:05::SCWBDomain::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-07-31.17:09:05::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_9/src
+
+TRACE::2024-07-31.17:09:05::SCWBDomain::make -C ps7_cortexa9_0/libsrc/dmaps_v2_9/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+TRACE::2024-07-31.17:09:05::SCWBDomain::as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
+TRACE::2024-07-31.17:09:05::SCWBDomain::ostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-07-31.17:09:05::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_19/src
+
+TRACE::2024-07-31.17:09:05::SCWBDomain::make -C ps7_cortexa9_0/libsrc/emacps_v3_19/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eab
+TRACE::2024-07-31.17:09:05::SCWBDomain::i-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard 
+TRACE::2024-07-31.17:09:05::SCWBDomain::-nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-07-31.17:09:05::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_12/src
+
+TRACE::2024-07-31.17:09:05::SCWBDomain::make -C ps7_cortexa9_0/libsrc/gpiops_v3_12/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eab
+TRACE::2024-07-31.17:09:05::SCWBDomain::i-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard 
+TRACE::2024-07-31.17:09:05::SCWBDomain::-nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-07-31.17:09:05::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/scugic_v5_2/src
+
+TRACE::2024-07-31.17:09:05::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scugic_v5_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2024-07-31.17:09:05::SCWBDomain::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2024-07-31.17:09:05::SCWBDomain::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-07-31.17:09:05::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_5/src
+
+TRACE::2024-07-31.17:09:05::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scutimer_v2_5/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-ea
+TRACE::2024-07-31.17:09:05::SCWBDomain::bi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard
+TRACE::2024-07-31.17:09:05::SCWBDomain:: -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-07-31.17:09:05::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_5/src
+
+TRACE::2024-07-31.17:09:05::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scuwdt_v2_5/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2024-07-31.17:09:05::SCWBDomain::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2024-07-31.17:09:05::SCWBDomain::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-07-31.17:09:05::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/sdps_v4_2/src
+
+TRACE::2024-07-31.17:09:05::SCWBDomain::make -C ps7_cortexa9_0/libsrc/sdps_v4_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-a
+TRACE::2024-07-31.17:09:05::SCWBDomain::s" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -no
+TRACE::2024-07-31.17:09:05::SCWBDomain::startfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-07-31.17:09:05::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/spips_v3_9/src
+
+TRACE::2024-07-31.17:09:05::SCWBDomain::make -C ps7_cortexa9_0/libsrc/spips_v3_9/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+TRACE::2024-07-31.17:09:05::SCWBDomain::as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
+TRACE::2024-07-31.17:09:05::SCWBDomain::ostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-07-31.17:09:05::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/standalone_v9_0/src
+
+TRACE::2024-07-31.17:09:05::SCWBDomain::make -C ps7_cortexa9_0/libsrc/standalone_v9_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-
+TRACE::2024-07-31.17:09:05::SCWBDomain::eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=ha
+TRACE::2024-07-31.17:09:05::SCWBDomain::rd -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-07-31.17:09:06::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_13/src
+
+TRACE::2024-07-31.17:09:06::SCWBDomain::make -C ps7_cortexa9_0/libsrc/uartps_v3_13/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eab
+TRACE::2024-07-31.17:09:06::SCWBDomain::i-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard 
+TRACE::2024-07-31.17:09:06::SCWBDomain::-nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-07-31.17:09:06::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_8/src
+
+TRACE::2024-07-31.17:09:06::SCWBDomain::make -C ps7_cortexa9_0/libsrc/usbps_v2_8/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+TRACE::2024-07-31.17:09:06::SCWBDomain::as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
+TRACE::2024-07-31.17:09:06::SCWBDomain::ostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-07-31.17:09:06::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_7/src
+
+TRACE::2024-07-31.17:09:06::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xadcps_v2_7/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2024-07-31.17:09:06::SCWBDomain::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2024-07-31.17:09:06::SCWBDomain::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-07-31.17:09:06::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/xilffs_v5_1/src
+
+TRACE::2024-07-31.17:09:06::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xilffs_v5_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2024-07-31.17:09:06::SCWBDomain::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2024-07-31.17:09:06::SCWBDomain::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-07-31.17:09:06::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/xilrsa_v1_7/src
+
+TRACE::2024-07-31.17:09:06::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xilrsa_v1_7/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2024-07-31.17:09:06::SCWBDomain::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2024-07-31.17:09:06::SCWBDomain::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-07-31.17:09:06::SCWBDomain::Running Make libs in ps7_cortexa9_0/libsrc/xilrsa_v1_7/src
+
+TRACE::2024-07-31.17:09:06::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xilrsa_v1_7/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2024-07-31.17:09:06::SCWBDomain::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2024-07-31.17:09:06::SCWBDomain::tartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-07-31.17:09:06::SCWBDomain::Finished building libraries sequentially.
+
+TRACE::2024-07-31.17:09:06::SCWBDomain::make -j 10 --no-print-directory par_libs
+
+TRACE::2024-07-31.17:09:06::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_9/src
+
+TRACE::2024-07-31.17:09:06::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_12/src
+
+TRACE::2024-07-31.17:09:06::SCWBDomain::make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_9/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-
+TRACE::2024-07-31.17:09:06::SCWBDomain::none-eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-a
+TRACE::2024-07-31.17:09:06::SCWBDomain::bi=hard -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-07-31.17:09:06::SCWBDomain::make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_12/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-no
+TRACE::2024-07-31.17:09:06::SCWBDomain::ne-eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi
+TRACE::2024-07-31.17:09:06::SCWBDomain::=hard -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-07-31.17:09:06::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_2/src
+
+TRACE::2024-07-31.17:09:06::SCWBDomain::make -C ps7_cortexa9_0/libsrc/ddrps_v1_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+TRACE::2024-07-31.17:09:06::SCWBDomain::as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
+TRACE::2024-07-31.17:09:06::SCWBDomain::ostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-07-31.17:09:06::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_8/src
+
+TRACE::2024-07-31.17:09:06::SCWBDomain::make -C ps7_cortexa9_0/libsrc/devcfg_v3_8/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2024-07-31.17:09:06::SCWBDomain::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2024-07-31.17:09:06::SCWBDomain::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-07-31.17:09:06::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_9/src
+
+TRACE::2024-07-31.17:09:06::SCWBDomain::make -C ps7_cortexa9_0/libsrc/dmaps_v2_9/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+TRACE::2024-07-31.17:09:06::SCWBDomain::as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
+TRACE::2024-07-31.17:09:06::SCWBDomain::ostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-07-31.17:09:06::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_19/src
+
+TRACE::2024-07-31.17:09:06::SCWBDomain::make -C ps7_cortexa9_0/libsrc/emacps_v3_19/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eab
+TRACE::2024-07-31.17:09:06::SCWBDomain::i-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard 
+TRACE::2024-07-31.17:09:06::SCWBDomain::-nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-07-31.17:09:06::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_12/src
+
+TRACE::2024-07-31.17:09:06::SCWBDomain::make -C ps7_cortexa9_0/libsrc/gpiops_v3_12/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eab
+TRACE::2024-07-31.17:09:06::SCWBDomain::i-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard 
+TRACE::2024-07-31.17:09:06::SCWBDomain::-nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-07-31.17:09:06::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/scugic_v5_2/src
+
+TRACE::2024-07-31.17:09:06::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scugic_v5_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2024-07-31.17:09:06::SCWBDomain::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2024-07-31.17:09:06::SCWBDomain::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-07-31.17:09:06::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_5/src
+
+TRACE::2024-07-31.17:09:06::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scutimer_v2_5/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-ea
+TRACE::2024-07-31.17:09:06::SCWBDomain::bi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard
+TRACE::2024-07-31.17:09:06::SCWBDomain:: -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-07-31.17:09:06::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_5/src
+
+TRACE::2024-07-31.17:09:06::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scuwdt_v2_5/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2024-07-31.17:09:06::SCWBDomain::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2024-07-31.17:09:06::SCWBDomain::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-07-31.17:09:06::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/sdps_v4_2/src
+
+TRACE::2024-07-31.17:09:06::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/spips_v3_9/src
+
+TRACE::2024-07-31.17:09:06::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/standalone_v9_0/src
+
+TRACE::2024-07-31.17:09:06::SCWBDomain::make -C ps7_cortexa9_0/libsrc/sdps_v4_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-a
+TRACE::2024-07-31.17:09:06::SCWBDomain::s" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -no
+TRACE::2024-07-31.17:09:06::SCWBDomain::startfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-07-31.17:09:06::SCWBDomain::make -C ps7_cortexa9_0/libsrc/spips_v3_9/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+TRACE::2024-07-31.17:09:06::SCWBDomain::as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
+TRACE::2024-07-31.17:09:06::SCWBDomain::ostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-07-31.17:09:06::SCWBDomain::make -C ps7_cortexa9_0/libsrc/standalone_v9_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-
+TRACE::2024-07-31.17:09:06::SCWBDomain::eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=ha
+TRACE::2024-07-31.17:09:06::SCWBDomain::rd -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-07-31.17:09:06::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_13/src
+
+TRACE::2024-07-31.17:09:06::SCWBDomain::make -C ps7_cortexa9_0/libsrc/uartps_v3_13/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eab
+TRACE::2024-07-31.17:09:06::SCWBDomain::i-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard 
+TRACE::2024-07-31.17:09:06::SCWBDomain::-nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-07-31.17:09:06::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_8/src
+
+TRACE::2024-07-31.17:09:06::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_7/src
+
+TRACE::2024-07-31.17:09:06::SCWBDomain::make -C ps7_cortexa9_0/libsrc/usbps_v2_8/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+TRACE::2024-07-31.17:09:06::SCWBDomain::as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
+TRACE::2024-07-31.17:09:06::SCWBDomain::ostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-07-31.17:09:06::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/xilffs_v5_1/src
+
+TRACE::2024-07-31.17:09:06::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xadcps_v2_7/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2024-07-31.17:09:06::SCWBDomain::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2024-07-31.17:09:06::SCWBDomain::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-07-31.17:09:06::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/xilrsa_v1_7/src
+
+TRACE::2024-07-31.17:09:06::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xilffs_v5_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2024-07-31.17:09:06::SCWBDomain::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2024-07-31.17:09:06::SCWBDomain::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-07-31.17:09:06::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xilrsa_v1_7/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2024-07-31.17:09:06::SCWBDomain::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2024-07-31.17:09:06::SCWBDomain::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-07-31.17:09:06::SCWBDomain::Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_9/src
+
+TRACE::2024-07-31.17:09:06::SCWBDomain::make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_9/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-non
+TRACE::2024-07-31.17:09:06::SCWBDomain::e-eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=
+TRACE::2024-07-31.17:09:06::SCWBDomain::hard -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-07-31.17:09:06::SCWBDomain::Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_12/src
+
+TRACE::2024-07-31.17:09:06::SCWBDomain::make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_12/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-
+TRACE::2024-07-31.17:09:06::SCWBDomain::eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=ha
+TRACE::2024-07-31.17:09:06::SCWBDomain::rd -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-07-31.17:09:06::SCWBDomain::Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_2/src
+
+TRACE::2024-07-31.17:09:06::SCWBDomain::Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_8/src
+
+TRACE::2024-07-31.17:09:06::SCWBDomain::make -C ps7_cortexa9_0/libsrc/ddrps_v1_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2024-07-31.17:09:06::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2024-07-31.17:09:06::SCWBDomain::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-07-31.17:09:06::SCWBDomain::make -C ps7_cortexa9_0/libsrc/devcfg_v3_8/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2024-07-31.17:09:06::SCWBDomain::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2024-07-31.17:09:06::SCWBDomain::tartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-07-31.17:09:06::SCWBDomain::Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_9/src
+
+TRACE::2024-07-31.17:09:06::SCWBDomain::make -C ps7_cortexa9_0/libsrc/dmaps_v2_9/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2024-07-31.17:09:06::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2024-07-31.17:09:06::SCWBDomain::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-07-31.17:09:06::SCWBDomain::Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_19/src
+
+TRACE::2024-07-31.17:09:06::SCWBDomain::make -C ps7_cortexa9_0/libsrc/emacps_v3_19/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-a
+TRACE::2024-07-31.17:09:06::SCWBDomain::s" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -no
+TRACE::2024-07-31.17:09:06::SCWBDomain::startfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-07-31.17:09:06::SCWBDomain::Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_12/src
+
+TRACE::2024-07-31.17:09:06::SCWBDomain::make -C ps7_cortexa9_0/libsrc/gpiops_v3_12/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-a
+TRACE::2024-07-31.17:09:06::SCWBDomain::s" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -no
+TRACE::2024-07-31.17:09:06::SCWBDomain::startfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-07-31.17:09:06::SCWBDomain::Running Make libs in ps7_cortexa9_0/libsrc/scugic_v5_2/src
+
+TRACE::2024-07-31.17:09:06::SCWBDomain::Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_5/src
+
+TRACE::2024-07-31.17:09:06::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scugic_v5_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2024-07-31.17:09:06::SCWBDomain::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2024-07-31.17:09:06::SCWBDomain::tartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-07-31.17:09:06::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scutimer_v2_5/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+TRACE::2024-07-31.17:09:06::SCWBDomain::as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
+TRACE::2024-07-31.17:09:06::SCWBDomain::ostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-07-31.17:09:06::SCWBDomain::Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_5/src
+
+TRACE::2024-07-31.17:09:06::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scuwdt_v2_5/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2024-07-31.17:09:06::SCWBDomain::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2024-07-31.17:09:06::SCWBDomain::tartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-07-31.17:09:06::SCWBDomain::Running Make libs in ps7_cortexa9_0/libsrc/sdps_v4_2/src
+
+TRACE::2024-07-31.17:09:06::SCWBDomain::make -C ps7_cortexa9_0/libsrc/sdps_v4_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2024-07-31.17:09:06::SCWBDomain::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2024-07-31.17:09:06::SCWBDomain::rtfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-07-31.17:09:06::SCWBDomain::Running Make libs in ps7_cortexa9_0/libsrc/spips_v3_9/src
+
+TRACE::2024-07-31.17:09:06::SCWBDomain::make -C ps7_cortexa9_0/libsrc/spips_v3_9/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2024-07-31.17:09:06::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2024-07-31.17:09:06::SCWBDomain::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-07-31.17:09:07::SCWBDomain::Running Make libs in ps7_cortexa9_0/libsrc/standalone_v9_0/src
+
+TRACE::2024-07-31.17:09:07::SCWBDomain::make -C ps7_cortexa9_0/libsrc/standalone_v9_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eab
+TRACE::2024-07-31.17:09:07::SCWBDomain::i-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard 
+TRACE::2024-07-31.17:09:07::SCWBDomain::-nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-07-31.17:09:07::SCWBDomain::Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_13/src
+
+TRACE::2024-07-31.17:09:07::SCWBDomain::make -C ps7_cortexa9_0/libsrc/uartps_v3_13/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-a
+TRACE::2024-07-31.17:09:07::SCWBDomain::s" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -no
+TRACE::2024-07-31.17:09:07::SCWBDomain::startfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-07-31.17:09:07::SCWBDomain::Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_8/src
+
+TRACE::2024-07-31.17:09:07::SCWBDomain::make -C ps7_cortexa9_0/libsrc/usbps_v2_8/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2024-07-31.17:09:07::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2024-07-31.17:09:07::SCWBDomain::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-07-31.17:09:07::SCWBDomain::Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_7/src
+
+TRACE::2024-07-31.17:09:07::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xadcps_v2_7/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2024-07-31.17:09:07::SCWBDomain::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2024-07-31.17:09:07::SCWBDomain::tartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-07-31.17:09:07::SCWBDomain::Running Make libs in ps7_cortexa9_0/libsrc/xilffs_v5_1/src
+
+TRACE::2024-07-31.17:09:07::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xilffs_v5_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2024-07-31.17:09:07::SCWBDomain::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2024-07-31.17:09:07::SCWBDomain::tartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-07-31.17:09:09::SCWBDomain::Finished building libraries parallelly.
+
+TRACE::2024-07-31.17:09:09::SCWBDomain::make --no-print-directory archive
+
+TRACE::2024-07-31.17:09:09::SCWBDomain::arm-none-eabi-ar -r  ps7_cortexa9_0/lib/libxil.a ps7_cortexa9_0/lib/_exit.o ps7_cortexa9_0/lib/_open.o ps7_cortexa9_0/lib/_sbrk
+TRACE::2024-07-31.17:09:09::SCWBDomain::.o ps7_cortexa9_0/lib/abort.o ps7_cortexa9_0/lib/asm_vectors.o ps7_cortexa9_0/lib/boot.o ps7_cortexa9_0/lib/close.o ps7_cortexa
+TRACE::2024-07-31.17:09:09::SCWBDomain::9_0/lib/cpputest_time.o ps7_cortexa9_0/lib/cpu_init.o ps7_cortexa9_0/lib/errno.o ps7_cortexa9_0/lib/fcntl.o ps7_cortexa9_0/lib/
+TRACE::2024-07-31.17:09:09::SCWBDomain::fstat.o ps7_cortexa9_0/lib/getentropy.o ps7_cortexa9_0/lib/getpid.o ps7_cortexa9_0/lib/inbyte.o ps7_cortexa9_0/lib/isatty.o ps7
+TRACE::2024-07-31.17:09:09::SCWBDomain::_cortexa9_0/lib/kill.o ps7_cortexa9_0/lib/lseek.o ps7_cortexa9_0/lib/open.o ps7_cortexa9_0/lib/outbyte.o ps7_cortexa9_0/lib/pri
+TRACE::2024-07-31.17:09:09::SCWBDomain::nt.o ps7_cortexa9_0/lib/putnum.o ps7_cortexa9_0/lib/read.o ps7_cortexa9_0/lib/sbrk.o ps7_cortexa9_0/lib/sleep.o ps7_cortexa9_0/
+TRACE::2024-07-31.17:09:09::SCWBDomain::lib/time.o ps7_cortexa9_0/lib/translation_table.o ps7_cortexa9_0/lib/unlink.o ps7_cortexa9_0/lib/usleep.o ps7_cortexa9_0/lib/ve
+TRACE::2024-07-31.17:09:09::SCWBDomain::ctors.o ps7_cortexa9_0/lib/write.o ps7_cortexa9_0/lib/xadcps.o ps7_cortexa9_0/lib/xadcps_g.o ps7_cortexa9_0/lib/xadcps_intr.o p
+TRACE::2024-07-31.17:09:09::SCWBDomain::s7_cortexa9_0/lib/xadcps_selftest.o ps7_cortexa9_0/lib/xadcps_sinit.o ps7_cortexa9_0/lib/xcoresightpsdcc.o ps7_cortexa9_0/lib/x
+TRACE::2024-07-31.17:09:09::SCWBDomain::devcfg.o ps7_cortexa9_0/lib/xdevcfg_g.o ps7_cortexa9_0/lib/xdevcfg_hw.o ps7_cortexa9_0/lib/xdevcfg_intr.o ps7_cortexa9_0/lib/xd
+TRACE::2024-07-31.17:09:09::SCWBDomain::evcfg_selftest.o ps7_cortexa9_0/lib/xdevcfg_sinit.o ps7_cortexa9_0/lib/xdmaps.o ps7_cortexa9_0/lib/xdmaps_g.o ps7_cortexa9_0/li
+TRACE::2024-07-31.17:09:09::SCWBDomain::b/xdmaps_hw.o ps7_cortexa9_0/lib/xdmaps_selftest.o ps7_cortexa9_0/lib/xdmaps_sinit.o ps7_cortexa9_0/lib/xemacps.o ps7_cortexa9_
+TRACE::2024-07-31.17:09:09::SCWBDomain::0/lib/xemacps_bdring.o ps7_cortexa9_0/lib/xemacps_control.o ps7_cortexa9_0/lib/xemacps_g.o ps7_cortexa9_0/lib/xemacps_hw.o ps7_
+TRACE::2024-07-31.17:09:09::SCWBDomain::cortexa9_0/lib/xemacps_intr.o ps7_cortexa9_0/lib/xemacps_sinit.o ps7_cortexa9_0/lib/xgpiops.o ps7_cortexa9_0/lib/xgpiops_g.o ps
+TRACE::2024-07-31.17:09:09::SCWBDomain::7_cortexa9_0/lib/xgpiops_hw.o ps7_cortexa9_0/lib/xgpiops_intr.o ps7_cortexa9_0/lib/xgpiops_selftest.o ps7_cortexa9_0/lib/xgpiop
+TRACE::2024-07-31.17:09:09::SCWBDomain::s_sinit.o ps7_cortexa9_0/lib/xil-crt0.o ps7_cortexa9_0/lib/xil_assert.o ps7_cortexa9_0/lib/xil_cache.o ps7_cortexa9_0/lib/xil_c
+TRACE::2024-07-31.17:09:09::SCWBDomain::locking.o ps7_cortexa9_0/lib/xil_exception.o ps7_cortexa9_0/lib/xil_mem.o ps7_cortexa9_0/lib/xil_misc_psreset_api.o ps7_cortexa
+TRACE::2024-07-31.17:09:09::SCWBDomain::9_0/lib/xil_mmu.o ps7_cortexa9_0/lib/xil_printf.o ps7_cortexa9_0/lib/xil_sleepcommon.o ps7_cortexa9_0/lib/xil_sleeptimer.o ps7_
+TRACE::2024-07-31.17:09:09::SCWBDomain::cortexa9_0/lib/xil_spinlock.o ps7_cortexa9_0/lib/xil_testcache.o ps7_cortexa9_0/lib/xil_testio.o ps7_cortexa9_0/lib/xil_testmem
+TRACE::2024-07-31.17:09:09::SCWBDomain::.o ps7_cortexa9_0/lib/xil_util.o ps7_cortexa9_0/lib/xinterrupt_wrap.o ps7_cortexa9_0/lib/xl2cc_counter.o ps7_cortexa9_0/lib/xpl
+TRACE::2024-07-31.17:09:09::SCWBDomain::atform_info.o ps7_cortexa9_0/lib/xpm_counter.o ps7_cortexa9_0/lib/xpm_init.o ps7_cortexa9_0/lib/xscugic.o ps7_cortexa9_0/lib/xs
+TRACE::2024-07-31.17:09:09::SCWBDomain::cugic_g.o ps7_cortexa9_0/lib/xscugic_hw.o ps7_cortexa9_0/lib/xscugic_intr.o ps7_cortexa9_0/lib/xscugic_selftest.o ps7_cortexa9_
+TRACE::2024-07-31.17:09:09::SCWBDomain::0/lib/xscugic_sinit.o ps7_cortexa9_0/lib/xscutimer.o ps7_cortexa9_0/lib/xscutimer_g.o ps7_cortexa9_0/lib/xscutimer_selftest.o p
+TRACE::2024-07-31.17:09:09::SCWBDomain::s7_cortexa9_0/lib/xscutimer_sinit.o ps7_cortexa9_0/lib/xscuwdt.o ps7_cortexa9_0/lib/xscuwdt_g.o ps7_cortexa9_0/lib/xscuwdt_self
+TRACE::2024-07-31.17:09:09::SCWBDomain::test.o ps7_cortexa9_0/lib/xscuwdt_sinit.o ps7_cortexa9_0/lib/xsdps.o ps7_cortexa9_0/lib/xsdps_card.o ps7_cortexa9_0/lib/xsdps_g
+TRACE::2024-07-31.17:09:09::SCWBDomain::.o ps7_cortexa9_0/lib/xsdps_host.o ps7_cortexa9_0/lib/xsdps_options.o ps7_cortexa9_0/lib/xsdps_sinit.o ps7_cortexa9_0/lib/xspip
+TRACE::2024-07-31.17:09:09::SCWBDomain::s.o ps7_cortexa9_0/lib/xspips_g.o ps7_cortexa9_0/lib/xspips_hw.o ps7_cortexa9_0/lib/xspips_options.o ps7_cortexa9_0/lib/xspips_
+TRACE::2024-07-31.17:09:09::SCWBDomain::selftest.o ps7_cortexa9_0/lib/xspips_sinit.o ps7_cortexa9_0/lib/xtime_l.o ps7_cortexa9_0/lib/xuartps.o ps7_cortexa9_0/lib/xuart
+TRACE::2024-07-31.17:09:09::SCWBDomain::ps_g.o ps7_cortexa9_0/lib/xuartps_hw.o ps7_cortexa9_0/lib/xuartps_intr.o ps7_cortexa9_0/lib/xuartps_options.o ps7_cortexa9_0/li
+TRACE::2024-07-31.17:09:09::SCWBDomain::b/xuartps_selftest.o ps7_cortexa9_0/lib/xuartps_sinit.o ps7_cortexa9_0/lib/xusbps.o ps7_cortexa9_0/lib/xusbps_endpoint.o ps7_co
+TRACE::2024-07-31.17:09:09::SCWBDomain::rtexa9_0/lib/xusbps_g.o ps7_cortexa9_0/lib/xusbps_hw.o ps7_cortexa9_0/lib/xusbps_intr.o ps7_cortexa9_0/lib/xusbps_sinit.o
+
+TRACE::2024-07-31.17:09:09::SCWBDomain::Finished building libraries
+
+TRACE::2024-07-31.17:09:09::SCWBDomain::make: Leaving directory '/home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/zynq_fsbl/zynq_f
+TRACE::2024-07-31.17:09:09::SCWBDomain::sbl_bsp'
+
+TRACE::2024-07-31.17:09:09::SCWBDomain::arm-none-eabi-gcc  -O2 -c -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -c fsbl_hooks.c -o fsbl_hooks.o -Izynq_f
+TRACE::2024-07-31.17:09:09::SCWBDomain::sbl_bsp/ps7_cortexa9_0/include -I.
+
+TRACE::2024-07-31.17:09:10::SCWBDomain::arm-none-eabi-gcc  -O2 -c -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -c image_mover.c -o image_mover.o -Izynq
+TRACE::2024-07-31.17:09:10::SCWBDomain::_fsbl_bsp/ps7_cortexa9_0/include -I.
+
+TRACE::2024-07-31.17:09:10::SCWBDomain::arm-none-eabi-gcc  -O2 -c -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -c main.c -o main.o -Izynq_fsbl_bsp/ps7_
+TRACE::2024-07-31.17:09:10::SCWBDomain::cortexa9_0/include -I.
+
+TRACE::2024-07-31.17:09:10::SCWBDomain::arm-none-eabi-gcc  -O2 -c -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -c md5.c -o md5.o -Izynq_fsbl_bsp/ps7_co
+TRACE::2024-07-31.17:09:10::SCWBDomain::rtexa9_0/include -I.
+
+TRACE::2024-07-31.17:09:10::SCWBDomain::arm-none-eabi-gcc  -O2 -c -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -c nand.c -o nand.o -Izynq_fsbl_bsp/ps7_
+TRACE::2024-07-31.17:09:10::SCWBDomain::cortexa9_0/include -I.
+
+TRACE::2024-07-31.17:09:10::SCWBDomain::arm-none-eabi-gcc  -O2 -c -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -c nor.c -o nor.o -Izynq_fsbl_bsp/ps7_co
+TRACE::2024-07-31.17:09:10::SCWBDomain::rtexa9_0/include -I.
+
+TRACE::2024-07-31.17:09:10::SCWBDomain::arm-none-eabi-gcc  -O2 -c -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -c pcap.c -o pcap.o -Izynq_fsbl_bsp/ps7_
+TRACE::2024-07-31.17:09:10::SCWBDomain::cortexa9_0/include -I.
+
+TRACE::2024-07-31.17:09:11::SCWBDomain::arm-none-eabi-gcc  -O2 -c -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -c ps7_init.c -o ps7_init.o -Izynq_fsbl_
+TRACE::2024-07-31.17:09:11::SCWBDomain::bsp/ps7_cortexa9_0/include -I.
+
+TRACE::2024-07-31.17:09:11::SCWBDomain::arm-none-eabi-gcc  -O2 -c -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -c qspi.c -o qspi.o -Izynq_fsbl_bsp/ps7_
+TRACE::2024-07-31.17:09:11::SCWBDomain::cortexa9_0/include -I.
+
+TRACE::2024-07-31.17:09:11::SCWBDomain::arm-none-eabi-gcc  -O2 -c -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -c rsa.c -o rsa.o -Izynq_fsbl_bsp/ps7_co
+TRACE::2024-07-31.17:09:11::SCWBDomain::rtexa9_0/include -I.
+
+TRACE::2024-07-31.17:09:11::SCWBDomain::arm-none-eabi-gcc  -O2 -c -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -c sd.c -o sd.o -Izynq_fsbl_bsp/ps7_cort
+TRACE::2024-07-31.17:09:11::SCWBDomain::exa9_0/include -I.
+
+TRACE::2024-07-31.17:09:11::SCWBDomain::arm-none-eabi-gcc  -O2 -c -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -c fsbl_handoff.S -o fsbl_handoff.o -Izy
+TRACE::2024-07-31.17:09:11::SCWBDomain::nq_fsbl_bsp/ps7_cortexa9_0/include -I.
+
+TRACE::2024-07-31.17:09:11::SCWBDomain::arm-none-eabi-gcc -o fsbl.elf fsbl_handoff.o fsbl_hooks.o image_mover.o main.o md5.o nand.o nor.o pcap.o ps7_init.o qspi.o rsa.
+TRACE::2024-07-31.17:09:11::SCWBDomain::o sd.o -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id
+TRACE::2024-07-31.17:09:11::SCWBDomain::=none -specs=Xilinx.spec  -lrsa -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-
+TRACE::2024-07-31.17:09:11::SCWBDomain::group -Wl,--start-group,-lrsa,-lxil,-lgcc,-lc,--end-group                                     -Wl,--gc-sections -Lzynq_fsbl_bsp
+TRACE::2024-07-31.17:09:11::SCWBDomain::/ps7_cortexa9_0/lib -L./ -Tlscript.ld
+
+LOG::2024-07-31.17:09:11::SCWSystem::Checking the domain standalone_domain
+LOG::2024-07-31.17:09:11::SCWSystem::Not a boot domain 
+LOG::2024-07-31.17:09:11::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2024-07-31.17:09:11::SCWDomain::Generating domain artifcats
+TRACE::2024-07-31.17:09:11::SCWMssOS::Generating standalone artifcats
+TRACE::2024-07-31.17:09:11::SCWMssOS::Copying the qemu file from  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/resources/hw0/standalone_domain/qemu_args.txt To /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/export/hw0/sw/hw0/qemu/
+TRACE::2024-07-31.17:09:11::SCWMssOS::Copying the qemu file from  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/resources/hw0/standalone_domain/qemu_args.txt To /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/export/hw0/sw/hw0/standalone_domain/qemu/
+TRACE::2024-07-31.17:09:11::SCWMssOS:: Copying the user libraries. 
+TRACE::2024-07-31.17:09:11::SCWPlatform::Trying to open the hw design at /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:11::SCWPlatform::DSA given /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:11::SCWPlatform::DSA absoulate path /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:11::SCWPlatform::DSA directory /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw
+TRACE::2024-07-31.17:09:11::SCWPlatform:: Platform Path /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:11::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-07-31.17:09:11::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2024-07-31.17:09:11::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2024-07-31.17:09:11::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-07-31.17:09:11::SCWMssOS::Checking the sw design at  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-07-31.17:09:11::SCWMssOS::DEBUG:  swdes dump  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-07-31.17:09:11::SCWMssOS::Sw design exists and opened at  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-07-31.17:09:11::SCWMssOS::Completed writing the mss file at /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/ps7_cortexa9_0/standalone_domain/bsp
+TRACE::2024-07-31.17:09:11::SCWMssOS::Mss edits present, copying mssfile into export location /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-07-31.17:09:11::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2024-07-31.17:09:11::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2024-07-31.17:09:11::SCWDomain::Building the domain as part of full build :  standalone_domain
+TRACE::2024-07-31.17:09:11::SCWMssOS::doing bsp build ... 
+TRACE::2024-07-31.17:09:11::SCWMssOS::System Command Ran  cd  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/ps7_cortexa9_0/standalone_domain/bsp ; bash -c "make  " 
+TRACE::2024-07-31.17:09:11::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2024-07-31.17:09:11::SCWMssOS::Finished building libraries sequentially.
+
+TRACE::2024-07-31.17:09:11::SCWMssOS::make -j 10 --no-print-directory par_libs
+
+TRACE::2024-07-31.17:09:11::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_9/src
+
+TRACE::2024-07-31.17:09:11::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_12/src
+
+TRACE::2024-07-31.17:09:11::SCWMssOS::make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_9/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-
+TRACE::2024-07-31.17:09:11::SCWMssOS::none-eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-a
+TRACE::2024-07-31.17:09:11::SCWMssOS::bi=hard -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-07-31.17:09:11::SCWMssOS::make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_12/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-no
+TRACE::2024-07-31.17:09:11::SCWMssOS::ne-eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi
+TRACE::2024-07-31.17:09:11::SCWMssOS::=hard -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-07-31.17:09:11::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_2/src
+
+TRACE::2024-07-31.17:09:11::SCWMssOS::make -C ps7_cortexa9_0/libsrc/ddrps_v1_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+TRACE::2024-07-31.17:09:11::SCWMssOS::as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
+TRACE::2024-07-31.17:09:11::SCWMssOS::ostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-07-31.17:09:11::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_8/src
+
+TRACE::2024-07-31.17:09:11::SCWMssOS::make -C ps7_cortexa9_0/libsrc/devcfg_v3_8/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2024-07-31.17:09:11::SCWMssOS::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2024-07-31.17:09:11::SCWMssOS::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-07-31.17:09:11::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_9/src
+
+TRACE::2024-07-31.17:09:11::SCWMssOS::make -C ps7_cortexa9_0/libsrc/dmaps_v2_9/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+TRACE::2024-07-31.17:09:11::SCWMssOS::as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
+TRACE::2024-07-31.17:09:11::SCWMssOS::ostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-07-31.17:09:11::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_19/src
+
+TRACE::2024-07-31.17:09:11::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_12/src
+
+TRACE::2024-07-31.17:09:11::SCWMssOS::make -C ps7_cortexa9_0/libsrc/emacps_v3_19/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eab
+TRACE::2024-07-31.17:09:11::SCWMssOS::i-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard 
+TRACE::2024-07-31.17:09:11::SCWMssOS::-nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-07-31.17:09:11::SCWMssOS::make -C ps7_cortexa9_0/libsrc/gpiops_v3_12/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eab
+TRACE::2024-07-31.17:09:11::SCWMssOS::i-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard 
+TRACE::2024-07-31.17:09:11::SCWMssOS::-nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-07-31.17:09:11::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/scugic_v5_2/src
+
+TRACE::2024-07-31.17:09:11::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scugic_v5_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2024-07-31.17:09:11::SCWMssOS::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2024-07-31.17:09:11::SCWMssOS::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-07-31.17:09:11::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_5/src
+
+TRACE::2024-07-31.17:09:11::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scutimer_v2_5/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-ea
+TRACE::2024-07-31.17:09:11::SCWMssOS::bi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard
+TRACE::2024-07-31.17:09:11::SCWMssOS:: -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-07-31.17:09:11::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_5/src
+
+TRACE::2024-07-31.17:09:11::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scuwdt_v2_5/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2024-07-31.17:09:11::SCWMssOS::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2024-07-31.17:09:11::SCWMssOS::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-07-31.17:09:11::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/sdps_v4_2/src
+
+TRACE::2024-07-31.17:09:11::SCWMssOS::make -C ps7_cortexa9_0/libsrc/sdps_v4_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-a
+TRACE::2024-07-31.17:09:11::SCWMssOS::s" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -no
+TRACE::2024-07-31.17:09:11::SCWMssOS::startfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-07-31.17:09:11::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/spips_v3_9/src
+
+TRACE::2024-07-31.17:09:11::SCWMssOS::make -C ps7_cortexa9_0/libsrc/spips_v3_9/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+TRACE::2024-07-31.17:09:11::SCWMssOS::as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
+TRACE::2024-07-31.17:09:11::SCWMssOS::ostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-07-31.17:09:12::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/standalone_v9_0/src
+
+TRACE::2024-07-31.17:09:12::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_13/src
+
+TRACE::2024-07-31.17:09:12::SCWMssOS::make -C ps7_cortexa9_0/libsrc/standalone_v9_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-
+TRACE::2024-07-31.17:09:12::SCWMssOS::eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=ha
+TRACE::2024-07-31.17:09:12::SCWMssOS::rd -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-07-31.17:09:12::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_8/src
+
+TRACE::2024-07-31.17:09:12::SCWMssOS::make -C ps7_cortexa9_0/libsrc/uartps_v3_13/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eab
+TRACE::2024-07-31.17:09:12::SCWMssOS::i-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard 
+TRACE::2024-07-31.17:09:12::SCWMssOS::-nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-07-31.17:09:12::SCWMssOS::make -C ps7_cortexa9_0/libsrc/usbps_v2_8/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+TRACE::2024-07-31.17:09:12::SCWMssOS::as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
+TRACE::2024-07-31.17:09:12::SCWMssOS::ostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-07-31.17:09:12::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_7/src
+
+TRACE::2024-07-31.17:09:12::SCWMssOS::make -C ps7_cortexa9_0/libsrc/xadcps_v2_7/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2024-07-31.17:09:12::SCWMssOS::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2024-07-31.17:09:12::SCWMssOS::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-07-31.17:09:12::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_9/src
+
+TRACE::2024-07-31.17:09:12::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_12/src
+
+TRACE::2024-07-31.17:09:12::SCWMssOS::make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_9/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-non
+TRACE::2024-07-31.17:09:12::SCWMssOS::e-eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=
+TRACE::2024-07-31.17:09:12::SCWMssOS::hard -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-07-31.17:09:12::SCWMssOS::make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_12/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-
+TRACE::2024-07-31.17:09:12::SCWMssOS::eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=ha
+TRACE::2024-07-31.17:09:12::SCWMssOS::rd -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-07-31.17:09:12::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_2/src
+
+TRACE::2024-07-31.17:09:12::SCWMssOS::make -C ps7_cortexa9_0/libsrc/ddrps_v1_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2024-07-31.17:09:12::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2024-07-31.17:09:12::SCWMssOS::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-07-31.17:09:12::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_8/src
+
+TRACE::2024-07-31.17:09:12::SCWMssOS::make -C ps7_cortexa9_0/libsrc/devcfg_v3_8/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2024-07-31.17:09:12::SCWMssOS::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2024-07-31.17:09:12::SCWMssOS::tartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-07-31.17:09:12::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_9/src
+
+TRACE::2024-07-31.17:09:12::SCWMssOS::make -C ps7_cortexa9_0/libsrc/dmaps_v2_9/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2024-07-31.17:09:12::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2024-07-31.17:09:12::SCWMssOS::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-07-31.17:09:12::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_19/src
+
+TRACE::2024-07-31.17:09:12::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_12/src
+
+TRACE::2024-07-31.17:09:12::SCWMssOS::make -C ps7_cortexa9_0/libsrc/emacps_v3_19/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-a
+TRACE::2024-07-31.17:09:12::SCWMssOS::s" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -no
+TRACE::2024-07-31.17:09:12::SCWMssOS::startfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-07-31.17:09:12::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/scugic_v5_2/src
+
+TRACE::2024-07-31.17:09:12::SCWMssOS::make -C ps7_cortexa9_0/libsrc/gpiops_v3_12/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-a
+TRACE::2024-07-31.17:09:12::SCWMssOS::s" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -no
+TRACE::2024-07-31.17:09:12::SCWMssOS::startfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-07-31.17:09:12::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scugic_v5_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2024-07-31.17:09:12::SCWMssOS::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2024-07-31.17:09:12::SCWMssOS::tartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-07-31.17:09:12::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_5/src
+
+TRACE::2024-07-31.17:09:12::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scutimer_v2_5/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+TRACE::2024-07-31.17:09:12::SCWMssOS::as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
+TRACE::2024-07-31.17:09:12::SCWMssOS::ostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-07-31.17:09:12::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_5/src
+
+TRACE::2024-07-31.17:09:12::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scuwdt_v2_5/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2024-07-31.17:09:12::SCWMssOS::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2024-07-31.17:09:12::SCWMssOS::tartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-07-31.17:09:12::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/sdps_v4_2/src
+
+TRACE::2024-07-31.17:09:12::SCWMssOS::make -C ps7_cortexa9_0/libsrc/sdps_v4_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2024-07-31.17:09:12::SCWMssOS::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2024-07-31.17:09:12::SCWMssOS::rtfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-07-31.17:09:13::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/spips_v3_9/src
+
+TRACE::2024-07-31.17:09:13::SCWMssOS::make -C ps7_cortexa9_0/libsrc/spips_v3_9/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2024-07-31.17:09:13::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2024-07-31.17:09:13::SCWMssOS::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-07-31.17:09:13::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/standalone_v9_0/src
+
+TRACE::2024-07-31.17:09:13::SCWMssOS::make -C ps7_cortexa9_0/libsrc/standalone_v9_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eab
+TRACE::2024-07-31.17:09:13::SCWMssOS::i-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard 
+TRACE::2024-07-31.17:09:13::SCWMssOS::-nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-07-31.17:09:13::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_13/src
+
+TRACE::2024-07-31.17:09:13::SCWMssOS::make -C ps7_cortexa9_0/libsrc/uartps_v3_13/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-a
+TRACE::2024-07-31.17:09:13::SCWMssOS::s" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -no
+TRACE::2024-07-31.17:09:13::SCWMssOS::startfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-07-31.17:09:14::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_8/src
+
+TRACE::2024-07-31.17:09:14::SCWMssOS::make -C ps7_cortexa9_0/libsrc/usbps_v2_8/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2024-07-31.17:09:14::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2024-07-31.17:09:14::SCWMssOS::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-07-31.17:09:14::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_7/src
+
+TRACE::2024-07-31.17:09:14::SCWMssOS::make -C ps7_cortexa9_0/libsrc/xadcps_v2_7/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2024-07-31.17:09:14::SCWMssOS::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2024-07-31.17:09:14::SCWMssOS::tartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-07-31.17:09:15::SCWMssOS::Finished building libraries parallelly.
+
+TRACE::2024-07-31.17:09:15::SCWMssOS::make --no-print-directory archive
+
+TRACE::2024-07-31.17:09:15::SCWMssOS::arm-none-eabi-ar -r  ps7_cortexa9_0/lib/libxil.a ps7_cortexa9_0/lib/_exit.o ps7_cortexa9_0/lib/_open.o ps7_cortexa9_0/lib/_sbrk
+TRACE::2024-07-31.17:09:15::SCWMssOS::.o ps7_cortexa9_0/lib/abort.o ps7_cortexa9_0/lib/asm_vectors.o ps7_cortexa9_0/lib/boot.o ps7_cortexa9_0/lib/close.o ps7_cortexa
+TRACE::2024-07-31.17:09:15::SCWMssOS::9_0/lib/cpputest_time.o ps7_cortexa9_0/lib/cpu_init.o ps7_cortexa9_0/lib/errno.o ps7_cortexa9_0/lib/fcntl.o ps7_cortexa9_0/lib/
+TRACE::2024-07-31.17:09:15::SCWMssOS::fstat.o ps7_cortexa9_0/lib/getentropy.o ps7_cortexa9_0/lib/getpid.o ps7_cortexa9_0/lib/inbyte.o ps7_cortexa9_0/lib/isatty.o ps7
+TRACE::2024-07-31.17:09:15::SCWMssOS::_cortexa9_0/lib/kill.o ps7_cortexa9_0/lib/lseek.o ps7_cortexa9_0/lib/open.o ps7_cortexa9_0/lib/outbyte.o ps7_cortexa9_0/lib/pri
+TRACE::2024-07-31.17:09:15::SCWMssOS::nt.o ps7_cortexa9_0/lib/putnum.o ps7_cortexa9_0/lib/read.o ps7_cortexa9_0/lib/sbrk.o ps7_cortexa9_0/lib/sleep.o ps7_cortexa9_0/
+TRACE::2024-07-31.17:09:15::SCWMssOS::lib/time.o ps7_cortexa9_0/lib/translation_table.o ps7_cortexa9_0/lib/unlink.o ps7_cortexa9_0/lib/usleep.o ps7_cortexa9_0/lib/ve
+TRACE::2024-07-31.17:09:15::SCWMssOS::ctors.o ps7_cortexa9_0/lib/write.o ps7_cortexa9_0/lib/xadcps.o ps7_cortexa9_0/lib/xadcps_g.o ps7_cortexa9_0/lib/xadcps_intr.o p
+TRACE::2024-07-31.17:09:15::SCWMssOS::s7_cortexa9_0/lib/xadcps_selftest.o ps7_cortexa9_0/lib/xadcps_sinit.o ps7_cortexa9_0/lib/xcoresightpsdcc.o ps7_cortexa9_0/lib/x
+TRACE::2024-07-31.17:09:15::SCWMssOS::devcfg.o ps7_cortexa9_0/lib/xdevcfg_g.o ps7_cortexa9_0/lib/xdevcfg_hw.o ps7_cortexa9_0/lib/xdevcfg_intr.o ps7_cortexa9_0/lib/xd
+TRACE::2024-07-31.17:09:15::SCWMssOS::evcfg_selftest.o ps7_cortexa9_0/lib/xdevcfg_sinit.o ps7_cortexa9_0/lib/xdmaps.o ps7_cortexa9_0/lib/xdmaps_g.o ps7_cortexa9_0/li
+TRACE::2024-07-31.17:09:15::SCWMssOS::b/xdmaps_hw.o ps7_cortexa9_0/lib/xdmaps_selftest.o ps7_cortexa9_0/lib/xdmaps_sinit.o ps7_cortexa9_0/lib/xemacps.o ps7_cortexa9_
+TRACE::2024-07-31.17:09:15::SCWMssOS::0/lib/xemacps_bdring.o ps7_cortexa9_0/lib/xemacps_control.o ps7_cortexa9_0/lib/xemacps_g.o ps7_cortexa9_0/lib/xemacps_hw.o ps7_
+TRACE::2024-07-31.17:09:15::SCWMssOS::cortexa9_0/lib/xemacps_intr.o ps7_cortexa9_0/lib/xemacps_sinit.o ps7_cortexa9_0/lib/xgpiops.o ps7_cortexa9_0/lib/xgpiops_g.o ps
+TRACE::2024-07-31.17:09:15::SCWMssOS::7_cortexa9_0/lib/xgpiops_hw.o ps7_cortexa9_0/lib/xgpiops_intr.o ps7_cortexa9_0/lib/xgpiops_selftest.o ps7_cortexa9_0/lib/xgpiop
+TRACE::2024-07-31.17:09:15::SCWMssOS::s_sinit.o ps7_cortexa9_0/lib/xil-crt0.o ps7_cortexa9_0/lib/xil_assert.o ps7_cortexa9_0/lib/xil_cache.o ps7_cortexa9_0/lib/xil_c
+TRACE::2024-07-31.17:09:15::SCWMssOS::locking.o ps7_cortexa9_0/lib/xil_exception.o ps7_cortexa9_0/lib/xil_mem.o ps7_cortexa9_0/lib/xil_misc_psreset_api.o ps7_cortexa
+TRACE::2024-07-31.17:09:15::SCWMssOS::9_0/lib/xil_mmu.o ps7_cortexa9_0/lib/xil_printf.o ps7_cortexa9_0/lib/xil_sleepcommon.o ps7_cortexa9_0/lib/xil_sleeptimer.o ps7_
+TRACE::2024-07-31.17:09:15::SCWMssOS::cortexa9_0/lib/xil_spinlock.o ps7_cortexa9_0/lib/xil_testcache.o ps7_cortexa9_0/lib/xil_testio.o ps7_cortexa9_0/lib/xil_testmem
+TRACE::2024-07-31.17:09:15::SCWMssOS::.o ps7_cortexa9_0/lib/xil_util.o ps7_cortexa9_0/lib/xinterrupt_wrap.o ps7_cortexa9_0/lib/xl2cc_counter.o ps7_cortexa9_0/lib/xpl
+TRACE::2024-07-31.17:09:15::SCWMssOS::atform_info.o ps7_cortexa9_0/lib/xpm_counter.o ps7_cortexa9_0/lib/xpm_init.o ps7_cortexa9_0/lib/xscugic.o ps7_cortexa9_0/lib/xs
+TRACE::2024-07-31.17:09:15::SCWMssOS::cugic_g.o ps7_cortexa9_0/lib/xscugic_hw.o ps7_cortexa9_0/lib/xscugic_intr.o ps7_cortexa9_0/lib/xscugic_selftest.o ps7_cortexa9_
+TRACE::2024-07-31.17:09:15::SCWMssOS::0/lib/xscugic_sinit.o ps7_cortexa9_0/lib/xscutimer.o ps7_cortexa9_0/lib/xscutimer_g.o ps7_cortexa9_0/lib/xscutimer_selftest.o p
+TRACE::2024-07-31.17:09:15::SCWMssOS::s7_cortexa9_0/lib/xscutimer_sinit.o ps7_cortexa9_0/lib/xscuwdt.o ps7_cortexa9_0/lib/xscuwdt_g.o ps7_cortexa9_0/lib/xscuwdt_self
+TRACE::2024-07-31.17:09:15::SCWMssOS::test.o ps7_cortexa9_0/lib/xscuwdt_sinit.o ps7_cortexa9_0/lib/xsdps.o ps7_cortexa9_0/lib/xsdps_card.o ps7_cortexa9_0/lib/xsdps_g
+TRACE::2024-07-31.17:09:15::SCWMssOS::.o ps7_cortexa9_0/lib/xsdps_host.o ps7_cortexa9_0/lib/xsdps_options.o ps7_cortexa9_0/lib/xsdps_sinit.o ps7_cortexa9_0/lib/xspip
+TRACE::2024-07-31.17:09:15::SCWMssOS::s.o ps7_cortexa9_0/lib/xspips_g.o ps7_cortexa9_0/lib/xspips_hw.o ps7_cortexa9_0/lib/xspips_options.o ps7_cortexa9_0/lib/xspips_
+TRACE::2024-07-31.17:09:15::SCWMssOS::selftest.o ps7_cortexa9_0/lib/xspips_sinit.o ps7_cortexa9_0/lib/xtime_l.o ps7_cortexa9_0/lib/xuartps.o ps7_cortexa9_0/lib/xuart
+TRACE::2024-07-31.17:09:15::SCWMssOS::ps_g.o ps7_cortexa9_0/lib/xuartps_hw.o ps7_cortexa9_0/lib/xuartps_intr.o ps7_cortexa9_0/lib/xuartps_options.o ps7_cortexa9_0/li
+TRACE::2024-07-31.17:09:15::SCWMssOS::b/xuartps_selftest.o ps7_cortexa9_0/lib/xuartps_sinit.o ps7_cortexa9_0/lib/xusbps.o ps7_cortexa9_0/lib/xusbps_endpoint.o ps7_co
+TRACE::2024-07-31.17:09:15::SCWMssOS::rtexa9_0/lib/xusbps_g.o ps7_cortexa9_0/lib/xusbps_hw.o ps7_cortexa9_0/lib/xusbps_intr.o ps7_cortexa9_0/lib/xusbps_sinit.o
+
+TRACE::2024-07-31.17:09:15::SCWMssOS::Finished building libraries
+
+TRACE::2024-07-31.17:09:15::SCWMssOS::Copying to export directory.
+TRACE::2024-07-31.17:09:15::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2024-07-31.17:09:15::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2024-07-31.17:09:15::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2024-07-31.17:09:15::SCWSystem::Completed Processing the sysconfig hw0
+LOG::2024-07-31.17:09:15::SCWPlatform::Completed generating the artifacts for system configuration hw0
+TRACE::2024-07-31.17:09:15::SCWPlatform::Started preparing the platform 
+TRACE::2024-07-31.17:09:15::SCWSystem::Writing the bif file for system config hw0
+TRACE::2024-07-31.17:09:15::SCWSystem::dir created 
+TRACE::2024-07-31.17:09:15::SCWSystem::Writing the bif 
+TRACE::2024-07-31.17:09:15::SCWPlatform::Started writing the spfm file 
+TRACE::2024-07-31.17:09:15::SCWPlatform::Started writing the xpfm file 
+TRACE::2024-07-31.17:09:15::SCWPlatform::Completed generating the platform
+TRACE::2024-07-31.17:09:15::SCWMssOS::Saving the mss changes /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-07-31.17:09:15::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-07-31.17:09:15::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-07-31.17:09:15::SCWMssOS::Commit changes completed.
+TRACE::2024-07-31.17:09:15::SCWMssOS::Saving the mss changes /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-07-31.17:09:15::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-07-31.17:09:15::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-07-31.17:09:15::SCWMssOS::Commit changes completed.
+TRACE::2024-07-31.17:09:15::SCWPlatform::Trying to open the hw design at /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:15::SCWPlatform::DSA given /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:15::SCWPlatform::DSA absoulate path /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:15::SCWPlatform::DSA directory /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw
+TRACE::2024-07-31.17:09:15::SCWPlatform:: Platform Path /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:15::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-07-31.17:09:15::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2024-07-31.17:09:15::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2024-07-31.17:09:15::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-07-31.17:09:15::SCWMssOS::Checking the sw design at  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-07-31.17:09:15::SCWMssOS::DEBUG:  swdes dump  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-07-31.17:09:15::SCWMssOS::Sw design exists and opened at  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-07-31.17:09:15::SCWPlatform::Trying to open the hw design at /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:15::SCWPlatform::DSA given /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:15::SCWPlatform::DSA absoulate path /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:15::SCWPlatform::DSA directory /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw
+TRACE::2024-07-31.17:09:15::SCWPlatform:: Platform Path /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:15::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-07-31.17:09:15::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2024-07-31.17:09:15::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2024-07-31.17:09:15::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-07-31.17:09:15::SCWMssOS::Checking the sw design at  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-07-31.17:09:15::SCWMssOS::DEBUG:  swdes dump  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-07-31.17:09:15::SCWMssOS::Sw design exists and opened at  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-07-31.17:09:15::SCWPlatform::Trying to open the hw design at /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:15::SCWPlatform::DSA given /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:15::SCWPlatform::DSA absoulate path /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:15::SCWPlatform::DSA directory /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw
+TRACE::2024-07-31.17:09:15::SCWPlatform:: Platform Path /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:15::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-07-31.17:09:15::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2024-07-31.17:09:15::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2024-07-31.17:09:15::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-07-31.17:09:15::SCWMssOS::Checking the sw design at  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-07-31.17:09:15::SCWMssOS::DEBUG:  swdes dump  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-07-31.17:09:15::SCWMssOS::Sw design exists and opened at  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-07-31.17:09:15::SCWPlatform::Trying to open the hw design at /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:15::SCWPlatform::DSA given /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:15::SCWPlatform::DSA absoulate path /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:15::SCWPlatform::DSA directory /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw
+TRACE::2024-07-31.17:09:15::SCWPlatform:: Platform Path /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:15::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-07-31.17:09:15::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2024-07-31.17:09:15::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2024-07-31.17:09:15::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-07-31.17:09:15::SCWMssOS::Checking the sw design at  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-07-31.17:09:15::SCWMssOS::DEBUG:  swdes dump  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-07-31.17:09:15::SCWMssOS::Sw design exists and opened at  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-07-31.17:09:15::SCWPlatform::Trying to open the hw design at /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:15::SCWPlatform::DSA given /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:15::SCWPlatform::DSA absoulate path /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:15::SCWPlatform::DSA directory /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw
+TRACE::2024-07-31.17:09:15::SCWPlatform:: Platform Path /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:15::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-07-31.17:09:15::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2024-07-31.17:09:15::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2024-07-31.17:09:15::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-07-31.17:09:15::SCWMssOS::Checking the sw design at  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-07-31.17:09:15::SCWMssOS::DEBUG:  swdes dump  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-07-31.17:09:15::SCWMssOS::Sw design exists and opened at  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-07-31.17:09:15::SCWPlatform::Trying to open the hw design at /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:15::SCWPlatform::DSA given /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:15::SCWPlatform::DSA absoulate path /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:15::SCWPlatform::DSA directory /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw
+TRACE::2024-07-31.17:09:15::SCWPlatform:: Platform Path /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:15::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-07-31.17:09:15::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2024-07-31.17:09:15::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2024-07-31.17:09:15::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-07-31.17:09:15::SCWMssOS::Checking the sw design at  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-07-31.17:09:15::SCWMssOS::DEBUG:  swdes dump  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-07-31.17:09:15::SCWMssOS::Sw design exists and opened at  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-07-31.17:09:15::SCWWriter::formatted JSON is {
+	"platformName":	"hw0",
+	"sprVersion":	"2.0",
+	"mode":	"cmd",
+	"dsaType":	"Fixed",
+	"platformDesc":	"hw0",
+	"platHandOff":	"system_top.xsa",
+	"platIntHandOff":	"<platformDir>/hw/system_top.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"hw0",
+	"systems":	[{
+			"systemName":	"hw0",
+			"systemDesc":	"hw0",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"hw0",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"9.0",
+					"mssFile":	"",
+					"md5Digest":	"88c3d5a10052b8ca12cf7343b4b8e9fb",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:5.1", "xilrsa:1.7"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on ps7_cortexa9_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"<platformDir>/resources/hw0/standalone_domain/qemu_args.txt",
+					"qemuData":	"<platformDir>/resources/hw0/standalone_domain/qemu",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"9.0",
+					"mssFile":	"",
+					"md5Digest":	"1eec6bab4de75ae0a6a35e8a7c3f4181",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2024-07-31.17:09:15::SCWPlatform::updated the xpfm file.
+TRACE::2024-07-31.17:09:15::SCWPlatform::Trying to open the hw design at /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:15::SCWPlatform::DSA given /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:15::SCWPlatform::DSA absoulate path /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:15::SCWPlatform::DSA directory /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw
+TRACE::2024-07-31.17:09:15::SCWPlatform:: Platform Path /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/hw/system_top.xsa
+TRACE::2024-07-31.17:09:15::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-07-31.17:09:15::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2024-07-31.17:09:15::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2024-07-31.17:09:15::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-07-31.17:09:15::SCWMssOS::Checking the sw design at  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-07-31.17:09:15::SCWMssOS::DEBUG:  swdes dump  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-07-31.17:09:15::SCWMssOS::Sw design exists and opened at  /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss

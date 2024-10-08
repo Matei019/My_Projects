@@ -1,0 +1,74 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:13:54 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Wed Jul 31 14:01:11 2024
+# Process ID: 3748
+# Current directory: /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s
+# Command line: vivado ad5592r_coraz7s.xpr
+# Log file: /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/vivado.log
+# Journal file: /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/vivado.jou
+# Running On: DESKTOP-QC14QP2, OS: Linux, CPU Frequency: 2592.007 MHz, CPU Physical cores: 6, Host memory: 8215 MB
+#-----------------------------------------------------------
+start_gui
+open_project ad5592r_coraz7s.xpr
+update_compile_order -fileset sources_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {/home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/ad5592r_coraz7s.runs/impl_1/system_top.bit} [get_hw_devices xc7z007s_1]
+set_property PROBES.FILE {/home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/ad5592r_coraz7s.runs/impl_1/system_top.ltx} [get_hw_devices xc7z007s_1]
+set_property FULL_PROBES.FILE {/home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/ad5592r_coraz7s.runs/impl_1/system_top.ltx} [get_hw_devices xc7z007s_1]
+current_hw_device [get_hw_devices xc7z007s_1]
+refresh_hw_device [lindex [get_hw_devices xc7z007s_1] 0]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z007s_1] -filter {CELL_NAME=~"i_system_wrapper/system_i/ila_0"}]]
+refresh_hw_target {localhost:3121/xilinx_tcf/Digilent/210370BCAD3EA}
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z007s_1] -filter {CELL_NAME=~"i_system_wrapper/system_i/ila_0"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z007s_1] -filter {CELL_NAME=~"i_system_wrapper/system_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z007s_1] -filter {CELL_NAME=~"i_system_wrapper/system_i/ila_0"}]]
+save_wave_config {/home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/ad5592r_coraz7s.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wcfg}
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z007s_1] -filter {CELL_NAME=~"i_system_wrapper/system_i/ila_0"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z007s_1] -filter {CELL_NAME=~"i_system_wrapper/system_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z007s_1] -filter {CELL_NAME=~"i_system_wrapper/system_i/ila_0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z007s_1] -filter {CELL_NAME=~"i_system_wrapper/system_i/ila_0"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z007s_1] -filter {CELL_NAME=~"i_system_wrapper/system_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z007s_1] -filter {CELL_NAME=~"i_system_wrapper/system_i/ila_0"}]]
+save_wave_config {/home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/ad5592r_coraz7s.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wcfg}
+close_hw_manager
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {/home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/ad5592r_coraz7s.runs/impl_1/system_top.bit} [get_hw_devices xc7z007s_1]
+set_property PROBES.FILE {/home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/ad5592r_coraz7s.runs/impl_1/system_top.ltx} [get_hw_devices xc7z007s_1]
+set_property FULL_PROBES.FILE {/home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/ad5592r_coraz7s.runs/impl_1/system_top.ltx} [get_hw_devices xc7z007s_1]
+current_hw_device [get_hw_devices xc7z007s_1]
+refresh_hw_device [lindex [get_hw_devices xc7z007s_1] 0]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z007s_1] -filter {CELL_NAME=~"i_system_wrapper/system_i/ila_0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z007s_1] -filter {CELL_NAME=~"i_system_wrapper/system_i/ila_0"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z007s_1] -filter {CELL_NAME=~"i_system_wrapper/system_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z007s_1] -filter {CELL_NAME=~"i_system_wrapper/system_i/ila_0"}]]
+set_property TRIGGER_COMPARE_VALUE eq1'bR [get_hw_probes i_system_wrapper/system_i/axi_pwm_custom_xcr_pwm_led_0 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z007s_1] -filter {CELL_NAME=~"i_system_wrapper/system_i/ila_0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z007s_1] -filter {CELL_NAME=~"i_system_wrapper/system_i/ila_0"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z007s_1] -filter {CELL_NAME=~"i_system_wrapper/system_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z007s_1] -filter {CELL_NAME=~"i_system_wrapper/system_i/ila_0"}]]
+startgroup 
+set_property CONTROL.WINDOW_COUNT 4 [get_hw_ilas -of_objects [get_hw_devices xc7z007s_1] -filter {CELL_NAME=~"i_system_wrapper/system_i/ila_0"}]
+set_property CONTROL.DATA_DEPTH 256 [get_hw_ilas -of_objects [get_hw_devices xc7z007s_1] -filter {CELL_NAME=~"i_system_wrapper/system_i/ila_0"}]
+set_property CONTROL.TRIGGER_POSITION 255 [get_hw_ilas -of_objects [get_hw_devices xc7z007s_1] -filter {CELL_NAME=~"i_system_wrapper/system_i/ila_0"}]
+endgroup
+startgroup 
+set_property CONTROL.WINDOW_COUNT 4 [get_hw_ilas -of_objects [get_hw_devices xc7z007s_1] -filter {CELL_NAME=~"i_system_wrapper/system_i/ila_0"}]
+set_property CONTROL.DATA_DEPTH 256 [get_hw_ilas -of_objects [get_hw_devices xc7z007s_1] -filter {CELL_NAME=~"i_system_wrapper/system_i/ila_0"}]
+set_property CONTROL.TRIGGER_POSITION 255 [get_hw_ilas -of_objects [get_hw_devices xc7z007s_1] -filter {CELL_NAME=~"i_system_wrapper/system_i/ila_0"}]
+endgroup
+startgroup 
+set_property CONTROL.DATA_DEPTH 256 [get_hw_ilas -of_objects [get_hw_devices xc7z007s_1] -filter {CELL_NAME=~"i_system_wrapper/system_i/ila_0"}]
+set_property CONTROL.TRIGGER_POSITION 255 [get_hw_ilas -of_objects [get_hw_devices xc7z007s_1] -filter {CELL_NAME=~"i_system_wrapper/system_i/ila_0"}]
+endgroup
+set_property CONTROL.TRIGGER_POSITION 0 [get_hw_ilas -of_objects [get_hw_devices xc7z007s_1] -filter {CELL_NAME=~"i_system_wrapper/system_i/ila_0"}]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z007s_1] -filter {CELL_NAME=~"i_system_wrapper/system_i/ila_0"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z007s_1] -filter {CELL_NAME=~"i_system_wrapper/system_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z007s_1] -filter {CELL_NAME=~"i_system_wrapper/system_i/ila_0"}]]
+save_wave_config {/home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/ad5592r_coraz7s.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wcfg}
+close_hw_manager

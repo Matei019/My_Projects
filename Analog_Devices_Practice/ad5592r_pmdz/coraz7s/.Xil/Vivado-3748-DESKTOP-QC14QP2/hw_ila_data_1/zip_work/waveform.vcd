@@ -1,0 +1,108 @@
+$date
+        2024-Jul-31 14:20:17
+$end
+$version
+        Vivado v2023.2 (64-bit)
+$end
+$timescale
+        1ps
+$end
+$scope module dut $end
+$var reg 1 " i_system_wrapper/system_i/axi_pwm_custom_xcr_pwm_led_0 $end
+$var reg 1 # i_system_wrapper/system_i/axi_pwm_custom_xcr_pwm_led_1 $end
+$var reg 1 $ i_system_wrapper/system_i/axi_pwm_custom_xcr_pwm_led_2 $end
+$var reg 1 % i_system_wrapper/system_i/axi_pwm_custom_xcr_pwm_led_3 $end
+$var reg 1 & i_system_wrapper/system_i/axi_pwm_custom_xcr_pwm_led_4 $end
+$var reg 1 ' i_system_wrapper/system_i/axi_pwm_custom_xcr_pwm_led_5 $end
+$var reg 1 ( _TRIGGER $end
+$var reg 1 ) _WINDOW $end
+$var reg 1 * _GAP $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+1"
+1#
+1$
+1%
+1&
+1'
+1(
+1)
+0*
+$end
+#23
+0$
+#31
+0'
+#115
+0#
+#128
+0"
+#172
+0%
+#187
+0&
+#256
+1"
+1#
+1$
+1%
+1&
+1'
+0(
+0)
+#279
+0$
+#287
+0'
+#371
+0#
+#384
+0"
+#428
+0%
+#443
+0&
+#512
+1"
+1#
+1$
+1%
+1&
+1'
+1(
+1)
+#535
+0$
+#543
+0'
+#627
+0#
+#640
+0"
+#684
+0%
+#699
+0&
+#768
+1"
+1#
+1$
+1%
+1&
+1'
+0(
+0)
+#791
+0$
+#799
+0'
+#883
+0#
+#896
+0"
+#940
+0%
+#955
+0&

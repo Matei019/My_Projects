@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/readB.dir/read_buffer.c.o -o readB  -liio

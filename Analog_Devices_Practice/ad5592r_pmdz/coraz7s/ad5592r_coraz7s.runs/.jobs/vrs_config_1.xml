@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="system_sys_ps7_0_synth_1" LaunchDir="/home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/ad5592r_coraz7s.runs/system_sys_ps7_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="system_sys_rstgen_0_synth_1" LaunchDir="/home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/ad5592r_coraz7s.runs/system_sys_rstgen_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="system_sys_dma_rstgen_0_synth_1" LaunchDir="/home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/ad5592r_coraz7s.runs/system_sys_dma_rstgen_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="system_axi_sysid_0_0_synth_1" LaunchDir="/home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/ad5592r_coraz7s.runs/system_axi_sysid_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="system_rom_sys_0_0_synth_1" LaunchDir="/home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/ad5592r_coraz7s.runs/system_rom_sys_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="system_xbar_0_synth_1" LaunchDir="/home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/ad5592r_coraz7s.runs/system_xbar_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="system_axi_pwm_custom_xcr_0_synth_1" LaunchDir="/home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/ad5592r_coraz7s.runs/system_axi_pwm_custom_xcr_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="system_auto_pc_0_synth_1" LaunchDir="/home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/ad5592r_coraz7s.runs/system_auto_pc_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="/home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/ad5592r_coraz7s.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="system_sys_ps7_0_synth_1"/>
+		<Parent Id="system_sys_rstgen_0_synth_1"/>
+		<Parent Id="system_sys_dma_rstgen_0_synth_1"/>
+		<Parent Id="system_axi_sysid_0_0_synth_1"/>
+		<Parent Id="system_rom_sys_0_0_synth_1"/>
+		<Parent Id="system_xbar_0_synth_1"/>
+		<Parent Id="system_axi_pwm_custom_xcr_0_synth_1"/>
+		<Parent Id="system_auto_pc_0_synth_1"/>
+	</Run>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+		<Parameter Name="runs.enableClusterConf" Val="true" Type="bool"/>
+		<Parameter Name="general.ignorePathLengthChecks" Val="true" Type="bool"/>
+		<Parameter Name="general.shortenLongPath" Val="true" Type="bool"/>
+	</Parameters>
+	<ProductInfo Name="vivado"/>
+</Runs>
+

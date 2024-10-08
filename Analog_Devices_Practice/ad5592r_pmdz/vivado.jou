@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:13:54 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Mon Jul 29 14:26:44 2024
+# Process ID: 32116
+# Current directory: /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz
+# Command line: vivado *.xpr
+# Log file: /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/vivado.log
+# Journal file: /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/vivado.jou
+# Running On: DESKTOP-QC14QP2, OS: Linux, CPU Frequency: 2592.008 MHz, CPU Physical cores: 6, Host memory: 8215 MB
+#-----------------------------------------------------------
+start_gui

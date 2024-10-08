@@ -1,0 +1,1095 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:13:54 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Wed Jul 31 17:07:47 2024
+# Process ID: 2567
+# Current directory: /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s
+# Command line: vivado ad5592r_coraz7s.xpr
+# Log file: /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/vivado.log
+# Journal file: /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/vivado.jou
+# Running On: DESKTOP-QC14QP2, OS: Linux, CPU Frequency: 2592.007 MHz, CPU Physical cores: 6, Host memory: 8215 MB
+#-----------------------------------------------------------
+start_gui
+open_project ad5592r_coraz7s.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:ac701:part0:1.4 available at /xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/ac701/1.4/board.xml as part xc7a200tfbg676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k24c:part0:1.0 available at /xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k24c/1.0/board.xml as part xck24-ubva530-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k24i:part0:1.0 available at /xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k24i/1.0/board.xml as part xck24-ubva530-2lvi-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26c:part0:1.2 available at /xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26c/1.2/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26c:part0:1.3 available at /xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26c/1.3/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26c:part0:1.4 available at /xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26c/1.4/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26i:part0:1.2 available at /xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26i/1.2/board.xml as part xck26-sfvc784-2lvi-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26i:part0:1.3 available at /xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26i/1.3/board.xml as part xck26-sfvc784-2lvi-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26i:part0:1.4 available at /xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26i/1.4/board.xml as part xck26-sfvc784-2lvi-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at /xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at /xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at /xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.4 available at /xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.4/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.5 available at /xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.5/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at /xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kd240_som:part0:1.0 available at /xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kd240_som/1.0/board.xml as part xck24-ubva530-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kr260_som:part0:1.0 available at /xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kr260_som/1.0/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kr260_som:part0:1.1 available at /xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kr260_som/1.1/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kv260_som:part0:1.2 available at /xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kv260_som/1.2/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kv260_som:part0:1.3 available at /xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kv260_som/1.3/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kv260_som:part0:1.4 available at /xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kv260_som/1.4/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:sp701:part0:1.0 available at /xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/sp701/1.0/board.xml as part xc7s100fgga676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:sp701:part0:1.1 available at /xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/sp701/1.1/board.xml as part xc7s100fgga676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at /xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at /xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at /xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at /xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at /xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.2 available at /xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at /xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.1 available at /xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at /xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at /xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at /xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at /xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at /xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at /xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at /xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu128/production/1.0/board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at /xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at /xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.0 available at /xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/production/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at /xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at /xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at /xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at /xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at /xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at /xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.0 available at /xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.1 available at /xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at /xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at /xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at /xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at /xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at /xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.2 available at /xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at /xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.1 available at /xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at /xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.1 available at /xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.2 available at /xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.0 available at /xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.1 available at /xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at /xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at /xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu104:part0:1.1 available at /xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu104/1.1/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.4 available at /xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu106/2.4/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.5 available at /xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu106/2.5/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.6 available at /xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu106/2.6/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at /xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at /xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at /xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at /xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at /xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at /xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at /xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at /xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at /xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at /xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at /xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/analog/workspace/practica/hdl/library'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/xilinx/Vivado/2023.2/data/ip'.
+open_project: Time (s): cpu = 00:00:28 ; elapsed = 00:00:13 . Memory (MB): peak = 7994.004 ; gain = 596.664 ; free physical = 4342 ; free virtual = 7868
+update_compile_order -fileset sources_1
+source ../../scripts/adi_make.tcl
+# namespace eval adi_make {
+#   ##############################################################################
+#   # to print debug step messages "set debug_msg=1" (set adi_make::debug_msg 1)
+#   variable debug_msg 0
+#   ##############################################################################
+# 
+#   variable library_dir
+#   variable PWD [pwd]
+#   variable root_hdl_folder
+#   variable done_list ""
+#   variable indent_level ""
+# 
+#   # get library absolute path
+#   set root_hdl_folder ""
+#   set glb_path $PWD
+#   if { [regexp projects $glb_path] } {
+#     regsub {/projects.*$} $glb_path "" root_hdl_folder
+#   } else {
+#     puts "ERROR: Not in hdl/* folder"
+#     return
+#   }
+# 
+#   set library_dir "$root_hdl_folder/library"
+# 
+#   #----------------------------------------------------------------------------
+#   # have debug messages
+#   proc puts_msg { message } {
+#     variable debug_msg
+#     variable indent_level
+#     if { $debug_msg == 1 } {
+#       puts $indent_level$message
+#     }
+#   }
+# 
+#   #----------------------------------------------------------------------------
+#   # returns the projects required set of libraries
+#   proc get_libraries {} {
+# 
+#     set build_list ""
+# 
+#     set search_pattern "LIB_DEPS.*="
+#     set fp1 [open ./Makefile r]
+#     set file_data [read $fp1]
+#     close $fp1
+# 
+#     set lines [split $file_data \n]
+#     foreach line $lines {
+#       if { [regexp $search_pattern $line] } {
+#         regsub -all $search_pattern $line "" library
+#         set library [string trim $library]
+#         puts_msg "\t- project dep: $library"
+#         append build_list "$library "
+#       }
+#     }
+#     return $build_list
+#   }
+# 
+#   #----------------------------------------------------------------------------
+#   proc lib { libraries } {
+# 
+#     variable library_dir
+#     variable PWD
+#     variable done_list
+# 
+#     set build_list $libraries
+#     if { $libraries == "all" } {
+#       set build_list "[get_libraries]"
+#     }
+# 
+#     set libraries ""
+#     puts "Building:"
+#     foreach b_lib $build_list {
+#       puts "- $b_lib"
+#       append libraries "$library_dir/$b_lib "
+#     }
+# 
+#     puts "Please wait, this might take a few minutes"
+# 
+#     # searching for subdir libraries in path of the given args
+#     set first_lib [lindex $libraries 0]
+#     if { $first_lib == "" } {
+#      set first_lib "."
+#     }
+#     # getting all (libraries)
+#     set index 0
+#     set library_element(1) $first_lib
+#     foreach argument $libraries {
+#      incr index 1
+#      set library_element($index) $argument
+#     }
+# 
+#     # search for all possible IPs in the given argument paths
+#     set makefiles ""
+#     if { $index == 0 } {
+#       set index 1
+#     }
+#     for {set y 1} {$y<=$index} {incr y} {
+#       set dir "$library_element($y)/"
+#       #search 4 level subdirectories for Makefiles
+#       for {set x 1} {$x<=4} {incr x} {
+#       catch { append makefiles " [glob "${dir}Makefile"]" } err
+#         append dir "*/"
+#       }
+#     }
+# 
+#     if { $makefiles == "" } {
+#       puts "ERROR: Wrong path to IP or the IP does not have a Makefile starting from \"$library_element(1)\""
+#     }
+# 
+#     # filter out non buildable libs (non *_ip.tcl)
+#     set buildable ""
+#     foreach fs $makefiles {
+#       set lib_dir [file dirname $fs]
+#       set lib_name "[file tail $lib_dir]_ip.tcl"
+#       if { [file exists $lib_dir/$lib_name] } {
+#         append buildable "$fs "
+#       }
+#     }
+#     set makefiles $buildable
+# 
+#     # build all detected IPs
+#     foreach fs $makefiles {
+#       regsub /Makefile $fs "" fs
+#       if { $fs == "." } {
+#         set fs [string trim [file tail [file normalize $fs]]]
+#       }
+#       regsub .*library/ $fs "" fs
+#       build_lib $fs
+#     }
+# 
+#     cd $PWD
+#     set done_list ""
+#   }
+# 
+#   #----------------------------------------------------------------------------
+#   # IP build procedure
+#   proc build_lib { library } {
+# 
+#     variable done_list
+#     variable library_dir
+#     variable indent_level
+# 
+#     append indent_level "\t" ;# debug messages
+# 
+#     puts_msg "DEBUG build_lib proc (recursive called)"
+# 
+#     # determine if the IP was previously built in the current adi_make_lib.tcl call
+#     if { [regexp $library $done_list] } {
+#       puts_msg "> Build previously done on $library"
+#       regsub . $indent_level "" indent_level
+#       return
+#     } else {
+#       puts_msg "- Start build of $library"
+#     }
+#     puts_msg "- Search dependencies for $library"
+# 
+#     # search for current IP dependencies
+# 
+#     # define library dependency search (Makefiles)
+#     set serch_pattern "XILINX_.*_DEPS.*="
+#     set dep_list ""
+# 
+#     set fp1 [open $library_dir/$library/Makefile r]
+#     set file_data [read $fp1]
+#     close $fp1
+# 
+#     set lines [split $file_data \n]
+#     foreach line $lines {
+#       if { [regexp $serch_pattern $line] } {
+#         regsub -all $serch_pattern $line "" lib_dep
+#         set lib_dep [string trim $lib_dep]
+#         puts_msg "\t$library is dependent on $lib_dep"
+#         append dep_list "$lib_dep "
+#       }
+#     }
+# 
+#     foreach lib $dep_list {
+#       build_lib $lib
+#     }
+# 
+#     puts_msg "- Continue build on $library"
+#     set lib_name "[file tail $library]_ip"
+# 
+#     cd $library_dir/${library}
+#     exec vivado -mode batch -source "$library_dir/${library}/${lib_name}.tcl"
+#     file copy -force ./vivado.log ./${lib_name}.log
+#     puts "- Done building $library"
+#     append done_list $library
+#     regsub . $indent_level "" indent_level
+#   }
+# 
+#   #----------------------------------------------------------------------------
+#   # boot_bin build procedure
+#   proc boot_bin {} {
+# 
+#     variable root_hdl_folder
+# 
+#     set arm_tr_sw_elf "bl31.elf"
+#     set boot_bin_folder "boot_bin"
+#     if {[catch {set xsa_file "[glob "./*.sdk/system_top.xsa"]"} fid]} {
+#       puts stderr "ERROR: $fid\n\rNOTE: you must have built hdl project\n\
+#       \rSee: https://wiki.analog.com/resources/fpga/docs/build\n"
+#       return
+#     }
+#     if {[catch {set uboot_elf "[glob "./u-boot*.elf"]" } fid]} {
+#       puts stderr "ERROR: $fid\n\rNOTE: you must have a the u-boot.elf in [pwd]\n\
+#       \rSee: https://wiki.analog.com/resources/fpga/docs/build\n"
+#       return
+#     }
+# 
+#     puts "root_hdl_folder $root_hdl_folder"
+#     puts "uboot_elf $uboot_elf"
+#     puts "xsa_file $xsa_file"
+# 
+#     # determine if Xilinx SDK tools are set in the enviroment
+#     package require platform
+#     set os_type [platform::generic]
+#     if { [regexp ^win $os_type] } {
+#       set w_cmd where
+#     } elseif { [regexp ^linux $os_type] } {
+#       set w_cmd which
+#     } else {
+#       puts "ERROR: Unknown OS: $os_type"
+#       exit 1
+#     }
+#     set xsct_loc [exec $w_cmd xsct]
+# 
+#     # search for Xilinx Command Line Tool (SDK)
+#     if { $xsct_loc == "" } {
+#       puts $env(PATH)
+#       puts "ERROR: SDK not installed or it is not defined in the enviroment path"
+#       exit 1
+#     }
+# 
+#     set xsct_script "exec xsct $root_hdl_folder/projects/scripts/adi_make_boot_bin.tcl"
+#     set build_args "$xsa_file $uboot_elf $boot_bin_folder $arm_tr_sw_elf"
+#     puts "Please wait, this may take a few minutes."
+#     eval $xsct_script $build_args
+#   }
+# 
+# } ;
+adi_make::boot_bin
+root_hdl_folder /home/analog/workspace/practica/hdl
+uboot_elf ./u-boot_zynq_coraz7.elf
+xsa_file ./ad5592r_coraz7s.sdk/system_top.xsa
+Please wait, this may take a few minutes.
+INFO: [Hsi 55-2053] elapsed time for repository (/xilinx/Vitis/2023.2/data/embeddedsw) loading 0 seconds
+Using CPU ps7_cortexa9_0
+INFO: [Hsi 55-2053] elapsed time for repository (/xilinx/Vitis/2023.2/data/embeddedsw) loading 0 seconds
+Opening the hardware design, this may take few seconds.
+WARNING: [Common 17-673] Cannot get value of property 'CONFIG.DEVICE_ID' because this property is not valid in conjunction with other property setting on this object.
+WARNING: [Common 17-673] Cannot get value of property 'CONFIG.DEVICE_ID' because this property is not valid in conjunction with other property setting on this object.
+WARNING: [Common 17-673] Cannot get value of property 'CONFIG.DEVICE_ID' because this property is not valid in conjunction with other property setting on this object.
+WARNING: [Common 17-673] Cannot get value of property 'CONFIG.C_ENET_TSU_CLK_FREQ_HZ' because this property is not valid in conjunction with other property setting on this object.
+WARNING: [Common 17-673] Cannot get value of property 'CONFIG.DEVICE_ID' because this property is not valid in conjunction with other property setting on this object.
+WARNING: [Common 17-673] Cannot get value of property 'CONFIG.IS_CACHE_COHERENT' because this property is not valid in conjunction with other property setting on this object.
+WARNING: [Common 17-673] Cannot get value of property 'CONFIG.C_ENET_TSU_CLK_FREQ_HZ' because this property is not valid in conjunction with other property setting on this object.
+WARNING: [Common 17-673] Cannot get value of property 'CONFIG.DEVICE_ID' because this property is not valid in conjunction with other property setting on this object.
+WARNING: [Common 17-673] Cannot get value of property 'CONFIG.C_DIST_BASEADDR' because this property is not valid in conjunction with other property setting on this object.
+WARNING: [Common 17-673] Cannot get value of property 'CONFIG.DEVICE_ID' because this property is not valid in conjunction with other property setting on this object.
+WARNING: [Common 17-673] Cannot get value of property 'CONFIG.DEVICE_ID' because this property is not valid in conjunction with other property setting on this object.
+WARNING: [Common 17-673] Cannot get value of property 'CONFIG.C_BUS_WIDTH' because this property is not valid in conjunction with other property setting on this object.
+WARNING: [Common 17-673] Cannot get value of property 'CONFIG.C_MIO_BANK' because this property is not valid in conjunction with other property setting on this object.
+WARNING: [Common 17-673] Cannot get value of property 'CONFIG.C_HAS_EMIO' because this property is not valid in conjunction with other property setting on this object.
+WARNING: [Common 17-673] Cannot get value of property 'CONFIG.C_SLOT_TYPE' because this property is not valid in conjunction with other property setting on this object.
+WARNING: [Common 17-673] Cannot get value of property 'CONFIG.C_CLK_50_SDR_ITAP_DLY' because this property is not valid in conjunction with other property setting on this object.
+WARNING: [Common 17-673] Cannot get value of property 'CONFIG.C_CLK_50_SDR_OTAP_DLY' because this property is not valid in conjunction with other property setting on this object.
+WARNING: [Common 17-673] Cannot get value of property 'CONFIG.C_CLK_50_DDR_ITAP_DLY' because this property is not valid in conjunction with other property setting on this object.
+WARNING: [Common 17-673] Cannot get value of property 'CONFIG.C_CLK_50_DDR_OTAP_DLY' because this property is not valid in conjunction with other property setting on this object.
+WARNING: [Common 17-673] Cannot get value of property 'CONFIG.C_CLK_100_SDR_OTAP_DLY' because this property is not valid in conjunction with other property setting on this object.
+WARNING: [Common 17-673] Cannot get value of property 'CONFIG.C_CLK_200_SDR_OTAP_DLY' because this property is not valid in conjunction with other property setting on this object.
+WARNING: [Common 17-673] Cannot get value of property 'CONFIG.DEVICE_ID' because this property is not valid in conjunction with other property setting on this object.
+WARNING: [Common 17-673] Cannot get value of property 'CONFIG.C_BUS_WIDTH' because this property is not valid in conjunction with other property setting on this object.
+WARNING: [Common 17-673] Cannot get value of property 'CONFIG.C_MIO_BANK' because this property is not valid in conjunction with other property setting on this object.
+WARNING: [Common 17-673] Cannot get value of property 'CONFIG.C_HAS_EMIO' because this property is not valid in conjunction with other property setting on this object.
+WARNING: [Common 17-673] Cannot get value of property 'CONFIG.C_SLOT_TYPE' because this property is not valid in conjunction with other property setting on this object.
+WARNING: [Common 17-673] Cannot get value of property 'CONFIG.IS_CACHE_COHERENT' because this property is not valid in conjunction with other property setting on this object.
+WARNING: [Common 17-673] Cannot get value of property 'CONFIG.C_CLK_50_SDR_ITAP_DLY' because this property is not valid in conjunction with other property setting on this object.
+WARNING: [Common 17-673] Cannot get value of property 'CONFIG.C_CLK_50_SDR_OTAP_DLY' because this property is not valid in conjunction with other property setting on this object.
+WARNING: [Common 17-673] Cannot get value of property 'CONFIG.C_CLK_50_DDR_ITAP_DLY' because this property is not valid in conjunction with other property setting on this object.
+WARNING: [Common 17-673] Cannot get value of property 'CONFIG.C_CLK_50_DDR_OTAP_DLY' because this property is not valid in conjunction with other property setting on this object.
+WARNING: [Common 17-673] Cannot get value of property 'CONFIG.C_CLK_100_SDR_OTAP_DLY' because this property is not valid in conjunction with other property setting on this object.
+WARNING: [Common 17-673] Cannot get value of property 'CONFIG.C_CLK_200_SDR_OTAP_DLY' because this property is not valid in conjunction with other property setting on this object.
+WARNING: [Common 17-673] Cannot get value of property 'CONFIG.C_BUS_WIDTH' because this property is not valid in conjunction with other property setting on this object.
+WARNING: [Common 17-673] Cannot get value of property 'CONFIG.C_MIO_BANK' because this property is not valid in conjunction with other property setting on this object.
+WARNING: [Common 17-673] Cannot get value of property 'CONFIG.C_HAS_EMIO' because this property is not valid in conjunction with other property setting on this object.
+WARNING: [Common 17-673] Cannot get value of property 'CONFIG.C_SLOT_TYPE' because this property is not valid in conjunction with other property setting on this object.
+WARNING: [Common 17-673] Cannot get value of property 'CONFIG.IS_CACHE_COHERENT' because this property is not valid in conjunction with other property setting on this object.
+WARNING: [Common 17-673] Cannot get value of property 'CONFIG.C_CLK_50_SDR_ITAP_DLY' because this property is not valid in conjunction with other property setting on this object.
+WARNING: [Common 17-673] Cannot get value of property 'CONFIG.C_CLK_50_SDR_OTAP_DLY' because this property is not valid in conjunction with other property setting on this object.
+WARNING: [Common 17-673] Cannot get value of property 'CONFIG.C_CLK_50_DDR_ITAP_DLY' because this property is not valid in conjunction with other property setting on this object.
+WARNING: [Common 17-673] Cannot get value of property 'CONFIG.C_CLK_50_DDR_OTAP_DLY' because this property is not valid in conjunction with other property setting on this object.
+WARNING: [Common 17-673] Cannot get value of property 'CONFIG.C_CLK_100_SDR_OTAP_DLY' because this property is not valid in conjunction with other property setting on this object.
+WARNING: [Common 17-673] Cannot get value of property 'CONFIG.C_CLK_200_SDR_OTAP_DLY' because this property is not valid in conjunction with other property setting on this object.
+WARNING: [Common 17-673] Cannot get value of property 'CONFIG.DEVICE_ID' because this property is not valid in conjunction with other property setting on this object.
+WARNING: [Common 17-673] Cannot get value of property 'CONFIG.DEVICE_ID' because this property is not valid in conjunction with other property setting on this object.
+WARNING: [Common 17-673] Cannot get value of property 'CONFIG.DEVICE_ID' because this property is not valid in conjunction with other property setting on this object.
+WARNING: [Common 17-673] Cannot get value of property 'CONFIG.DEVICE_ID' because this property is not valid in conjunction with other property setting on this object.
+WARNING: [Common 17-673] Cannot get value of property 'CONFIG.DEVICE_ID' because this property is not valid in conjunction with other property setting on this object.
+generate_target: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 668.297 ; gain = 14.543 ; free physical = 3611 ; free virtual = 7423
+INFO: Populating the default qemu data for the domain "standalone_domain" from the install location /xilinx/Vitis/2023.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/
+Building the zynq_fsbl application.
+make: Entering directory '/home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/zynq_fsbl/zynq_
+fsbl_bsp'
+
+make --no-print-directory seq_libs
+
+Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_9/src
+
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_9/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-
+none-eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-a
+bi=hard -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_12/src
+
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_12/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-no
+ne-eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi
+=hard -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_2/src
+
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
+ostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_8/src
+
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_8/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_9/src
+
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_9/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
+ostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_19/src
+
+make -C ps7_cortexa9_0/libsrc/emacps_v3_19/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eab
+i-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard 
+-nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_12/src
+
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_12/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eab
+i-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard 
+-nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+Running Make include in ps7_cortexa9_0/libsrc/scugic_v5_2/src
+
+make -C ps7_cortexa9_0/libsrc/scugic_v5_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_5/src
+
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_5/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-ea
+bi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard
+ -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_5/src
+
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_5/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+Running Make include in ps7_cortexa9_0/libsrc/sdps_v4_2/src
+
+make -C ps7_cortexa9_0/libsrc/sdps_v4_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-a
+s" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -no
+startfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+Running Make include in ps7_cortexa9_0/libsrc/spips_v3_9/src
+
+make -C ps7_cortexa9_0/libsrc/spips_v3_9/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
+ostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+Running Make include in ps7_cortexa9_0/libsrc/standalone_v9_0/src
+
+make -C ps7_cortexa9_0/libsrc/standalone_v9_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-
+eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=ha
+rd -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_13/src
+
+make -C ps7_cortexa9_0/libsrc/uartps_v3_13/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eab
+i-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard 
+-nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_8/src
+
+make -C ps7_cortexa9_0/libsrc/usbps_v2_8/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
+ostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_7/src
+
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_7/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+Running Make include in ps7_cortexa9_0/libsrc/xilffs_v5_1/src
+
+make -C ps7_cortexa9_0/libsrc/xilffs_v5_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+Running Make include in ps7_cortexa9_0/libsrc/xilrsa_v1_7/src
+
+make -C ps7_cortexa9_0/libsrc/xilrsa_v1_7/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+Running Make libs in ps7_cortexa9_0/libsrc/xilrsa_v1_7/src
+
+make -C ps7_cortexa9_0/libsrc/xilrsa_v1_7/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+tartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+Finished building libraries sequentially.
+
+make -j 10 --no-print-directory par_libs
+
+Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_9/src
+
+Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_12/src
+
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_9/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-
+none-eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-a
+bi=hard -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_12/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-no
+ne-eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi
+=hard -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_2/src
+
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
+ostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_8/src
+
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_8/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_9/src
+
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_9/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
+ostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_19/src
+
+make -C ps7_cortexa9_0/libsrc/emacps_v3_19/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eab
+i-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard 
+-nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_12/src
+
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_12/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eab
+i-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard 
+-nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+Running Make include in ps7_cortexa9_0/libsrc/scugic_v5_2/src
+
+make -C ps7_cortexa9_0/libsrc/scugic_v5_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_5/src
+
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_5/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-ea
+bi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard
+ -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_5/src
+
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_5/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+Running Make include in ps7_cortexa9_0/libsrc/sdps_v4_2/src
+
+Running Make include in ps7_cortexa9_0/libsrc/spips_v3_9/src
+
+Running Make include in ps7_cortexa9_0/libsrc/standalone_v9_0/src
+
+make -C ps7_cortexa9_0/libsrc/sdps_v4_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-a
+s" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -no
+startfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+make -C ps7_cortexa9_0/libsrc/spips_v3_9/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
+ostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+make -C ps7_cortexa9_0/libsrc/standalone_v9_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-
+eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=ha
+rd -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_13/src
+
+make -C ps7_cortexa9_0/libsrc/uartps_v3_13/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eab
+i-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard 
+-nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_8/src
+
+Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_7/src
+
+make -C ps7_cortexa9_0/libsrc/usbps_v2_8/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
+ostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+Running Make include in ps7_cortexa9_0/libsrc/xilffs_v5_1/src
+
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_7/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+Running Make include in ps7_cortexa9_0/libsrc/xilrsa_v1_7/src
+
+make -C ps7_cortexa9_0/libsrc/xilffs_v5_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+make -C ps7_cortexa9_0/libsrc/xilrsa_v1_7/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_9/src
+
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_9/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-non
+e-eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=
+hard -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_12/src
+
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_12/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-
+eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=ha
+rd -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_2/src
+
+Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_8/src
+
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+ "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_8/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+tartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_9/src
+
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_9/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+ "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_19/src
+
+make -C ps7_cortexa9_0/libsrc/emacps_v3_19/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-a
+s" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -no
+startfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_12/src
+
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_12/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-a
+s" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -no
+startfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+Running Make libs in ps7_cortexa9_0/libsrc/scugic_v5_2/src
+
+Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_5/src
+
+make -C ps7_cortexa9_0/libsrc/scugic_v5_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+tartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_5/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
+ostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_5/src
+
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_5/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+tartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+Running Make libs in ps7_cortexa9_0/libsrc/sdps_v4_2/src
+
+make -C ps7_cortexa9_0/libsrc/sdps_v4_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+rtfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+Running Make libs in ps7_cortexa9_0/libsrc/spips_v3_9/src
+
+make -C ps7_cortexa9_0/libsrc/spips_v3_9/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+ "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+Running Make libs in ps7_cortexa9_0/libsrc/standalone_v9_0/src
+
+make -C ps7_cortexa9_0/libsrc/standalone_v9_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eab
+i-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard 
+-nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_13/src
+
+make -C ps7_cortexa9_0/libsrc/uartps_v3_13/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-a
+s" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -no
+startfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_8/src
+
+make -C ps7_cortexa9_0/libsrc/usbps_v2_8/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+ "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_7/src
+
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_7/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+tartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+Running Make libs in ps7_cortexa9_0/libsrc/xilffs_v5_1/src
+
+make -C ps7_cortexa9_0/libsrc/xilffs_v5_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+tartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+Finished building libraries parallelly.
+
+make --no-print-directory archive
+
+arm-none-eabi-ar -r  ps7_cortexa9_0/lib/libxil.a ps7_cortexa9_0/lib/_exit.o ps7_cortexa9_0/lib/_open.o ps7_cortexa9_0/lib/_sbrk
+.o ps7_cortexa9_0/lib/abort.o ps7_cortexa9_0/lib/asm_vectors.o ps7_cortexa9_0/lib/boot.o ps7_cortexa9_0/lib/close.o ps7_cortexa
+9_0/lib/cpputest_time.o ps7_cortexa9_0/lib/cpu_init.o ps7_cortexa9_0/lib/errno.o ps7_cortexa9_0/lib/fcntl.o ps7_cortexa9_0/lib/
+fstat.o ps7_cortexa9_0/lib/getentropy.o ps7_cortexa9_0/lib/getpid.o ps7_cortexa9_0/lib/inbyte.o ps7_cortexa9_0/lib/isatty.o ps7
+_cortexa9_0/lib/kill.o ps7_cortexa9_0/lib/lseek.o ps7_cortexa9_0/lib/open.o ps7_cortexa9_0/lib/outbyte.o ps7_cortexa9_0/lib/pri
+nt.o ps7_cortexa9_0/lib/putnum.o ps7_cortexa9_0/lib/read.o ps7_cortexa9_0/lib/sbrk.o ps7_cortexa9_0/lib/sleep.o ps7_cortexa9_0/
+lib/time.o ps7_cortexa9_0/lib/translation_table.o ps7_cortexa9_0/lib/unlink.o ps7_cortexa9_0/lib/usleep.o ps7_cortexa9_0/lib/ve
+ctors.o ps7_cortexa9_0/lib/write.o ps7_cortexa9_0/lib/xadcps.o ps7_cortexa9_0/lib/xadcps_g.o ps7_cortexa9_0/lib/xadcps_intr.o p
+s7_cortexa9_0/lib/xadcps_selftest.o ps7_cortexa9_0/lib/xadcps_sinit.o ps7_cortexa9_0/lib/xcoresightpsdcc.o ps7_cortexa9_0/lib/x
+devcfg.o ps7_cortexa9_0/lib/xdevcfg_g.o ps7_cortexa9_0/lib/xdevcfg_hw.o ps7_cortexa9_0/lib/xdevcfg_intr.o ps7_cortexa9_0/lib/xd
+evcfg_selftest.o ps7_cortexa9_0/lib/xdevcfg_sinit.o ps7_cortexa9_0/lib/xdmaps.o ps7_cortexa9_0/lib/xdmaps_g.o ps7_cortexa9_0/li
+b/xdmaps_hw.o ps7_cortexa9_0/lib/xdmaps_selftest.o ps7_cortexa9_0/lib/xdmaps_sinit.o ps7_cortexa9_0/lib/xemacps.o ps7_cortexa9_
+0/lib/xemacps_bdring.o ps7_cortexa9_0/lib/xemacps_control.o ps7_cortexa9_0/lib/xemacps_g.o ps7_cortexa9_0/lib/xemacps_hw.o ps7_
+cortexa9_0/lib/xemacps_intr.o ps7_cortexa9_0/lib/xemacps_sinit.o ps7_cortexa9_0/lib/xgpiops.o ps7_cortexa9_0/lib/xgpiops_g.o ps
+7_cortexa9_0/lib/xgpiops_hw.o ps7_cortexa9_0/lib/xgpiops_intr.o ps7_cortexa9_0/lib/xgpiops_selftest.o ps7_cortexa9_0/lib/xgpiop
+s_sinit.o ps7_cortexa9_0/lib/xil-crt0.o ps7_cortexa9_0/lib/xil_assert.o ps7_cortexa9_0/lib/xil_cache.o ps7_cortexa9_0/lib/xil_c
+locking.o ps7_cortexa9_0/lib/xil_exception.o ps7_cortexa9_0/lib/xil_mem.o ps7_cortexa9_0/lib/xil_misc_psreset_api.o ps7_cortexa
+9_0/lib/xil_mmu.o ps7_cortexa9_0/lib/xil_printf.o ps7_cortexa9_0/lib/xil_sleepcommon.o ps7_cortexa9_0/lib/xil_sleeptimer.o ps7_
+cortexa9_0/lib/xil_spinlock.o ps7_cortexa9_0/lib/xil_testcache.o ps7_cortexa9_0/lib/xil_testio.o ps7_cortexa9_0/lib/xil_testmem
+.o ps7_cortexa9_0/lib/xil_util.o ps7_cortexa9_0/lib/xinterrupt_wrap.o ps7_cortexa9_0/lib/xl2cc_counter.o ps7_cortexa9_0/lib/xpl
+atform_info.o ps7_cortexa9_0/lib/xpm_counter.o ps7_cortexa9_0/lib/xpm_init.o ps7_cortexa9_0/lib/xscugic.o ps7_cortexa9_0/lib/xs
+cugic_g.o ps7_cortexa9_0/lib/xscugic_hw.o ps7_cortexa9_0/lib/xscugic_intr.o ps7_cortexa9_0/lib/xscugic_selftest.o ps7_cortexa9_
+0/lib/xscugic_sinit.o ps7_cortexa9_0/lib/xscutimer.o ps7_cortexa9_0/lib/xscutimer_g.o ps7_cortexa9_0/lib/xscutimer_selftest.o p
+s7_cortexa9_0/lib/xscutimer_sinit.o ps7_cortexa9_0/lib/xscuwdt.o ps7_cortexa9_0/lib/xscuwdt_g.o ps7_cortexa9_0/lib/xscuwdt_self
+test.o ps7_cortexa9_0/lib/xscuwdt_sinit.o ps7_cortexa9_0/lib/xsdps.o ps7_cortexa9_0/lib/xsdps_card.o ps7_cortexa9_0/lib/xsdps_g
+.o ps7_cortexa9_0/lib/xsdps_host.o ps7_cortexa9_0/lib/xsdps_options.o ps7_cortexa9_0/lib/xsdps_sinit.o ps7_cortexa9_0/lib/xspip
+s.o ps7_cortexa9_0/lib/xspips_g.o ps7_cortexa9_0/lib/xspips_hw.o ps7_cortexa9_0/lib/xspips_options.o ps7_cortexa9_0/lib/xspips_
+selftest.o ps7_cortexa9_0/lib/xspips_sinit.o ps7_cortexa9_0/lib/xtime_l.o ps7_cortexa9_0/lib/xuartps.o ps7_cortexa9_0/lib/xuart
+ps_g.o ps7_cortexa9_0/lib/xuartps_hw.o ps7_cortexa9_0/lib/xuartps_intr.o ps7_cortexa9_0/lib/xuartps_options.o ps7_cortexa9_0/li
+b/xuartps_selftest.o ps7_cortexa9_0/lib/xuartps_sinit.o ps7_cortexa9_0/lib/xusbps.o ps7_cortexa9_0/lib/xusbps_endpoint.o ps7_co
+rtexa9_0/lib/xusbps_g.o ps7_cortexa9_0/lib/xusbps_hw.o ps7_cortexa9_0/lib/xusbps_intr.o ps7_cortexa9_0/lib/xusbps_sinit.o
+
+Finished building libraries
+
+make: Leaving directory '/home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/boot_bin/output/hw0/zynq_fsbl/zynq_f
+sbl_bsp'
+
+arm-none-eabi-gcc  -O2 -c -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -c fsbl_hooks.c -o fsbl_hooks.o -Izynq_f
+sbl_bsp/ps7_cortexa9_0/include -I.
+
+arm-none-eabi-gcc  -O2 -c -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -c image_mover.c -o image_mover.o -Izynq
+_fsbl_bsp/ps7_cortexa9_0/include -I.
+
+arm-none-eabi-gcc  -O2 -c -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -c main.c -o main.o -Izynq_fsbl_bsp/ps7_
+cortexa9_0/include -I.
+
+arm-none-eabi-gcc  -O2 -c -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -c md5.c -o md5.o -Izynq_fsbl_bsp/ps7_co
+rtexa9_0/include -I.
+
+arm-none-eabi-gcc  -O2 -c -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -c nand.c -o nand.o -Izynq_fsbl_bsp/ps7_
+cortexa9_0/include -I.
+
+arm-none-eabi-gcc  -O2 -c -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -c nor.c -o nor.o -Izynq_fsbl_bsp/ps7_co
+rtexa9_0/include -I.
+
+arm-none-eabi-gcc  -O2 -c -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -c pcap.c -o pcap.o -Izynq_fsbl_bsp/ps7_
+cortexa9_0/include -I.
+
+arm-none-eabi-gcc  -O2 -c -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -c ps7_init.c -o ps7_init.o -Izynq_fsbl_
+bsp/ps7_cortexa9_0/include -I.
+
+arm-none-eabi-gcc  -O2 -c -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -c qspi.c -o qspi.o -Izynq_fsbl_bsp/ps7_
+cortexa9_0/include -I.
+
+arm-none-eabi-gcc  -O2 -c -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -c rsa.c -o rsa.o -Izynq_fsbl_bsp/ps7_co
+rtexa9_0/include -I.
+
+arm-none-eabi-gcc  -O2 -c -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -c sd.c -o sd.o -Izynq_fsbl_bsp/ps7_cort
+exa9_0/include -I.
+
+arm-none-eabi-gcc  -O2 -c -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -c fsbl_handoff.S -o fsbl_handoff.o -Izy
+nq_fsbl_bsp/ps7_cortexa9_0/include -I.
+
+arm-none-eabi-gcc -o fsbl.elf fsbl_handoff.o fsbl_hooks.o image_mover.o main.o md5.o nand.o nor.o pcap.o ps7_init.o qspi.o rsa.
+o sd.o -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id
+=none -specs=Xilinx.spec  -lrsa -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-
+group -Wl,--start-group,-lrsa,-lxil,-lgcc,-lc,--end-group                                     -Wl,--gc-sections -Lzynq_fsbl_bsp
+/ps7_cortexa9_0/lib -L./ -Tlscript.ld
+
+Building the BSP Library for domain  - standalone_domain on processor ps7_cortexa9_0
+make --no-print-directory seq_libs
+
+Finished building libraries sequentially.
+
+make -j 10 --no-print-directory par_libs
+
+Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_9/src
+
+Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_12/src
+
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_9/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-
+none-eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-a
+bi=hard -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_12/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-no
+ne-eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi
+=hard -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_2/src
+
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
+ostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_8/src
+
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_8/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_9/src
+
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_9/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
+ostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_19/src
+
+Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_12/src
+
+make -C ps7_cortexa9_0/libsrc/emacps_v3_19/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eab
+i-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard 
+-nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_12/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eab
+i-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard 
+-nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+Running Make include in ps7_cortexa9_0/libsrc/scugic_v5_2/src
+
+make -C ps7_cortexa9_0/libsrc/scugic_v5_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_5/src
+
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_5/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-ea
+bi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard
+ -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_5/src
+
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_5/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+Running Make include in ps7_cortexa9_0/libsrc/sdps_v4_2/src
+
+make -C ps7_cortexa9_0/libsrc/sdps_v4_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-a
+s" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -no
+startfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+Running Make include in ps7_cortexa9_0/libsrc/spips_v3_9/src
+
+make -C ps7_cortexa9_0/libsrc/spips_v3_9/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
+ostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+Running Make include in ps7_cortexa9_0/libsrc/standalone_v9_0/src
+
+Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_13/src
+
+make -C ps7_cortexa9_0/libsrc/standalone_v9_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-
+eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=ha
+rd -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_8/src
+
+make -C ps7_cortexa9_0/libsrc/uartps_v3_13/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eab
+i-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard 
+-nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+make -C ps7_cortexa9_0/libsrc/usbps_v2_8/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
+ostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_7/src
+
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_7/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_9/src
+
+Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_12/src
+
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_9/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-non
+e-eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=
+hard -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_12/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-
+eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=ha
+rd -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_2/src
+
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+ "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_8/src
+
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_8/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+tartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_9/src
+
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_9/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+ "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_19/src
+
+Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_12/src
+
+make -C ps7_cortexa9_0/libsrc/emacps_v3_19/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-a
+s" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -no
+startfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+Running Make libs in ps7_cortexa9_0/libsrc/scugic_v5_2/src
+
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_12/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-a
+s" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -no
+startfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+make -C ps7_cortexa9_0/libsrc/scugic_v5_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+tartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_5/src
+
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_5/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
+ostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_5/src
+
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_5/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+tartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+Running Make libs in ps7_cortexa9_0/libsrc/sdps_v4_2/src
+
+make -C ps7_cortexa9_0/libsrc/sdps_v4_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+rtfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+Running Make libs in ps7_cortexa9_0/libsrc/spips_v3_9/src
+
+make -C ps7_cortexa9_0/libsrc/spips_v3_9/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+ "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+Running Make libs in ps7_cortexa9_0/libsrc/standalone_v9_0/src
+
+make -C ps7_cortexa9_0/libsrc/standalone_v9_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eab
+i-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard 
+-nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_13/src
+
+make -C ps7_cortexa9_0/libsrc/uartps_v3_13/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-a
+s" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -no
+startfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_8/src
+
+make -C ps7_cortexa9_0/libsrc/usbps_v2_8/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+ "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_7/src
+
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_7/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+tartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+Finished building libraries parallelly.
+
+make --no-print-directory archive
+
+arm-none-eabi-ar -r  ps7_cortexa9_0/lib/libxil.a ps7_cortexa9_0/lib/_exit.o ps7_cortexa9_0/lib/_open.o ps7_cortexa9_0/lib/_sbrk
+.o ps7_cortexa9_0/lib/abort.o ps7_cortexa9_0/lib/asm_vectors.o ps7_cortexa9_0/lib/boot.o ps7_cortexa9_0/lib/close.o ps7_cortexa
+9_0/lib/cpputest_time.o ps7_cortexa9_0/lib/cpu_init.o ps7_cortexa9_0/lib/errno.o ps7_cortexa9_0/lib/fcntl.o ps7_cortexa9_0/lib/
+fstat.o ps7_cortexa9_0/lib/getentropy.o ps7_cortexa9_0/lib/getpid.o ps7_cortexa9_0/lib/inbyte.o ps7_cortexa9_0/lib/isatty.o ps7
+_cortexa9_0/lib/kill.o ps7_cortexa9_0/lib/lseek.o ps7_cortexa9_0/lib/open.o ps7_cortexa9_0/lib/outbyte.o ps7_cortexa9_0/lib/pri
+nt.o ps7_cortexa9_0/lib/putnum.o ps7_cortexa9_0/lib/read.o ps7_cortexa9_0/lib/sbrk.o ps7_cortexa9_0/lib/sleep.o ps7_cortexa9_0/
+lib/time.o ps7_cortexa9_0/lib/translation_table.o ps7_cortexa9_0/lib/unlink.o ps7_cortexa9_0/lib/usleep.o ps7_cortexa9_0/lib/ve
+ctors.o ps7_cortexa9_0/lib/write.o ps7_cortexa9_0/lib/xadcps.o ps7_cortexa9_0/lib/xadcps_g.o ps7_cortexa9_0/lib/xadcps_intr.o p
+s7_cortexa9_0/lib/xadcps_selftest.o ps7_cortexa9_0/lib/xadcps_sinit.o ps7_cortexa9_0/lib/xcoresightpsdcc.o ps7_cortexa9_0/lib/x
+devcfg.o ps7_cortexa9_0/lib/xdevcfg_g.o ps7_cortexa9_0/lib/xdevcfg_hw.o ps7_cortexa9_0/lib/xdevcfg_intr.o ps7_cortexa9_0/lib/xd
+evcfg_selftest.o ps7_cortexa9_0/lib/xdevcfg_sinit.o ps7_cortexa9_0/lib/xdmaps.o ps7_cortexa9_0/lib/xdmaps_g.o ps7_cortexa9_0/li
+b/xdmaps_hw.o ps7_cortexa9_0/lib/xdmaps_selftest.o ps7_cortexa9_0/lib/xdmaps_sinit.o ps7_cortexa9_0/lib/xemacps.o ps7_cortexa9_
+0/lib/xemacps_bdring.o ps7_cortexa9_0/lib/xemacps_control.o ps7_cortexa9_0/lib/xemacps_g.o ps7_cortexa9_0/lib/xemacps_hw.o ps7_
+cortexa9_0/lib/xemacps_intr.o ps7_cortexa9_0/lib/xemacps_sinit.o ps7_cortexa9_0/lib/xgpiops.o ps7_cortexa9_0/lib/xgpiops_g.o ps
+7_cortexa9_0/lib/xgpiops_hw.o ps7_cortexa9_0/lib/xgpiops_intr.o ps7_cortexa9_0/lib/xgpiops_selftest.o ps7_cortexa9_0/lib/xgpiop
+s_sinit.o ps7_cortexa9_0/lib/xil-crt0.o ps7_cortexa9_0/lib/xil_assert.o ps7_cortexa9_0/lib/xil_cache.o ps7_cortexa9_0/lib/xil_c
+locking.o ps7_cortexa9_0/lib/xil_exception.o ps7_cortexa9_0/lib/xil_mem.o ps7_cortexa9_0/lib/xil_misc_psreset_api.o ps7_cortexa
+9_0/lib/xil_mmu.o ps7_cortexa9_0/lib/xil_printf.o ps7_cortexa9_0/lib/xil_sleepcommon.o ps7_cortexa9_0/lib/xil_sleeptimer.o ps7_
+cortexa9_0/lib/xil_spinlock.o ps7_cortexa9_0/lib/xil_testcache.o ps7_cortexa9_0/lib/xil_testio.o ps7_cortexa9_0/lib/xil_testmem
+.o ps7_cortexa9_0/lib/xil_util.o ps7_cortexa9_0/lib/xinterrupt_wrap.o ps7_cortexa9_0/lib/xl2cc_counter.o ps7_cortexa9_0/lib/xpl
+atform_info.o ps7_cortexa9_0/lib/xpm_counter.o ps7_cortexa9_0/lib/xpm_init.o ps7_cortexa9_0/lib/xscugic.o ps7_cortexa9_0/lib/xs
+cugic_g.o ps7_cortexa9_0/lib/xscugic_hw.o ps7_cortexa9_0/lib/xscugic_intr.o ps7_cortexa9_0/lib/xscugic_selftest.o ps7_cortexa9_
+0/lib/xscugic_sinit.o ps7_cortexa9_0/lib/xscutimer.o ps7_cortexa9_0/lib/xscutimer_g.o ps7_cortexa9_0/lib/xscutimer_selftest.o p
+s7_cortexa9_0/lib/xscutimer_sinit.o ps7_cortexa9_0/lib/xscuwdt.o ps7_cortexa9_0/lib/xscuwdt_g.o ps7_cortexa9_0/lib/xscuwdt_self
+test.o ps7_cortexa9_0/lib/xscuwdt_sinit.o ps7_cortexa9_0/lib/xsdps.o ps7_cortexa9_0/lib/xsdps_card.o ps7_cortexa9_0/lib/xsdps_g
+.o ps7_cortexa9_0/lib/xsdps_host.o ps7_cortexa9_0/lib/xsdps_options.o ps7_cortexa9_0/lib/xsdps_sinit.o ps7_cortexa9_0/lib/xspip
+s.o ps7_cortexa9_0/lib/xspips_g.o ps7_cortexa9_0/lib/xspips_hw.o ps7_cortexa9_0/lib/xspips_options.o ps7_cortexa9_0/lib/xspips_
+selftest.o ps7_cortexa9_0/lib/xspips_sinit.o ps7_cortexa9_0/lib/xtime_l.o ps7_cortexa9_0/lib/xuartps.o ps7_cortexa9_0/lib/xuart
+ps_g.o ps7_cortexa9_0/lib/xuartps_hw.o ps7_cortexa9_0/lib/xuartps_intr.o ps7_cortexa9_0/lib/xuartps_options.o ps7_cortexa9_0/li
+b/xuartps_selftest.o ps7_cortexa9_0/lib/xuartps_sinit.o ps7_cortexa9_0/lib/xusbps.o ps7_cortexa9_0/lib/xusbps_endpoint.o ps7_co
+rtexa9_0/lib/xusbps_g.o ps7_cortexa9_0/lib/xusbps_hw.o ps7_cortexa9_0/lib/xusbps_intr.o ps7_cortexa9_0/lib/xusbps_sinit.o
+
+Finished building libraries
+
+xspips_g.c:29:9: warning: missing initializer for field 'IntrId' of 'XSpiPs_Config' [-Wmissing-field-initializers]
+   29 |         },
+      |         ^
+In file included from xspips_g.c:17:
+xspips.h:394:13: note: 'IntrId' declared here
+  394 |         u16 IntrId;             /**< Bits[11:0] Interrupt-id Bits[15:12]
+      |             ^~~~~~
+xspips_g.c:34:9: warning: missing initializer for field 'IntrId' of 'XSpiPs_Config' [-Wmissing-field-initializers]
+   34 |         }
+      |         ^
+xspips.h:394:13: note: 'IntrId' declared here
+  394 |         u16 IntrId;             /**< Bits[11:0] Interrupt-id Bits[15:12]
+      |             ^~~~~~
+xtime_l.c:45:9: note: '#pragma message: For the sleep routines, Global timer is being used'
+   45 | #pragma message ("For the sleep routines, Global timer is being used")
+      |         ^~~~~~~
+/xilinx/Vitis/2023.2/gnu/aarch32/lin/gcc-arm-none-eabi/bin/../x86_64-oesdk-linux/usr/bin/arm-xilinx-eabi/arm-xilinx-eabi-ar.real: creating ps7_cortexa9_0/lib/libxil.a
+xspips_g.c:29:9: warning: missing initializer for field 'IntrId' of 'XSpiPs_Config' [-Wmissing-field-initializers]
+   29 |         },
+      |         ^
+In file included from xspips_g.c:17:
+xspips.h:394:13: note: 'IntrId' declared here
+  394 |         u16 IntrId;             /**< Bits[11:0] Interrupt-id Bits[15:12]
+      |             ^~~~~~
+xspips_g.c:34:9: warning: missing initializer for field 'IntrId' of 'XSpiPs_Config' [-Wmissing-field-initializers]
+   34 |         }
+      |         ^
+xspips.h:394:13: note: 'IntrId' declared here
+  394 |         u16 IntrId;             /**< Bits[11:0] Interrupt-id Bits[15:12]
+      |             ^~~~~~
+xtime_l.c:45:9: note: '#pragma message: For the sleep routines, Global timer is being used'
+   45 | #pragma message ("For the sleep routines, Global timer is being used")
+      |         ^~~~~~~
+/xilinx/Vitis/2023.2/gnu/aarch32/lin/gcc-arm-none-eabi/bin/../x86_64-oesdk-linux/usr/bin/arm-xilinx-eabi/arm-xilinx-eabi-ar.real: creating ps7_cortexa9_0/lib/libxil.a
+end of FSBL build
+adi_make_boot_bin.tcl done: boot_bin/BOOT.BIN
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Jul 31 17:09:31 2024...

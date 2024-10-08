@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:13:54 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Wed Jul 31 10:09:48 2024
+# Process ID: 29882
+# Current directory: /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/ad5592r_coraz7s.runs/system_sys_ps7_0_synth_1
+# Command line: vivado -log system_sys_ps7_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source system_sys_ps7_0.tcl
+# Log file: /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/ad5592r_coraz7s.runs/system_sys_ps7_0_synth_1/system_sys_ps7_0.vds
+# Journal file: /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/ad5592r_coraz7s.runs/system_sys_ps7_0_synth_1/vivado.jou
+# Running On: DESKTOP-QC14QP2, OS: Linux, CPU Frequency: 2592.007 MHz, CPU Physical cores: 6, Host memory: 8215 MB
+#-----------------------------------------------------------
+source system_sys_ps7_0.tcl -notrace

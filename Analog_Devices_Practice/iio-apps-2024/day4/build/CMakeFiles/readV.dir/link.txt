@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/readV.dir/read_voltage.c.o -o readV  -liio

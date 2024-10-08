@@ -1,0 +1,167 @@
+15:28:51 **** Incremental Build of configuration Debug for project ad5592r ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+ 
+make --no-print-directory main-build
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I/home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/software_1/system_top/export/system_top/sw/system_top/standalone_ps7_cortexa9_0/bspinclude/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:113:36: warning: passing argument 1 of 'axi_adc_init' from incompatible pointer type [-Wincompatible-pointer-types]
+  113 |                 ret = axi_adc_init(&axi_pwm_custom_core,  &axi_pwm_custom_param);
+      |                                    ^~~~~~~~~~~~~~~~~~~~
+      |                                    |
+      |                                    struct axi_adc_init **
+In file included from ../src/main.c:55:
+../src/axi_adc_core.h:181:39: note: expected 'struct axi_adc **' but argument is of type 'struct axi_adc_init **'
+  181 | int32_t axi_adc_init(struct axi_adc **adc_core,
+      |                      ~~~~~~~~~~~~~~~~~^~~~~~~~
+../src/main.c:128:41: warning: passing argument 1 of 'axi_adc_write' from incompatible pointer type [-Wincompatible-pointer-types]
+  128 |                  status = axi_adc_write(axi_pwm_custom_core, AXI_ADC_DATA_CHANNEL_0, value & 0x0fff);
+      |                                         ^~~~~~~~~~~~~~~~~~~
+      |                                         |
+      |                                         struct axi_adc_init *
+../src/axi_adc_core.h:190:39: note: expected 'struct axi_adc *' but argument is of type 'struct axi_adc_init *'
+  190 | int32_t axi_adc_write(struct axi_adc *adc,
+      |                       ~~~~~~~~~~~~~~~~^~~
+../src/main.c:131:37: warning: passing argument 1 of 'axi_adc_write' from incompatible pointer type [-Wincompatible-pointer-types]
+  131 |              status = axi_adc_write(axi_pwm_custom_core, AXI_ADC_DATA_CHANNEL_1, 0x0 & 0x0fff);
+      |                                     ^~~~~~~~~~~~~~~~~~~
+      |                                     |
+      |                                     struct axi_adc_init *
+../src/axi_adc_core.h:190:39: note: expected 'struct axi_adc *' but argument is of type 'struct axi_adc_init *'
+  190 | int32_t axi_adc_write(struct axi_adc *adc,
+      |                       ~~~~~~~~~~~~~~~~^~~
+../src/main.c:134:41: warning: passing argument 1 of 'axi_adc_write' from incompatible pointer type [-Wincompatible-pointer-types]
+  134 |                  status = axi_adc_write(axi_pwm_custom_core, AXI_ADC_DATA_CHANNEL_2, 0x0 & 0x0fff);
+      |                                         ^~~~~~~~~~~~~~~~~~~
+      |                                         |
+      |                                         struct axi_adc_init *
+../src/axi_adc_core.h:190:39: note: expected 'struct axi_adc *' but argument is of type 'struct axi_adc_init *'
+  190 | int32_t axi_adc_write(struct axi_adc *adc,
+      |                       ~~~~~~~~~~~~~~~~^~~
+../src/main.c:137:41: warning: passing argument 1 of 'axi_adc_write' from incompatible pointer type [-Wincompatible-pointer-types]
+  137 |                  status = axi_adc_write(axi_pwm_custom_core, AXI_ADC_DATA_CHANNEL_3, 0x0 & 0x0fff);
+      |                                         ^~~~~~~~~~~~~~~~~~~
+      |                                         |
+      |                                         struct axi_adc_init *
+../src/axi_adc_core.h:190:39: note: expected 'struct axi_adc *' but argument is of type 'struct axi_adc_init *'
+  190 | int32_t axi_adc_write(struct axi_adc *adc,
+      |                       ~~~~~~~~~~~~~~~~^~~
+../src/main.c:140:41: warning: passing argument 1 of 'axi_adc_write' from incompatible pointer type [-Wincompatible-pointer-types]
+  140 |                  status = axi_adc_write(axi_pwm_custom_core, AXI_ADC_DATA_CHANNEL_4, 0x0 & 0x0fff);
+      |                                         ^~~~~~~~~~~~~~~~~~~
+      |                                         |
+      |                                         struct axi_adc_init *
+../src/axi_adc_core.h:190:39: note: expected 'struct axi_adc *' but argument is of type 'struct axi_adc_init *'
+  190 | int32_t axi_adc_write(struct axi_adc *adc,
+      |                       ~~~~~~~~~~~~~~~~^~~
+../src/main.c:143:41: warning: passing argument 1 of 'axi_adc_write' from incompatible pointer type [-Wincompatible-pointer-types]
+  143 |                  status = axi_adc_write(axi_pwm_custom_core, AXI_ADC_DATA_CHANNEL_5, 0x0  & 0x0fff);
+      |                                         ^~~~~~~~~~~~~~~~~~~
+      |                                         |
+      |                                         struct axi_adc_init *
+../src/axi_adc_core.h:190:39: note: expected 'struct axi_adc *' but argument is of type 'struct axi_adc_init *'
+  190 | int32_t axi_adc_write(struct axi_adc *adc,
+      |                       ~~~~~~~~~~~~~~~~^~~
+../src/main.c:147:27: warning: passing argument 1 of 'axi_adc_read' from incompatible pointer type [-Wincompatible-pointer-types]
+  147 |              axi_adc_read(axi_pwm_custom_core, AXI_ADC_DATA_CHANNEL_0, &reg_data);
+      |                           ^~~~~~~~~~~~~~~~~~~
+      |                           |
+      |                           struct axi_adc_init *
+../src/axi_adc_core.h:186:38: note: expected 'struct axi_adc *' but argument is of type 'struct axi_adc_init *'
+  186 | int32_t axi_adc_read(struct axi_adc *adc,
+      |                      ~~~~~~~~~~~~~~~~^~~
+../src/main.c:148:27: warning: passing argument 1 of 'axi_adc_read' from incompatible pointer type [-Wincompatible-pointer-types]
+  148 |              axi_adc_read(axi_pwm_custom_core, AXI_ADC_DATA_CHANNEL_1, &reg_data1);
+      |                           ^~~~~~~~~~~~~~~~~~~
+      |                           |
+      |                           struct axi_adc_init *
+../src/axi_adc_core.h:186:38: note: expected 'struct axi_adc *' but argument is of type 'struct axi_adc_init *'
+  186 | int32_t axi_adc_read(struct axi_adc *adc,
+      |                      ~~~~~~~~~~~~~~~~^~~
+../src/main.c:149:27: warning: passing argument 1 of 'axi_adc_read' from incompatible pointer type [-Wincompatible-pointer-types]
+  149 |              axi_adc_read(axi_pwm_custom_core, AXI_ADC_DATA_CHANNEL_2, &reg_data2);
+      |                           ^~~~~~~~~~~~~~~~~~~
+      |                           |
+      |                           struct axi_adc_init *
+../src/axi_adc_core.h:186:38: note: expected 'struct axi_adc *' but argument is of type 'struct axi_adc_init *'
+  186 | int32_t axi_adc_read(struct axi_adc *adc,
+      |                      ~~~~~~~~~~~~~~~~^~~
+../src/main.c:150:27: warning: passing argument 1 of 'axi_adc_read' from incompatible pointer type [-Wincompatible-pointer-types]
+  150 |              axi_adc_read(axi_pwm_custom_core, AXI_ADC_DATA_CHANNEL_3, &reg_data3);
+      |                           ^~~~~~~~~~~~~~~~~~~
+      |                           |
+      |                           struct axi_adc_init *
+../src/axi_adc_core.h:186:38: note: expected 'struct axi_adc *' but argument is of type 'struct axi_adc_init *'
+  186 | int32_t axi_adc_read(struct axi_adc *adc,
+      |                      ~~~~~~~~~~~~~~~~^~~
+../src/main.c:151:27: warning: passing argument 1 of 'axi_adc_read' from incompatible pointer type [-Wincompatible-pointer-types]
+  151 |              axi_adc_read(axi_pwm_custom_core, AXI_ADC_DATA_CHANNEL_4, &reg_data4);
+      |                           ^~~~~~~~~~~~~~~~~~~
+      |                           |
+      |                           struct axi_adc_init *
+../src/axi_adc_core.h:186:38: note: expected 'struct axi_adc *' but argument is of type 'struct axi_adc_init *'
+  186 | int32_t axi_adc_read(struct axi_adc *adc,
+      |                      ~~~~~~~~~~~~~~~~^~~
+../src/main.c:152:27: warning: passing argument 1 of 'axi_adc_read' from incompatible pointer type [-Wincompatible-pointer-types]
+  152 |              axi_adc_read(axi_pwm_custom_core, AXI_ADC_DATA_CHANNEL_5, &reg_data5);
+      |                           ^~~~~~~~~~~~~~~~~~~
+      |                           |
+      |                           struct axi_adc_init *
+../src/axi_adc_core.h:186:38: note: expected 'struct axi_adc *' but argument is of type 'struct axi_adc_init *'
+  186 | int32_t axi_adc_read(struct axi_adc *adc,
+      |                      ~~~~~~~~~~~~~~~~^~~
+../src/main.c:156:39: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long unsigned int' [-Wformat=]
+  156 |                  printf("Read value: %d,%d,%d,%d,%d,%d\n",reg_data & 0x0fff,reg_data1 & 0x0fff, reg_data2 & 0x0fff, reg_data3 & 0x0fff, reg_data4 & 0x0fff, reg_data5 & 0x0fff);
+      |                                      ~^                   ~~~~~~~~~~~~~~~~~
+      |                                       |                            |
+      |                                       int                          long unsigned int
+      |                                      %ld
+../src/main.c:156:42: warning: format '%d' expects argument of type 'int', but argument 3 has type 'long unsigned int' [-Wformat=]
+  156 |                  printf("Read value: %d,%d,%d,%d,%d,%d\n",reg_data & 0x0fff,reg_data1 & 0x0fff, reg_data2 & 0x0fff, reg_data3 & 0x0fff, reg_data4 & 0x0fff, reg_data5 & 0x0fff);
+      |                                         ~^                                  ~~~~~~~~~~~~~~~~~~
+      |                                          |                                            |
+      |                                          int                                          long unsigned int
+      |                                         %ld
+../src/main.c:156:45: warning: format '%d' expects argument of type 'int', but argument 4 has type 'long unsigned int' [-Wformat=]
+  156 |                  printf("Read value: %d,%d,%d,%d,%d,%d\n",reg_data & 0x0fff,reg_data1 & 0x0fff, reg_data2 & 0x0fff, reg_data3 & 0x0fff, reg_data4 & 0x0fff, reg_data5 & 0x0fff);
+      |                                            ~^                                                   ~~~~~~~~~~~~~~~~~~
+      |                                             |                                                             |
+      |                                             int                                                           long unsigned int
+      |                                            %ld
+../src/main.c:156:48: warning: format '%d' expects argument of type 'int', but argument 5 has type 'long unsigned int' [-Wformat=]
+  156 |                  printf("Read value: %d,%d,%d,%d,%d,%d\n",reg_data & 0x0fff,reg_data1 & 0x0fff, reg_data2 & 0x0fff, reg_data3 & 0x0fff, reg_data4 & 0x0fff, reg_data5 & 0x0fff);
+      |                                               ~^                                                                    ~~~~~~~~~~~~~~~~~~
+      |                                                |                                                                              |
+      |                                                int                                                                            long unsigned int
+      |                                               %ld
+../src/main.c:156:51: warning: format '%d' expects argument of type 'int', but argument 6 has type 'long unsigned int' [-Wformat=]
+  156 |                  printf("Read value: %d,%d,%d,%d,%d,%d\n",reg_data & 0x0fff,reg_data1 & 0x0fff, reg_data2 & 0x0fff, reg_data3 & 0x0fff, reg_data4 & 0x0fff, reg_data5 & 0x0fff);
+      |                                                  ~^                                                                                     ~~~~~~~~~~~~~~~~~~
+      |                                                   |                                                                                               |
+      |                                                   int                                                                                             long unsigned int
+      |                                                  %ld
+../src/main.c:156:54: warning: format '%d' expects argument of type 'int', but argument 7 has type 'long unsigned int' [-Wformat=]
+  156 |                  printf("Read value: %d,%d,%d,%d,%d,%d\n",reg_data & 0x0fff,reg_data1 & 0x0fff, reg_data2 & 0x0fff, reg_data3 & 0x0fff, reg_data4 & 0x0fff, reg_data5 & 0x0fff);
+      |                                                     ~^                                                                                                      ~~~~~~~~~~~~~~~~~~
+      |                                                      |                                                                                                                |
+      |                                                      int                                                                                                              long unsigned int
+      |                                                     %ld
+Finished building: ../src/main.c
+ 
+Building target: ad5592r.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L/home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/software_1/system_top/export/system_top/sw/system_top/standalone_ps7_cortexa9_0/bsplib/lib -o "ad5592r.elf" ./src/ad5592r-base.o ./src/ad5592r.o ./src/axi_adc_core.o ./src/main.o ./src/no_os_alloc.o ./src/no_os_i2c.o ./src/no_os_spi.o ./src/no_os_util.o ./src/xilinx_axi_io.o ./src/xilinx_delay.o ./src/xilinx_spi.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: ad5592r.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size ad5592r.elf  |tee "ad5592r.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  74043	   2588	  22640	  99271	  183c7	ad5592r.elf
+Finished building: ad5592r.elf.size
+ 
+
+15:28:52 Build Finished (took 980ms)
+

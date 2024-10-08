@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:13:54 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Wed Jul 31 17:07:47 2024
+# Process ID: 2567
+# Current directory: /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s
+# Command line: vivado ad5592r_coraz7s.xpr
+# Log file: /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/vivado.log
+# Journal file: /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/vivado.jou
+# Running On: DESKTOP-QC14QP2, OS: Linux, CPU Frequency: 2592.007 MHz, CPU Physical cores: 6, Host memory: 8215 MB
+#-----------------------------------------------------------
+start_gui
+open_project ad5592r_coraz7s.xpr
+update_compile_order -fileset sources_1
+source ../../scripts/adi_make.tcl
+adi_make::boot_bin

@@ -1,0 +1,1373 @@
+/*
+
+AMD Vivado v2023.2 (64-bit) [Major: 2023, Minor: 2]
+SW Build: 4029153 on Fri Oct 13 20:13:54 MDT 2023
+IP Build: 4028589 on Sat Oct 14 00:45:43 MDT 2023
+IP Build: 4028589 on Sat Oct 14 00:45:43 MDT 2023
+
+Process ID (PID): 3748
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Wed Jul 31 14:01:28 EEST 2024
+Time zone: 	Eastern European Standard Time (Europe/Bucharest)
+
+OS: PRETTY_NAME="Kali GNU/Linux Rolling"
+OS Version: 6.1.21.2-microsoft-WSL2-K+
+OS Architecture: amd64
+Available processors (cores): 12
+LSB Release Description: Kali GNU/Linux Rolling
+
+Display: 1.0
+Screen size: 1920x1080
+Local screen bounds: x = 0, y = 0, width = 1920, height = 1045
+Screen resolution (DPI): 100
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+Scale size: 12
+OS font scaling: 100%
+Anti-Alias Enabled: false
+
+Java version: 	17.0.7 64-bit
+JavaFX version: 17.0.1
+Java home: 	/xilinx/Vivado/2023.2/tps/lnx64/jre17.0.7_7
+Java executable: 	/xilinx/Vivado/2023.2/tps/lnx64/jre17.0.7_7/bin/java
+Java arguments: 	[-Dsun.java2d.pmoffscreen=false, -Dhttps.protocols=TLSv1,TLSv1.1,TLSv1.2, -Dsun.java2d.xrender=false, -Djdk.gtk.version=2, -Dsun.java2d.uiScale.enabled=false, -Dswing.aatext=true, -XX:-UsePerfData, -Djdk.map.althashing.threshold=512, -XX:StringTableSize=4072, -XX:+UseStringDeduplication, -XX:MaxGCPauseMillis=200, -XX:+ParallelRefProcEnabled, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.base/java.nio=ALL-UNNAMED, --add-opens=java.desktop/sun.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/java.awt.event=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.base/java.nio=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.table=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.desktop/sun.awt.shell=ALL-UNNAMED, --add-exports=java.base/sun.security.action=ALL-UNNAMED, --add-exports=java.desktop/sun.font=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.X11=ALL-UNNAMED, -XX:NewSize=80m, -XX:MaxNewSize=80m, -Xms512m, -Xmx4072m, -Xss10m, -Xrs]
+Java initial memory (-Xms): 	512 MB
+Java maximum memory (-Xmx):	 3 GB
+
+User name: 	analog
+User home directory: /home/analog
+User working directory: /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /xilinx/Vivado
+HDI_APPROOT: /xilinx/Vivado/2023.2
+RDI_DATADIR: /xilinx/Vivado/2023.2/data
+RDI_BINDIR: /xilinx/Vivado/2023.2/bin
+
+Vivado preferences file: /home/analog/.Xilinx/Vivado/2023.2/vivado.xml
+Vivado preferences directory: /home/analog/.Xilinx/Vivado/2023.2/
+Vivado layouts directory: /home/analog/.Xilinx/Vivado/2023.2/data/layouts
+PlanAhead jar file: 	/xilinx/Vivado/2023.2/lib/classes/planAhead.jar
+Vivado log file: 	/home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/vivado.log
+Vivado journal file: 	/home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/vivado.jou
+Engine tmp dir: 	./.Xil/Vivado-3748-DESKTOP-QC14QP2
+Non-Default Parameters:	[]
+
+Xilinx & AMD Environment Variables
+--------------------------------------------------------------------------------------------
+RDI_APPROOT: /xilinx/Vivado/2023.2
+RDI_BASEROOT: /xilinx/Vivado
+RDI_BINROOT: /xilinx/Vivado/2023.2/bin
+RDI_BUILD: yes
+RDI_DATADIR: /xilinx/Vivado/2023.2/data
+RDI_INSTALLROOT: /xilinx
+RDI_INSTALLVER: 2023.2
+RDI_JAVA_PLATFORM: 
+RDI_JAVA_VERSION: 17.0.7_7
+RDI_LIBDIR: /xilinx/Vivado/2023.2/lib/lnx64.o/Default:/xilinx/Vivado/2023.2/lib/lnx64.o
+RDI_OPT_EXT: .o
+RDI_PATCHROOT: 
+RDI_PLATFORM: lnx64
+RDI_PREPEND_PATH: /xilinx/Vitis/2023.2/bin:/xilinx/Vivado/2023.2/ids_lite/ISE/bin/lin64
+RDI_PROG: /xilinx/Vivado/2023.2/bin/unwrapped/lnx64.o/vivado
+RDI_SESSION_INFO: /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s:DESKTOP-QC14QP2_1722423670_3671
+RDI_SHARED_DATA: /xilinx/SharedData/2023.2/data
+RDI_TPS_ROOT: /xilinx/Vivado/2023.2/tps/lnx64
+RDI_USE_JDK17: True
+SHELL: /bin/bash
+XILINX: /xilinx/Vivado/2023.2/ids_lite/ISE
+XILINX_DSP: /xilinx/Vivado/2023.2/ids_lite/ISE
+XILINX_HLS: /xilinx/Vitis_HLS/2023.2
+XILINX_PLANAHEAD: /xilinx/Vivado/2023.2
+XILINX_SDK: /xilinx/Vitis/2023.2
+XILINX_VITIS: /xilinx/Vitis/2023.2
+XILINX_VIVADO: /xilinx/Vivado/2023.2
+XILINX_VIVADO_HLS: /xilinx/Vivado/2023.2
+
+
+GUI allocated memory:	512 MB
+GUI max memory:		4,072 MB
+Engine allocated memory: 1,418 MB
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// Opening Vivado Project: ad5592r_coraz7s.xpr. Version: Vivado v2023.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FLOW_ADDED
+// Tcl Message: open_project ad5592r_coraz7s.xpr 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,498 MB. GUI used memory: 68 MB. Current time: 7/31/24, 2:01:29 PM EEST
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: MSGMGR_REFRESH_MSG
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 83 MB (+84802kb) [00:00:21]
+// [Engine Memory]: 1,899 MB (+1840171kb) [00:00:21]
+// [GUI Memory]: 105 MB (+18848kb) [00:00:21]
+// [GUI Memory]: 117 MB (+6851kb) [00:00:22]
+// WARNING: HEventQueue.dispatchEvent() is taking  3453 ms.
+// Tcl Message: open_project ad5592r_coraz7s.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/analog/workspace/practica/hdl/library'. INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/xilinx/Vivado/2023.2/data/ip'. 
+// [GUI Memory]: 128 MB (+5633kb) [00:00:23]
+// [GUI Memory]: 157 MB (+23588kb) [00:00:25]
+// Tcl Message: open_project: Time (s): cpu = 00:00:35 ; elapsed = 00:00:15 . Memory (MB): peak = 8003.949 ; gain = 601.672 ; free physical = 2837 ; free virtual = 6808 
+// Project name: ad5592r_coraz7s; location: /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s; part: xc7z007sclg400-1
+dismissDialog("Open Project"); // bq (Open Project Progress)
+// [Engine Memory]: 2,001 MB (+6617kb) [00:00:27]
+// Tcl Message: update_compile_order -fileset sources_1 
+// HMemoryUtils.trashcanNow. Engine heap size: 2,025 MB. GUI used memory: 78 MB. Current time: 7/31/24, 2:01:49 PM EEST
+// Elapsed time: 139 seconds
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 22); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 22); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// [Engine Memory]: 2,202 MB (+106048kb) [00:02:45]
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Open Target]", 23, false); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HW_TARGET
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ao (PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, auto_connect_target_menu)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl (Dont Echo) Command: 'rdi::info_commands get_hw_probes'
+// Tcl (Dont Echo) Command: 'load_features labtools'
+// TclEventType: LOAD_FEATURE
+// TclEventType: HW_SESSION_OPEN
+// WARNING: HEventQueue.dispatchEvent() is taking  2014 ms.
+// Tcl Message: open_hw_manager 
+// HMemoryUtils.trashcanNow. Engine heap size: 2,265 MB. GUI used memory: 80 MB. Current time: 7/31/24, 2:04:05 PM EEST
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // t (PAResourceOtoP.PAViews_PROJECT_SUMMARY, PlanAheadTabProject Summary)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+dismissDialog("Open Hardware Manager"); // bq (Open Hardware Manager Progress)
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: connect_hw_server -allow_non_jtag 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0 INFO: [Labtools 27-3417] Launching cs_server... 
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:   ******** Xilinx cs_server v2023.2.0   ****** Build date   : Oct 10 2023-07:01:56     **** Build number : 2023.2.1696910516       ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.       ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.    
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210370BCAD3EA 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {/home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/ad5592r_coraz7s.runs/impl_1/system_top.bit} [get_hw_devices xc7z007s_1] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {/home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/ad5592r_coraz7s.runs/impl_1/system_top.ltx} [get_hw_devices xc7z007s_1] 
+// Tcl Message: set_property FULL_PROBES.FILE {/home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/ad5592r_coraz7s.runs/impl_1/system_top.ltx} [get_hw_devices xc7z007s_1] 
+// Tcl Message: current_hw_device [get_hw_devices xc7z007s_1] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// WARNING: HEventQueue.dispatchEvent() is taking  1911 ms.
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7z007s_1] 0] 
+// Tcl Message: INFO: [Labtools 27-2302] Device xc7z007s (JTAG device index = 1) is programmed with a design that has 1 ILA core(s). 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Tcl Message: display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z007s_1] -filter {CELL_NAME=~"i_system_wrapper/system_i/ila_0"}]] 
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_TITLE
+dismissDialog("Auto Connect"); // bq (Auto Connect Progress)
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_CLOSE_WCFG
+// Elapsed time: 178 seconds
+closeView(PAResourceOtoP.PAViews_DASHBOARD, "hw_ila_1"); // d (PAResourceOtoP.PAViews_DASHBOARD, PlanAheadTabhw_ila_1)
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// Elapsed time: 29 seconds
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "localhost (1) ; Connected", 0, "localhost (1)", 0, true, false, false, false, true, false); // m (PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE) - Popup Trigger - Node
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xilinx_tcf/Digilent/210370BCAD3EA (2) ; Open", 1, "xilinx_tcf/Digilent/210370BCAD3EA (2)", 0, true, false, false, false, true, false); // m (PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE) - Popup Trigger - Node
+// [GUI Memory]: 169 MB (+3894kb) [00:06:30]
+selectMenuItem(PAResourceCommand.PACommandNames_REFRESH_TARGET, "Refresh Target"); // ao (PAResourceCommand.PACommandNames_REFRESH_TARGET, refresh_target_menu)
+// Run Command: PAResourceCommand.PACommandNames_REFRESH_TARGET
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// Tcl Message: refresh_hw_target {localhost:3121/xilinx_tcf/Digilent/210370BCAD3EA} 
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Open Target]", 23, false); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HW_TARGET
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Open Target]", 23, false); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HW_TARGET
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Program Device]", 24, false); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Add Configuration Memory Device]", 25, false); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Run Command: PAResourceCommand.PACommandNames_ADD_CONFIG_MEMORY
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Program Device]", 24, false); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectMenuItem((HResource) null, "xc7z007s_1"); // ao (xc7z007s_1)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl (Dont Echo) Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (RDIResource.BaseDialog_CANCEL)
+dismissDialog("Program Device"); // aP (dialog0)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 22, true); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree) - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 22, true); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree) - Node
+selectButton(PAResourceCommand.PACommandNames_RUN_TRIGGER, "Hardware_run_trigger"); // B (PAResourceCommand.PACommandNames_RUN_TRIGGER, Hardware_run_trigger)
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z007s_1] -filter {CELL_NAME=~"i_system_wrapper/system_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2024-Jul-31 14:08:10 
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z007s_1] -filter {CELL_NAME=~"i_system_wrapper/system_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// WARNING: HEventQueue.dispatchEvent() is taking  1710 ms.
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z007s_1] -filter {CELL_NAME=~"i_system_wrapper/system_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2024-Jul-31 14:08:10 
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,191 MB. GUI used memory: 93 MB. Current time: 7/31/24, 2:08:13 PM EEST
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/ad5592r_coraz7s.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// Elapsed time: 44 seconds
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 336, 25); // b (RDIResource.RDIViews_WAVEFORM_VIEWER, PlanAheadTabWaveform Viewer_viewer)
+/********** startDrag (1397, 256); // b (RDIResource.RDIViews_WAVEFORM_VIEWER, PlanAheadTabWaveform Viewer_viewer) **********/
+/********** endDrag (1229, 269); // b (RDIResource.RDIViews_WAVEFORM_VIEWER, PlanAheadTabWaveform Viewer_viewer) **********/
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 13, 59); // b (RDIResource.RDIViews_WAVEFORM_VIEWER, PlanAheadTabWaveform Viewer_viewer)
+/********** startDrag (1089, 289); // b (RDIResource.RDIViews_WAVEFORM_VIEWER, PlanAheadTabWaveform Viewer_viewer) **********/
+// HMemoryUtils.trashcanNow. Engine heap size: 2,167 MB. GUI used memory: 153 MB. Current time: 7/31/24, 2:08:55 PM EEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,168 MB. GUI used memory: 92 MB. Current time: 7/31/24, 2:08:56 PM EEST
+/********** endDrag (1141, 287); // b (RDIResource.RDIViews_WAVEFORM_VIEWER, PlanAheadTabWaveform Viewer_viewer) **********/
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 74, 54); // b (RDIResource.RDIViews_WAVEFORM_VIEWER, PlanAheadTabWaveform Viewer_viewer)
+/********** leftMouseClick (1141, 287, true); // b (RDIResource.RDIViews_WAVEFORM_VIEWER, PlanAheadTabWaveform Viewer_viewer) **********/
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// HMemoryUtils.trashcanNow. Engine heap size: 2,168 MB. GUI used memory: 92 MB. Current time: 7/31/24, 2:08:58 PM EEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// HMemoryUtils.trashcanNow. Engine heap size: 2,168 MB. GUI used memory: 92 MB. Current time: 7/31/24, 2:08:59 PM EEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// HMemoryUtils.trashcanNow. Engine heap size: 2,168 MB. GUI used memory: 94 MB. Current time: 7/31/24, 2:08:59 PM EEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// HMemoryUtils.trashcanNow. Engine heap size: 2,168 MB. GUI used memory: 92 MB. Current time: 7/31/24, 2:09:00 PM EEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 6, 2); // b (RDIResource.RDIViews_WAVEFORM_VIEWER, PlanAheadTabWaveform Viewer_viewer)
+// TclEventType: WAVEFORM_SELECTED_WAVE_OBJECT_NAMES
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+/********** startDrag (1086, 240); // b (RDIResource.RDIViews_WAVEFORM_VIEWER, PlanAheadTabWaveform Viewer_viewer) **********/
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// HMemoryUtils.trashcanNow. Engine heap size: 2,168 MB. GUI used memory: 92 MB. Current time: 7/31/24, 2:09:03 PM EEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// HMemoryUtils.trashcanNow. Engine heap size: 2,168 MB. GUI used memory: 92 MB. Current time: 7/31/24, 2:09:03 PM EEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// HMemoryUtils.trashcanNow. Engine heap size: 2,168 MB. GUI used memory: 93 MB. Current time: 7/31/24, 2:09:03 PM EEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// HMemoryUtils.trashcanNow. Engine heap size: 2,168 MB. GUI used memory: 94 MB. Current time: 7/31/24, 2:09:03 PM EEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// HMemoryUtils.trashcanNow. Engine heap size: 2,168 MB. GUI used memory: 92 MB. Current time: 7/31/24, 2:09:03 PM EEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// HMemoryUtils.trashcanNow. Engine heap size: 2,168 MB. GUI used memory: 94 MB. Current time: 7/31/24, 2:09:03 PM EEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// [Engine Memory]: 3,110 MB (+836823kb) [00:07:47]
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// HMemoryUtils.trashcanNow. Engine heap size: 3,110 MB. GUI used memory: 94 MB. Current time: 7/31/24, 2:09:04 PM EEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// HMemoryUtils.trashcanNow. Engine heap size: 3,110 MB. GUI used memory: 92 MB. Current time: 7/31/24, 2:09:04 PM EEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// HMemoryUtils.trashcanNow. Engine heap size: 2,169 MB. GUI used memory: 94 MB. Current time: 7/31/24, 2:09:05 PM EEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_SELECTED_WAVE_OBJECT_NAMES
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// HMemoryUtils.trashcanNow. Engine heap size: 2,169 MB. GUI used memory: 92 MB. Current time: 7/31/24, 2:09:05 PM EEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// HMemoryUtils.trashcanNow. Engine heap size: 2,169 MB. GUI used memory: 95 MB. Current time: 7/31/24, 2:09:07 PM EEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// HMemoryUtils.trashcanNow. Engine heap size: 2,169 MB. GUI used memory: 94 MB. Current time: 7/31/24, 2:09:07 PM EEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// HMemoryUtils.trashcanNow. Engine heap size: 2,169 MB. GUI used memory: 94 MB. Current time: 7/31/24, 2:09:08 PM EEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+/********** endDrag (1070, 229); // b (RDIResource.RDIViews_WAVEFORM_VIEWER, PlanAheadTabWaveform Viewer_viewer) **********/
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 163 seconds
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "XADC ; ", 4, "XADC", 0, false); // m (PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE)
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "XADC ; ", 4, "XADC", 0, false, false, false, false, false, true); // m (PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE) - Double Click
+// Run Command: PAResourceCommand.PACommandNames_NEW_HARDWARE_DASHBOARD
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (RDIResource.BaseDialog_OK)
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// 'G' command handler elapsed time: 3 seconds
+// WARNING: HEventQueue.dispatchEvent() is taking  1004 ms.
+// Tcl Message: save_wave_config {/home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/ad5592r_coraz7s.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wcfg} 
+dismissDialog("New Dashboard"); // a (dashboard_1)
+// TclEventType: HW_SYSMON_CHANGE
+// Elapsed time: 75 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (RDIResource.BaseDialog_OK)
+closeView(PAResourceOtoP.PAViews_DASHBOARD, "dashboard_1"); // d (PAResourceOtoP.PAViews_DASHBOARD, PlanAheadTabdashboard_1)
+dismissDialog("Delete Dashboard"); // u (dialog1)
+// Elapsed time: 54 seconds
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 270, 26); // b (RDIResource.RDIViews_WAVEFORM_VIEWER, PlanAheadTabWaveform Viewer_viewer)
+/********** startDrag (1340, 260); // b (RDIResource.RDIViews_WAVEFORM_VIEWER, PlanAheadTabWaveform Viewer_viewer) **********/
+/********** endDrag (1338, 260); // b (RDIResource.RDIViews_WAVEFORM_VIEWER, PlanAheadTabWaveform Viewer_viewer) **********/
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectButton(PAResourceEtoH.HardwareIlaWaveformView_RUN_TRIGGER_FOR_THIS_ILA_CORE, "Waveform Viewer_run_trigger"); // B (PAResourceEtoH.HardwareIlaWaveformView_RUN_TRIGGER_FOR_THIS_ILA_CORE, Waveform Viewer_run_trigger)
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z007s_1] -filter {CELL_NAME=~"i_system_wrapper/system_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2024-Jul-31 14:14:10 
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z007s_1] -filter {CELL_NAME=~"i_system_wrapper/system_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// HMemoryUtils.trashcanNow. Engine heap size: 2,197 MB. GUI used memory: 94 MB. Current time: 7/31/24, 2:14:10 PM EEST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z007s_1] -filter {CELL_NAME=~"i_system_wrapper/system_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2024-Jul-31 14:14:10 INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/ad5592r_coraz7s.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Elapsed time: 40 seconds
+selectButton(PAResourceEtoH.HardwareIlaWaveformView_RUN_TRIGGER_FOR_THIS_ILA_CORE, "Waveform Viewer_run_trigger"); // B (PAResourceEtoH.HardwareIlaWaveformView_RUN_TRIGGER_FOR_THIS_ILA_CORE, Waveform Viewer_run_trigger)
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z007s_1] -filter {CELL_NAME=~"i_system_wrapper/system_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2024-Jul-31 14:14:50 
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z007s_1] -filter {CELL_NAME=~"i_system_wrapper/system_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z007s_1] -filter {CELL_NAME=~"i_system_wrapper/system_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2024-Jul-31 14:14:50 INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/ad5592r_coraz7s.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Elapsed time: 21 seconds
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // j (PAResourceTtoZ.TaskBanner_CLOSE)
+closeTask("Program and Debug", "Hardware Manager", "DesignTask.PROGRAM_DEBUG");
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (RDIResource.BaseDialog_OK)
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// Tcl Message: save_wave_config {/home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/ad5592r_coraz7s.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wcfg} 
+// TclEventType: WAVEFORM_MODEL_EVENT
+dismissDialog("Confirm Close"); // u (dialog2)
+// TclEventType: WAVEFORM_CLOSE_WCFG
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+closeView(PAResourceOtoP.PAViews_DASHBOARD, "hw_ila_1"); // d (PAResourceOtoP.PAViews_DASHBOARD, PlanAheadTabhw_ila_1)
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_SESSION_CLOSE
+// WARNING: HEventQueue.dispatchEvent() is taking  1312 ms.
+// Tcl Message: close_hw_manager 
+dismissDialog("Close Hardware Manager"); // bq (Close Hardware Manager Progress)
+// Elapsed time: 103 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Open Target]", 23, false); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HW_TARGET
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ao (PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, auto_connect_target_menu)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl (Dont Echo) Command: 'rdi::info_commands get_hw_probes'
+// TclEventType: HW_SESSION_OPEN
+// WARNING: HEventQueue.dispatchEvent() is taking  1275 ms.
+// Tcl Message: open_hw_manager 
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // t (PAResourceOtoP.PAViews_PROJECT_SUMMARY, PlanAheadTabProject Summary)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+dismissDialog("Open Hardware Manager"); // bq (Open Hardware Manager Progress)
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: connect_hw_server -allow_non_jtag 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0 INFO: [Labtools 27-3417] Launching cs_server... 
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:   ******** Xilinx cs_server v2023.2.0   ****** Build date   : Oct 10 2023-07:01:56     **** Build number : 2023.2.1696910516       ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.       ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.    
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210370BCAD3EA 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {/home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/ad5592r_coraz7s.runs/impl_1/system_top.bit} [get_hw_devices xc7z007s_1] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {/home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/ad5592r_coraz7s.runs/impl_1/system_top.ltx} [get_hw_devices xc7z007s_1] 
+// Tcl Message: set_property FULL_PROBES.FILE {/home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/ad5592r_coraz7s.runs/impl_1/system_top.ltx} [get_hw_devices xc7z007s_1] 
+// Tcl Message: current_hw_device [get_hw_devices xc7z007s_1] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// WARNING: HEventQueue.dispatchEvent() is taking  1254 ms.
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7z007s_1] 0] 
+// Tcl Message: INFO: [Labtools 27-2302] Device xc7z007s (JTAG device index = 1) is programmed with a design that has 1 ILA core(s). 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// Tcl Message: display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z007s_1] -filter {CELL_NAME=~"i_system_wrapper/system_i/ila_0"}]] 
+dismissDialog("Auto Connect"); // bq (Auto Connect Progress)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectButton(PAResourceEtoH.HardwareIlaWaveformView_RUN_TRIGGER_FOR_THIS_ILA_CORE, "Waveform Viewer_run_trigger"); // B (PAResourceEtoH.HardwareIlaWaveformView_RUN_TRIGGER_FOR_THIS_ILA_CORE, Waveform Viewer_run_trigger)
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z007s_1] -filter {CELL_NAME=~"i_system_wrapper/system_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2024-Jul-31 14:17:13 
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z007s_1] -filter {CELL_NAME=~"i_system_wrapper/system_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// HMemoryUtils.trashcanNow. Engine heap size: 2,200 MB. GUI used memory: 114 MB. Current time: 7/31/24, 2:17:14 PM EEST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z007s_1] -filter {CELL_NAME=~"i_system_wrapper/system_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2024-Jul-31 14:17:13 INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/ad5592r_coraz7s.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectButton(PAResourceItoN.IlaProbeTablePanel_ADD_PROBE, "IlaProbeTablePanel_new"); // B (PAResourceItoN.IlaProbeTablePanel_ADD_PROBE, IlaProbeTablePanel_new)
+selectTree(PAResourceOtoP.ProbesView_PROBES_TREE, "[root, i_system_wrapper/system_i/axi_pwm_custom_xcr_pwm_led_0]", 0, false); // A (PAResourceOtoP.ProbesView_PROBES_TREE)
+selectTree(PAResourceOtoP.ProbesView_PROBES_TREE, "[root, i_system_wrapper/system_i/axi_pwm_custom_xcr_pwm_led_0]", 0, false); // A (PAResourceOtoP.ProbesView_PROBES_TREE)
+selectTable(PAResourceTtoZ.TriggerSetupPanel_TABLE, "i_system_wrapper/system_i/axi_pwm_custom_xcr_pwm_led_0 ; ==   ; [B]   ; X ; probe0[0] ; ", 0, "X", 3); // g.c (PAResourceTtoZ.TriggerSetupPanel_TABLE)
+// [GUI Memory]: 184 MB (+6778kb) [00:16:22]
+editTable(PAResourceTtoZ.TriggerSetupPanel_TABLE, "X", 0, "Value", 3); // g.c (PAResourceTtoZ.TriggerSetupPanel_TABLE)
+// TclEventType: DEBUG_PROBE_CHANGE
+// Tcl Message: set_property TRIGGER_COMPARE_VALUE eq1'bR [get_hw_probes i_system_wrapper/system_i/axi_pwm_custom_xcr_pwm_led_0 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z007s_1] -filter {CELL_NAME=~"i_system_wrapper/system_i/ila_0"}]] 
+selectButton(PAResourceEtoH.HardwareIlaWaveformView_RUN_TRIGGER_FOR_THIS_ILA_CORE, "Waveform Viewer_run_trigger"); // B (PAResourceEtoH.HardwareIlaWaveformView_RUN_TRIGGER_FOR_THIS_ILA_CORE, Waveform Viewer_run_trigger)
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z007s_1] -filter {CELL_NAME=~"i_system_wrapper/system_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2024-Jul-31 14:17:49 
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z007s_1] -filter {CELL_NAME=~"i_system_wrapper/system_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// HMemoryUtils.trashcanNow. Engine heap size: 2,200 MB. GUI used memory: 96 MB. Current time: 7/31/24, 2:17:49 PM EEST
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z007s_1] -filter {CELL_NAME=~"i_system_wrapper/system_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2024-Jul-31 14:17:49 INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/ad5592r_coraz7s.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Elapsed time: 14 seconds
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 7, 6); // b (RDIResource.RDIViews_WAVEFORM_VIEWER, PlanAheadTabWaveform Viewer_viewer)
+// TclEventType: WAVEFORM_SELECTED_WAVE_OBJECT_NAMES
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+/********** startDrag (1078, 237); // b (RDIResource.RDIViews_WAVEFORM_VIEWER, PlanAheadTabWaveform Viewer_viewer) **********/
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// HMemoryUtils.trashcanNow. Engine heap size: 2,193 MB. GUI used memory: 134 MB. Current time: 7/31/24, 2:18:03 PM EEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// HMemoryUtils.trashcanNow. Engine heap size: 2,185 MB. GUI used memory: 95 MB. Current time: 7/31/24, 2:18:03 PM EEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// HMemoryUtils.trashcanNow. Engine heap size: 2,185 MB. GUI used memory: 96 MB. Current time: 7/31/24, 2:18:03 PM EEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// HMemoryUtils.trashcanNow. Engine heap size: 2,185 MB. GUI used memory: 97 MB. Current time: 7/31/24, 2:18:04 PM EEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// HMemoryUtils.trashcanNow. Engine heap size: 2,185 MB. GUI used memory: 95 MB. Current time: 7/31/24, 2:18:04 PM EEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// HMemoryUtils.trashcanNow. Engine heap size: 2,185 MB. GUI used memory: 96 MB. Current time: 7/31/24, 2:18:04 PM EEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// HMemoryUtils.trashcanNow. Engine heap size: 2,185 MB. GUI used memory: 96 MB. Current time: 7/31/24, 2:18:04 PM EEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// HMemoryUtils.trashcanNow. Engine heap size: 2,185 MB. GUI used memory: 96 MB. Current time: 7/31/24, 2:18:04 PM EEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// HMemoryUtils.trashcanNow. Engine heap size: 2,716 MB. GUI used memory: 95 MB. Current time: 7/31/24, 2:18:04 PM EEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// HMemoryUtils.trashcanNow. Engine heap size: 2,190 MB. GUI used memory: 95 MB. Current time: 7/31/24, 2:18:04 PM EEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+/********** endDrag (1475, 243); // b (RDIResource.RDIViews_WAVEFORM_VIEWER, PlanAheadTabWaveform Viewer_viewer) **********/
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,185 MB. GUI used memory: 98 MB. Current time: 7/31/24, 2:18:07 PM EEST
+// Elapsed time: 64 seconds
+setText(PAResourceTtoZ.TriggerCaptureControlPanel_NUMBER_OF_WINDOWS, "4"); // t (PAResourceTtoZ.TriggerCaptureControlPanel_NUMBER_OF_WINDOWS)
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: startgroup  
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: set_property CONTROL.WINDOW_COUNT 4 [get_hw_ilas -of_objects [get_hw_devices xc7z007s_1] -filter {CELL_NAME=~"i_system_wrapper/system_i/ila_0"}] 
+// Tcl Message: set_property CONTROL.DATA_DEPTH 256 [get_hw_ilas -of_objects [get_hw_devices xc7z007s_1] -filter {CELL_NAME=~"i_system_wrapper/system_i/ila_0"}] 
+// Tcl Message: set_property CONTROL.TRIGGER_POSITION 255 [get_hw_ilas -of_objects [get_hw_devices xc7z007s_1] -filter {CELL_NAME=~"i_system_wrapper/system_i/ila_0"}] 
+// Tcl Message: endgroup 
+// Tcl Message: startgroup  
+// Tcl Message: set_property CONTROL.WINDOW_COUNT 4 [get_hw_ilas -of_objects [get_hw_devices xc7z007s_1] -filter {CELL_NAME=~"i_system_wrapper/system_i/ila_0"}] 
+// Tcl Message: set_property CONTROL.DATA_DEPTH 256 [get_hw_ilas -of_objects [get_hw_devices xc7z007s_1] -filter {CELL_NAME=~"i_system_wrapper/system_i/ila_0"}] 
+// Tcl Message: set_property CONTROL.TRIGGER_POSITION 255 [get_hw_ilas -of_objects [get_hw_devices xc7z007s_1] -filter {CELL_NAME=~"i_system_wrapper/system_i/ila_0"}] 
+// Tcl Message: endgroup 
+// Tcl Message: startgroup  
+// Tcl Message: set_property CONTROL.DATA_DEPTH 256 [get_hw_ilas -of_objects [get_hw_devices xc7z007s_1] -filter {CELL_NAME=~"i_system_wrapper/system_i/ila_0"}] 
+// Tcl Message: set_property CONTROL.TRIGGER_POSITION 255 [get_hw_ilas -of_objects [get_hw_devices xc7z007s_1] -filter {CELL_NAME=~"i_system_wrapper/system_i/ila_0"}] 
+// Tcl Message: endgroup 
+selectComboBox(PAResourceTtoZ.TriggerCaptureControlPanel_WINDOW_DATA_DEPTH, "Window data depth:", "256", 8); // d (PAResourceTtoZ.TriggerCaptureControlPanel_WINDOW_DATA_DEPTH, Window data depth:)
+// Elapsed time: 54 seconds
+setText(PAResourceTtoZ.TriggerCaptureControlPanel_POSITION_OF_TRIGGER_MARKER_WITHIN, "0"); // t (PAResourceTtoZ.TriggerCaptureControlPanel_POSITION_OF_TRIGGER_MARKER_WITHIN)
+selectButton(RDIResource.GraphicalView_ZOOM_FIT, "Waveform Viewer_zoom_fit"); // B (RDIResource.GraphicalView_ZOOM_FIT, Waveform Viewer_zoom_fit)
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: set_property CONTROL.TRIGGER_POSITION 0 [get_hw_ilas -of_objects [get_hw_devices xc7z007s_1] -filter {CELL_NAME=~"i_system_wrapper/system_i/ila_0"}] 
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectButton(PAResourceEtoH.HardwareIlaWaveformView_RUN_TRIGGER_FOR_THIS_ILA_CORE, "Waveform Viewer_run_trigger"); // B (PAResourceEtoH.HardwareIlaWaveformView_RUN_TRIGGER_FOR_THIS_ILA_CORE, Waveform Viewer_run_trigger)
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z007s_1] -filter {CELL_NAME=~"i_system_wrapper/system_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2024-Jul-31 14:20:17 
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z007s_1] -filter {CELL_NAME=~"i_system_wrapper/system_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z007s_1] -filter {CELL_NAME=~"i_system_wrapper/system_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-2214] The ILA core 'hw_ila_1' triggered in the last of '4' windows, at 2024-Jul-31 14:20:17. INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/ad5592r_coraz7s.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 427, 5); // b (RDIResource.RDIViews_WAVEFORM_VIEWER, PlanAheadTabWaveform Viewer_viewer)
+// TclEventType: WAVEFORM_SELECTED_WAVE_OBJECT_NAMES
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// HMemoryUtils.trashcanNow. Engine heap size: 2,195 MB. GUI used memory: 167 MB. Current time: 7/31/24, 2:20:23 PM EEST
+/********** startDrag (1479, 237); // b (RDIResource.RDIViews_WAVEFORM_VIEWER, PlanAheadTabWaveform Viewer_viewer) **********/
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// HMemoryUtils.trashcanNow. Engine heap size: 2,187 MB. GUI used memory: 95 MB. Current time: 7/31/24, 2:20:23 PM EEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// HMemoryUtils.trashcanNow. Engine heap size: 2,187 MB. GUI used memory: 95 MB. Current time: 7/31/24, 2:20:23 PM EEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// HMemoryUtils.trashcanNow. Engine heap size: 2,187 MB. GUI used memory: 98 MB. Current time: 7/31/24, 2:20:23 PM EEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// HMemoryUtils.trashcanNow. Engine heap size: 2,187 MB. GUI used memory: 95 MB. Current time: 7/31/24, 2:20:23 PM EEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// HMemoryUtils.trashcanNow. Engine heap size: 2,187 MB. GUI used memory: 97 MB. Current time: 7/31/24, 2:20:23 PM EEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// HMemoryUtils.trashcanNow. Engine heap size: 2,187 MB. GUI used memory: 98 MB. Current time: 7/31/24, 2:20:24 PM EEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// HMemoryUtils.trashcanNow. Engine heap size: 2,187 MB. GUI used memory: 95 MB. Current time: 7/31/24, 2:20:24 PM EEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// HMemoryUtils.trashcanNow. Engine heap size: 2,187 MB. GUI used memory: 97 MB. Current time: 7/31/24, 2:20:24 PM EEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// HMemoryUtils.trashcanNow. Engine heap size: 2,187 MB. GUI used memory: 97 MB. Current time: 7/31/24, 2:20:24 PM EEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// HMemoryUtils.trashcanNow. Engine heap size: 2,187 MB. GUI used memory: 98 MB. Current time: 7/31/24, 2:20:24 PM EEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// HMemoryUtils.trashcanNow. Engine heap size: 2,187 MB. GUI used memory: 95 MB. Current time: 7/31/24, 2:20:24 PM EEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// HMemoryUtils.trashcanNow. Engine heap size: 2,187 MB. GUI used memory: 95 MB. Current time: 7/31/24, 2:20:24 PM EEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// HMemoryUtils.trashcanNow. Engine heap size: 2,187 MB. GUI used memory: 98 MB. Current time: 7/31/24, 2:20:25 PM EEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// HMemoryUtils.trashcanNow. Engine heap size: 2,187 MB. GUI used memory: 95 MB. Current time: 7/31/24, 2:20:26 PM EEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// HMemoryUtils.trashcanNow. Engine heap size: 2,187 MB. GUI used memory: 95 MB. Current time: 7/31/24, 2:20:26 PM EEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// HMemoryUtils.trashcanNow. Engine heap size: 2,187 MB. GUI used memory: 101 MB. Current time: 7/31/24, 2:20:31 PM EEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// HMemoryUtils.trashcanNow. Engine heap size: 2,187 MB. GUI used memory: 95 MB. Current time: 7/31/24, 2:20:31 PM EEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// HMemoryUtils.trashcanNow. Engine heap size: 2,187 MB. GUI used memory: 96 MB. Current time: 7/31/24, 2:20:31 PM EEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// HMemoryUtils.trashcanNow. Engine heap size: 2,187 MB. GUI used memory: 95 MB. Current time: 7/31/24, 2:20:31 PM EEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// HMemoryUtils.trashcanNow. Engine heap size: 2,187 MB. GUI used memory: 95 MB. Current time: 7/31/24, 2:20:31 PM EEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// HMemoryUtils.trashcanNow. Engine heap size: 2,187 MB. GUI used memory: 95 MB. Current time: 7/31/24, 2:20:31 PM EEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// Elapsed time: 10 seconds
+/********** endDrag (1077, 260); // b (RDIResource.RDIViews_WAVEFORM_VIEWER, PlanAheadTabWaveform Viewer_viewer) **********/
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 850 seconds
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // j (PAResourceTtoZ.TaskBanner_CLOSE)
+closeTask("Program and Debug", "Hardware Manager", "DesignTask.PROGRAM_DEBUG");
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (RDIResource.BaseDialog_OK)
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// Tcl Message: save_wave_config {/home/analog/workspace/practica/hdl/projects/ad5592r_pmdz/coraz7s/ad5592r_coraz7s.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wcfg} 
+// TclEventType: WAVEFORM_MODEL_EVENT
+dismissDialog("Confirm Close"); // u (dialog3)
+// TclEventType: WAVEFORM_CLOSE_WCFG
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+closeView(PAResourceOtoP.PAViews_DASHBOARD, "hw_ila_1"); // d (PAResourceOtoP.PAViews_DASHBOARD, PlanAheadTabhw_ila_1)
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_SESSION_CLOSE
+// WARNING: HEventQueue.dispatchEvent() is taking  1160 ms.
+// Tcl Message: close_hw_manager 
+dismissDialog("Close Hardware Manager"); // bq (Close Hardware Manager Progress)
+// HMemoryUtils.trashcanNow. Engine heap size: 2,146 MB. GUI used memory: 89 MB. Current time: 7/31/24, 2:50:34 PM EEST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,146 MB. GUI used memory: 70 MB. Current time: 7/31/24, 3:20:34 PM EEST
